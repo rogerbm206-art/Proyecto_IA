@@ -4,8 +4,10 @@ Asignatura **Inteligencia Artificial** — Universidad Sergio Arboleda · **Cort
 
 Un agente que planifica viajes sobre la red de **buses azules (componente zonal, SITP‑Urbano)** de
 TransMilenio, a partir del **GTFS oficial**. El problema se modela como un grafo de paradas con rutas
-fijas y se resuelve con cinco algoritmos de búsqueda (BFS, DFS, UCS, voraz, A\*), que se comparan en
-tiempo, memoria, nodos expandidos, transbordos y calidad de la ruta.
+fijas y se resuelve con cinco algoritmos de búsqueda (BFS, DFS, UCS, voraz, A\*) y cinco metaheurísticas
+(ascenso de colinas, temple simulado, genético, hormigas, enjambre; ver más abajo), que se comparan en
+tiempo, memoria, nodos expandidos, transbordos y calidad de la ruta. Incluye simulación de tráfico por
+hora y un entorno dinámico en el que el agente puede replanificar.
 
 ## El grafo
 
@@ -62,26 +64,30 @@ determinista, por lo que no replanifica.
 
 ```
 Proyecto_IA/
-├── data/        GTFS (zip), red_zonal.json (caché), benchmark_50.xlsx, paradas.xlsx, README_dataset.md
+├── data/        red_zonal.json (caché), perfil_trafico.json, benchmark_50.xlsx, paradas.xlsx, README_dataset.md
+│                (el zip del GTFS no está en el repo: pesa 120 MB; ver «Dataset»)
 ├── src/
 │   ├── gtfs_graph.py   modelo del grafo (TransitGraph) y su construcción desde el GTFS
 │   ├── search.py       los 5 algoritmos + modelo de rutas fijas
+│   ├── metaheuristics.py  hc, sa, ga, aco, pso
+│   ├── traffic.py      perfil horario y coste combinado con tráfico
+│   ├── simulacion.py   entorno dinámico y replanificación del agente
 │   ├── agent.py        agente PEAS (percepción → acción)
 │   ├── plot_search.py  dibuja la ruta sobre el grafo + panel de métricas
 │   ├── demo.py         ejecuta un algoritmo (gráfica + resumen); par por defecto
 │   ├── benchmark.py    comparación de los 5 algoritmos sobre varios pares
 │   └── geo.py          distancia euclidiana
-├── scripts/     run_<algoritmo>.py, run_todos.py, benchmark_50.py, listar_paradas.py,
-│                build_red_zonal.py, parse_gtfs.py
+├── scripts/     run_<algoritmo>.py (10), run_todos.py, benchmark_50.py, simular_viaje.py,
+│                mapa_trafico.py, calibrar_trafico.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       105 pruebas: una por algoritmo + comunes + grafo
+├── tests/       171 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
-└── docs/
+└── docs/        Informe_proyecto_IA.pdf
 ```
 
 ## Uso
 
-Requiere Python 3.10+ y: `pip install networkx matplotlib openpyxl flask pytest`
+Requiere Python 3.10+ y (el zip del GTFS debe estar en `data/` solo para reconstruir el grafo): `pip install networkx matplotlib openpyxl flask pytest`
 
 ```bash
 python -m src.gtfs_graph                 # (re)construye el grafo y su caché (~1 min)
@@ -98,7 +104,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 105 pruebas
+python -m pytest -q                      # 171 pruebas
 ```
 
 - **Par por defecto** de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -152,7 +158,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - **Factor espacial** por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - **Entorno dinámico** (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 139 (`python -m pytest -q`).
+- Pruebas: 171 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 

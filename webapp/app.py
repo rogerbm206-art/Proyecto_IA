@@ -2,9 +2,10 @@
 
 Eliges origen, destino, algoritmo y (opcional) la hora de salida con el peso del
 trafico en el coste. La pagina muestra:
-  - las medidas del algoritmo elegido (las mismas columnas del benchmark),
-  - el BENCHMARK de los 5 algoritmos sobre ese mismo par (con el mejor de cada
-    medida resaltado y el desempeño respecto al optimo),
+  - las medidas del algoritmo elegido (las mismas columnas del benchmark); se
+    ejecuta SOLO ese algoritmo,
+  - con «Ejecutar todos», el BENCHMARK de todos los algoritmos sobre ese mismo par
+    (con el mejor de cada medida resaltado y el desempeño respecto al optimo),
   - la ruta dibujada sobre el grafo (tramos coloreados por congestion) y el ciclo
     percepcion -> accion del agente,
   - opcionalmente, una SIMULACION con trafico que cambia mientras el agente avanza
@@ -82,6 +83,7 @@ class Params:
     sim: bool = False
     semilla: int = 1
     obs: str = "global"   # el agente siempre ve el trafico de toda la red
+    todos: bool = False   # True = ejecutar los algoritmos y armar la tabla comparativa
 
     @property
     def t_min(self) -> int:
@@ -106,7 +108,7 @@ def _params() -> Params:
         semilla = 1
     return Params((a.get("origen") or "").strip(), (a.get("destino") or "").strip(),
                   alg if alg in ALGOS else "astar", hora, peso, a.get("sim") == "1",
-                  semilla)
+                  semilla, todos=a.get("todos") == "1")
 
 
 # ---------------------------------------------------------------------------
@@ -321,8 +323,9 @@ $('#peso').addEventListener('input', e => { $('#pv').textContent = e.target.valu
   });
   $('#zreset').addEventListener('click', e => { e.preventDefault(); vista(); });
 })();
-$('#f').addEventListener('submit', () => {
-  const b = $('#go'); b.disabled = true; b.textContent = 'Buscando…';
+$('#f').addEventListener('submit', e => {
+  const b = e.submitter || $('#go'); b.textContent = 'Buscando…';
+  document.querySelectorAll('#f .actions button').forEach(x => { x.style.pointerEvents = 'none'; x.style.opacity = '.6'; });
 });
 """
 
@@ -376,6 +379,8 @@ def _form(p: Params) -> str:
 
     <div class="actions">
       <button id="go" class="go" type="submit">Buscar ruta</button>
+      <button id="todos" class="alt" type="submit" name="todos" value="1"
+              title="Ejecuta todos los algoritmos y los compara en una tabla">Ejecutar todos</button>
       <button id="azar" class="alt" type="button">🎲 Al azar</button>
     </div>
   </form>
@@ -383,21 +388,24 @@ def _form(p: Params) -> str:
 </section>"""
 
 
-def _kpis(r: SearchResult, desempeno: float) -> str:
-    nivel = "ok" if desempeno >= 99.95 else "warn" if desempeno >= 60 else "bad"
+def _kpis(r: SearchResult, desempeno: float | None) -> str:
     items = [
         ("Tramos", f"{r.path_edges}", "", ""),
         ("Transbordos", f"{r.transbordos}", "", "ok" if r.transbordos == 0 else ""),
         ("Distancia", f"{r.path_dist_m:,.0f}", "m", ""),
         ("Coste (dist. + tráfico + transb.)", f"{r.path_cost_m:,.0f}", "m", ""),
         ("Tiempo estimado de viaje", f"{r.path_time_s / 60:,.1f}", "min", ""),
-        ("Desempeño", f"{desempeno:.1f}", "% del óptimo", nivel),
+        ("Desempeño", "" if desempeno is None else f"{desempeno:.1f}", "% del óptimo",
+         "" if desempeno is None else "ok" if desempeno >= 99.95 else
+         "warn" if desempeno >= 60 else "bad"),
         ("Nodos expandidos", f"{r.nodes_expanded:,}", "", ""),
         ("Nodos generados", f"{r.nodes_generated:,}", "", ""),
         ("Frontera máxima", f"{r.max_frontier:,}", "", ""),
         ("Tiempo de cómputo", f"{r.elapsed_ms:,.2f}", "ms", ""),
         ("Memoria pico", f"{r.peak_kib:,.1f}", "KiB", ""),
     ]
+    if desempeno is None:   # sin benchmark no hay optimo con que comparar
+        items = [i for i in items if i[0] != "Desempeño"]
     return '<div class="kpis">' + "".join(
         f'<div class="kpi {c}"><div class="v">{v}<small>{u}</small></div><div class="l">{l}</div></div>'
         for l, v, u, c in items
@@ -420,7 +428,7 @@ _COLS = [
 
 
 def _tabla_benchmark(res: dict, des: dict, sel: str) -> str:
-    valores = {a: [f(res[a], des[a]) for _, f, _, _ in _COLS] for a in res}
+    valores = {a: [f(res[a], des.get(a)) for _, f, _, _ in _COLS] for a in res}
     mejores = []
     for j, (_, _, modo, _) in enumerate(_COLS):
         col = [valores[a][j] for a in res]
@@ -577,15 +585,23 @@ def index():
     if oid == did:
         return _pagina(p, '<div class="err">El origen y el destino son la misma parada.</div>')
 
-    res, des = _benchmark(oid, did, p.t_min, p.peso)
+    if p.todos:
+        res, des = _benchmark(oid, did, p.t_min, p.peso)
+    else:   # solo el algoritmo elegido: sin optimo de referencia, sin desempeño
+        res, des = {p.alg: _buscar(oid, did, p.alg, p.t_min, p.peso)}, {}
     r = res[p.alg]
     log = RoutePlannerAgent(G).run(oid, did, p.alg, plan=r)
-    p = Params(G.name(oid), G.name(did), p.alg, p.hora, p.peso, p.sim, p.semilla)
+    p = Params(G.name(oid), G.name(did), p.alg, p.hora, p.peso, p.sim, p.semilla, todos=p.todos)
     q = urlencode({"origen": p.origen, "destino": p.destino, "alg": p.alg,
                    "hora": p.hora, "peso": p.peso})
-    nivel_cls, nivel_txt = (("b-ok", "ruta óptima") if des[p.alg] >= 99.95 else
-                            ("b-warn", f"{des[p.alg]:.0f} % del óptimo") if des[p.alg] >= 60 else
-                            ("b-bad", f"solo {des[p.alg]:.0f} % del óptimo"))
+    d_sel = des.get(p.alg)
+    if d_sel is None:
+        badge_nivel = ""
+    else:
+        nivel_cls, nivel_txt = (("b-ok", "ruta óptima") if d_sel >= 99.95 else
+                                ("b-warn", f"{d_sel:.0f} % del óptimo") if d_sel >= 60 else
+                                ("b-bad", f"solo {d_sel:.0f} % del óptimo"))
+        badge_nivel = f'<span class="badge {nivel_cls}">{nivel_txt}</span>'
     if p.peso:
         mult = _mult(p.t_min, p.peso)
         cm = sum(mult[(a, b)] for a, b in zip(r.path, r.path[1:])) / max(1, r.path_edges)
@@ -601,16 +617,17 @@ def index():
   <div class="head">
     <h2>{escape(p.origen)} → {escape(p.destino)}</h2>
     <span class="badge b-alg">{escape(ALGOS[p.alg][0])}</span>
-    <span class="badge {nivel_cls}">{nivel_txt}</span>
+    {badge_nivel}
     <span class="badge b-traf">{traf}</span>
   </div>
   <div class="route">{ruta}</div>
-  {_kpis(r, des[p.alg])}
+  {_kpis(r, d_sel)}
 </section>
 
 <section class="card">
-  <h2>Benchmark en este par</h2>
-  <p class="sub">Los 10 algoritmos resolviendo la misma ruta ({traf}).</p>
+  <h2>{"Benchmark en este par" if p.todos else "Medidas del algoritmo"}</h2>
+  <p class="sub">{f"Los {len(res)} algoritmos resolviendo la misma ruta ({traf})." if p.todos else
+      f"Solo se ejecutó {escape(ALGOS[p.alg][0])} ({traf}). Usa «Ejecutar todos» para compararlo con el resto."}</p>
   {_tabla_benchmark(res, des, p.alg)}
 </section>
 

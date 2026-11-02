@@ -1,26 +1,26 @@
 origen,destino,algoritmo,tramos,transbordos,dist_m,coste_m,optima,expandidos,generados,frontera_max,tiempo_ms,memoria_kib
-Br. Chicó Norte III Sector,Br. Sucre,bfs,9,7,7496.0,13096.0,no,2281,2563,563,34.3373,112.44
-Br. Chicó Norte III Sector,Br. Sucre,dfs,100,66,40462.1,93262.1,no,1650,3084,1651,24.2778,270.63
-Br. Chicó Norte III Sector,Br. Sucre,ucs,14,1,6743.7,7543.7,si,2985,4996,781,78.524,693.31
-Br. Chicó Norte III Sector,Br. Sucre,greedy,14,7,6560.7,12160.7,no,15,351,337,0.8205,65.03
-Br. Chicó Norte III Sector,Br. Sucre,astar,14,1,6743.7,7543.7,si,939,3131,1973,30.715,407.85
-Estación Calle 100,Br. Marly,bfs,7,6,6510.8,11310.8,no,1925,2250,673,27.7215,113.47
-Estación Calle 100,Br. Marly,dfs,94,62,35577.3,85177.3,no,1709,3097,1836,24.3171,270.66
-Estación Calle 100,Br. Marly,ucs,12,2,6107.1,7707.1,si,2813,4689,723,71.9063,690.21
-Estación Calle 100,Br. Marly,greedy,10,6,6317.5,11117.5,no,11,292,282,0.8158,35.1
-Estación Calle 100,Br. Marly,astar,12,2,6107.1,7707.1,si,720,2624,1872,27.4191,433.91
-Br. Colombia,Universidad De La Salle,bfs,4,3,2014.2,4414.2,no,613,1034,500,9.5226,59.44
-Br. Colombia,Universidad De La Salle,dfs,47,28,22087.3,44487.3,no,881,1536,908,13.8502,116.25
-Br. Colombia,Universidad De La Salle,ucs,5,0,2303.0,2303.0,si,770,2007,1010,22.0987,281.52
-Br. Colombia,Universidad De La Salle,greedy,4,3,2298.7,4698.7,no,5,208,204,0.6225,30.52
-Br. Colombia,Universidad De La Salle,astar,5,0,2303.0,2303.0,si,53,663,611,2.3018,80.84
-Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,bfs,8,5,4357.2,8357.2,no,1446,1817,500,24.3301,113.47
-Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,dfs,73,47,28182.0,65782.0,no,318,1452,1136,4.1842,117.25
-Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,ucs,9,0,2866.6,2866.6,si,790,2014,938,24.2566,173.6
-Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,greedy,9,5,3292.4,7292.4,no,12,138,127,0.3455,16.28
-Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,astar,9,0,2866.6,2866.6,si,167,656,490,6.8197,78.12
-U. Sergio Arboleda,Br. Galerías,bfs,7,5,3310.1,7310.1,no,1646,2171,703,26.7591,113.99
-U. Sergio Arboleda,Br. Galerías,dfs,75,48,31213.5,69613.5,no,1068,2248,1229,16.3057,116.25
-U. Sergio Arboleda,Br. Galerías,ucs,9,0,3263.7,3263.7,si,1390,2756,983,35.3218,419.98
-U. Sergio Arboleda,Br. Galerías,greedy,7,3,3058.1,5458.1,no,28,236,199,0.8536,32.31
-U. Sergio Arboleda,Br. Galerías,astar,9,0,3263.7,3263.7,si,165,898,725,8.3265,149.88
+Br. Chicó Norte III Sector,Br. Sucre,bfs,9,7,7496.0,13096.0,no,2281,2563,563,30.0685,112.44
+Br. Chicó Norte III Sector,Br. Sucre,dfs,100,66,40462.1,93262.1,no,1650,3084,1651,20.0208,270.63
+Br. Chicó Norte III Sector,Br. Sucre,ucs,14,1,6743.7,7543.7,si,2985,4996,781,68.6049,693.31
+Br. Chicó Norte III Sector,Br. Sucre,greedy,14,7,6560.7,12160.7,no,15,351,337,0.8044,65.03
+Br. Chicó Norte III Sector,Br. Sucre,astar,14,1,6743.7,7543.7,si,939,3131,1973,25.2251,407.85
+Estación Calle 100,Br. Marly,bfs,7,6,6510.8,11310.8,no,1925,2250,673,26.0827,113.47
+Estación Calle 100,Br. Marly,dfs,94,62,35577.3,85177.3,no,1709,3097,1836,19.2137,270.66
+Estación Calle 100,Br. Marly,ucs,12,2,6107.1,7707.1,si,2813,4689,723,63.9058,690.21
+Estación Calle 100,Br. Marly,greedy,10,6,6317.5,11117.5,no,11,292,282,0.7623,35.1
+Estación Calle 100,Br. Marly,astar,12,2,6107.1,7707.1,si,720,2624,1872,26.2636,433.91
+Br. Colombia,Universidad De La Salle,bfs,4,3,2014.2,4414.2,no,613,1034,500,9.7648,59.44
+Br. Colombia,Universidad De La Salle,dfs,47,28,22087.3,44487.3,no,881,1536,908,12.8068,116.25
+Br. Colombia,Universidad De La Salle,ucs,5,0,2303.0,2303.0,si,770,2007,1010,19.8743,281.52
+Br. Colombia,Universidad De La Salle,greedy,4,3,2298.7,4698.7,no,5,208,204,0.5422,30.52
+Br. Colombia,Universidad De La Salle,astar,5,0,2303.0,2303.0,si,53,663,611,2.1778,80.84
+Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,bfs,8,5,4357.2,8357.2,no,1446,1817,500,19.984,113.47
+Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,dfs,73,47,28182.0,65782.0,no,318,1452,1136,3.683,117.25
+Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,ucs,9,0,2866.6,2866.6,si,790,2014,938,26.2334,173.6
+Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,greedy,9,5,3292.4,7292.4,no,12,138,127,0.5132,16.28
+Br. La Cabrera,Cuerpo Of de Bomberos de Bogotá,astar,9,0,2866.6,2866.6,si,167,656,490,7.8877,78.12
+U. Sergio Arboleda,Br. Galerías,bfs,7,5,3310.1,7310.1,no,1646,2171,703,24.7036,113.99
+U. Sergio Arboleda,Br. Galerías,dfs,75,48,31213.5,69613.5,no,1068,2248,1229,20.9976,116.25
+U. Sergio Arboleda,Br. Galerías,ucs,9,0,3263.7,3263.7,si,1390,2756,983,30.2963,419.98
+U. Sergio Arboleda,Br. Galerías,greedy,7,3,3058.1,5458.1,no,28,236,199,0.7219,32.31
+U. Sergio Arboleda,Br. Galerías,astar,9,0,3263.7,3263.7,si,165,898,725,5.7938,149.88
