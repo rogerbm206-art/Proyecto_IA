@@ -1,0 +1,11006 @@
+{
+"coords": {
+"NM:ac 100": [
+4.687972235554431,
+-74.05182704064589
+],
+"NM:ac 80": [
+4.682156833128285,
+-74.08091486241007
+],
+"NM:academia nacional de medicina": [
+4.651735939590719,
+-74.05727620193449
+],
+"NM:ak 15": [
+4.6791190083947525,
+-74.04969645373119
+],
+"NM:ak 68": [
+4.688809976076886,
+-74.07470000004446
+],
+"NM:alcazares": [
+4.66538334719924,
+-74.07042658133612
+],
+"NM:aldeas infantiles sos colombia": [
+4.668200466303788,
+-74.08432242968972
+],
+"NM:almacenes tia": [
+4.657637904004838,
+-74.07124015953994
+],
+"NM:autopista norte": [
+4.686564496478814,
+-74.05484497001588
+],
+"NM:avenida calle 100": [
+4.686416371119877,
+-74.04793906251604
+],
+"NM:avenida calle 106": [
+4.690057705509632,
+-74.04599680297792
+],
+"NM:avenida calle 116#0": [
+4.69744669027948,
+-74.05023608429266
+],
+"NM:avenida calle 116#1": [
+4.69697963627171,
+-74.04325687379065
+],
+"NM:avenida calle 80": [
+4.683812194898711,
+-74.0792437856834
+],
+"NM:avenida caracas#0": [
+4.655732733086654,
+-74.06365402442759
+],
+"NM:avenida caracas#1": [
+4.643793158458044,
+-74.06475779697655
+],
+"NM:avenida la esmeralda": [
+4.670734710611004,
+-74.08119555306737
+],
+"NM:avenida morato": [
+4.695974976038409,
+-74.07287400004878
+],
+"NM:avenida pepe sierra": [
+4.699162500444507,
+-74.0696148396476
+],
+"NM:banco central": [
+4.642581400241271,
+-74.07094171467364
+],
+"NM:br 12 de octubre": [
+4.668389474308508,
+-74.07440176438618
+],
+"NM:br acevedo tejada": [
+4.631367628820789,
+-74.08165204100466
+],
+"NM:br alcazares": [
+4.659445088174198,
+-74.07013343256011
+],
+"NM:br alcazares norte": [
+4.664691126642802,
+-74.06721928914708
+],
+"NM:br andes norte": [
+4.691867452553003,
+-74.06803738581854
+],
+"NM:br antiguo country#0": [
+4.670849235885791,
+-74.05670404088893
+],
+"NM:br antiguo country#1": [
+4.662362976194574,
+-74.06035500004467
+],
+"NM:br banco central": [
+4.641251686328928,
+-74.07091993098291
+],
+"NM:br baquero": [
+4.6504901616399605,
+-74.06917932474259
+],
+"NM:br belalcazar": [
+4.641525380358413,
+-74.07804213937814
+],
+"NM:br bellavista": [
+4.656570889487073,
+-74.05429680188902
+],
+"NM:br benjamin herrera": [
+4.654590248935113,
+-74.07774265033959
+],
+"NM:br bosque calderon": [
+4.64222585445089,
+-74.06202905061815
+],
+"NM:br campin occidental": [
+4.649192202350567,
+-74.07884888267475
+],
+"NM:br chapinero central": [
+4.64369725549741,
+-74.06351948094564
+],
+"NM:br chapinero norte": [
+4.64934120702935,
+-74.05969793056042
+],
+"NM:br chapinero occidental": [
+4.64251416726264,
+-74.06895171998517
+],
+"NM:br chico navarra": [
+4.685747235522085,
+-74.04990304079676
+],
+"NM:br chico norte ii sector": [
+4.681665603816306,
+-74.04822421164961
+],
+"NM:br chico norte iii sector": [
+4.68411978089368,
+-74.05204341531673
+],
+"NM:br chico norte sector iii": [
+4.680354976092945,
+-74.05211400004859
+],
+"NM:br chico norte#0": [
+4.676081483937667,
+-74.04658104723418
+],
+"NM:br chico norte#1": [
+4.679867021905392,
+-74.05642372801675
+],
+"NM:br chico oriental": [
+4.669670648985122,
+-74.0444774695201
+],
+"NM:br colombia": [
+4.660144430944716,
+-74.06584671637661
+],
+"NM:br concepcion norte": [
+4.658052952383404,
+-74.06447482359177
+],
+"NM:br el chico#0": [
+4.674676771739411,
+-74.05240140882877
+],
+"NM:br el chico#1": [
+4.670194698458908,
+-74.04449074859869
+],
+"NM:br el eden": [
+4.689346938286191,
+-74.07389899030868
+],
+"NM:br el nogal": [
+4.662867849317388,
+-74.05226951414315
+],
+"NM:br el refugio": [
+4.667670778516137,
+-74.04471505702634
+],
+"NM:br el retiro": [
+4.66458101030274,
+-74.05104292156113
+],
+"NM:br el rosario": [
+4.655077718945451,
+-74.07836073006355
+],
+"NM:br emaus": [
+4.65300012275282,
+-74.0561804833383
+],
+"NM:br entrerios": [
+4.685874931561507,
+-74.07628032930785
+],
+"NM:br espartillal": [
+4.663555586519644,
+-74.05442301288971
+],
+"NM:br estoril": [
+4.687697428296031,
+-74.0597719677371
+],
+"NM:br galerias": [
+4.642328386820968,
+-74.07474899165814
+],
+"NM:br granada": [
+4.649101692137079,
+-74.05595023478733
+],
+"NM:br j j vargas": [
+4.670584415930779,
+-74.08262701366226
+],
+"NM:br juan xxiii": [
+4.667597115819212,
+-74.06369611710534
+],
+"NM:br julio flores": [
+4.6939432908022445,
+-74.07543238573703
+],
+"NM:br julio florez": [
+4.689497083236867,
+-74.0734932011161
+],
+"NM:br la alborada": [
+4.691678388065342,
+-74.07859080004386
+],
+"NM:br la alhambra": [
+4.699920672255461,
+-74.0584998986993
+],
+"NM:br la aurora": [
+4.66636077172938,
+-74.06701333712996
+],
+"NM:br la cabrera": [
+4.667272911658965,
+-74.04984391547164
+],
+"NM:br la castellana#0": [
+4.679578837389119,
+-74.06216108330864
+],
+"NM:br la castellana#1": [
+4.687148556616197,
+-74.06025173881025
+],
+"NM:br la esperanza": [
+4.65229398763223,
+-74.06715060554232
+],
+"NM:br la paz": [
+4.660926891752388,
+-74.07377527920492
+],
+"NM:br la salle": [
+4.645624944975821,
+-74.05909508623856
+],
+"NM:br la soledad": [
+4.632801715469807,
+-74.07609912737534
+],
+"NM:br las ferias": [
+4.682402306561033,
+-74.08371592429144
+],
+"NM:br los alcazares norte": [
+4.665505471266333,
+-74.07026564222707
+],
+"NM:br los andes": [
+4.6893198499972595,
+-74.0698885988164
+],
+"NM:br los andes norte": [
+4.691009280401081,
+-74.067574730932
+],
+"NM:br maria cristina": [
+4.646525639471806,
+-74.05588417193108
+],
+"NM:br marly": [
+4.634432619885535,
+-74.06456661709284
+],
+"NM:br molinos norte": [
+4.690483551260361,
+-74.04369996740274
+],
+"NM:br monaco": [
+4.6994527684783325,
+-74.06240622053755
+],
+"NM:br muequeta": [
+4.650996426415627,
+-74.07196560511073
+],
+"NM:br nicolas de federman#0": [
+4.6441321048564355,
+-74.0822654657403
+],
+"NM:br nicolas de federman#1": [
+4.651786357753664,
+-74.08413081572566
+],
+"NM:br nicolas de federmann": [
+4.650873014934241,
+-74.08448899547437
+],
+"NM:br pablo vi norte": [
+4.651898727608381,
+-74.08435866483923
+],
+"NM:br palermo": [
+4.633282223315499,
+-74.07155637103752
+],
+"NM:br palermo ac 45": [
+4.6349803758544095,
+-74.07518647409965
+],
+"NM:br pardo rubio": [
+4.634316271977399,
+-74.06368183552975
+],
+"NM:br pasadena#0": [
+4.689618746194491,
+-74.06279383361591
+],
+"NM:br pasadena#1": [
+4.695359546150907,
+-74.06258391064178
+],
+"NM:br polo club": [
+4.670356839433594,
+-74.06240109248911
+],
+"NM:br porciuncula": [
+4.659906420246784,
+-74.05898188486594
+],
+"NM:br puente largo#0": [
+4.6965140888737125,
+-74.06274390171018
+],
+"NM:br puente largo#1": [
+4.696643235946986,
+-74.0688000396191
+],
+"NM:br quesada": [
+4.639629594222026,
+-74.06768043903112
+],
+"NM:br quinta camacho": [
+4.654437484840929,
+-74.05974504304591
+],
+"NM:br quinta mutis": [
+4.651367498040552,
+-74.07399371844136
+],
+"NM:br rafael nunez": [
+4.645510916885756,
+-74.08456989610735
+],
+"NM:br rafael uribe": [
+4.656134888213345,
+-74.06929242619266
+],
+"NM:br rincon del chico": [
+4.686477514201731,
+-74.04542061811657
+],
+"NM:br san felipe": [
+4.662342405294181,
+-74.06375526774015
+],
+"NM:br san fernando": [
+4.669562195674497,
+-74.07590270971082
+],
+"NM:br san fernando occidental": [
+4.675495459633465,
+-74.08399485364043
+],
+"NM:br san luis#0": [
+4.645305775851416,
+-74.07291951391966
+],
+"NM:br san luis#1": [
+4.65021812570947,
+-74.06881750658498
+],
+"NM:br san miguel": [
+4.661077487570875,
+-74.0774493439073
+],
+"NM:br san patricio": [
+4.696596362122041,
+-74.05000611744882
+],
+"NM:br santa ana occidental": [
+4.689053362111207,
+-74.04052542488579
+],
+"NM:br santa barbara central": [
+4.696122059171064,
+-74.0412432148218
+],
+"NM:br santa barbara central i y ii": [
+4.695665382556508,
+-74.0406827029436
+],
+"NM:br santa barbara occidental": [
+4.698276517238524,
+-74.04866281402671
+],
+"NM:br santa bibiana#0": [
+4.688916903178281,
+-74.04974957182483
+],
+"NM:br santa rosa": [
+4.696290709499175,
+-74.07618446700349
+],
+"NM:br santa teresita": [
+4.633225121323067,
+-74.07219022945009
+],
+"NM:br santa teresita cl 43": [
+4.632039014887286,
+-74.07220142503698
+],
+"NM:br sucre": [
+4.63132205503943,
+-74.06564248259868
+],
+"NM:cade chico": [
+4.674752073505824,
+-74.05365831189789
+],
+"NM:cafam floresta": [
+4.6877356971159605,
+-74.07419978323104
+],
+"NM:cai alcazares": [
+4.66185622718292,
+-74.06795799327273
+],
+"NM:cai la soledad": [
+4.630552682455276,
+-74.07484843585117
+],
+"NM:cai polo club": [
+4.675259939751428,
+-74.06263176601576
+],
+"NM:calle 110": [
+4.69327676370936,
+-74.04446230153098
+],
+"NM:calle 112": [
+4.69524643899134,
+-74.04335430287746
+],
+"NM:calle 119": [
+4.698128244378039,
+-74.04294582880945
+],
+"NM:calle 51 br quesada": [
+4.638643083268496,
+-74.0696302374775
+],
+"NM:calle 63": [
+4.65208545430815,
+-74.07866823997608
+],
+"NM:calle 74": [
+4.656357235994276,
+-74.05469104138213
+],
+"NM:calle 83": [
+4.6633724537632295,
+-74.0485161725524
+],
+"NM:camara de comercio cl 67": [
+4.65147656414032,
+-74.05936169020426
+],
+"NM:camara de comercio sede norte": [
+4.677792908481937,
+-74.05131190329094
+],
+"NM:canal arzobispo#0": [
+4.6310558698939825,
+-74.07223472054741
+],
+"NM:canal arzobispo#1": [
+4.638451079660221,
+-74.07896828536695
+],
+"NM:carrera 17": [
+4.65467571251052,
+-74.06717574090369
+],
+"NM:ced avenida chile": [
+4.673844977480446,
+-74.08148273994235
+],
+"NM:ced simon bolivar sedeb": [
+4.649351229040577,
+-74.05725265879315
+],
+"NM:cementerio chapinero": [
+4.662393763912471,
+-74.07422471573358
+],
+"NM:cenda": [
+4.6507265445628745,
+-74.0716735924259
+],
+"NM:centro comercial andino": [
+4.666747084480491,
+-74.05259552146698
+],
+"NM:centro comercial aquarium": [
+4.646548381255159,
+-74.06335760743539
+],
+"NM:centro comercial artelana": [
+4.670536973537253,
+-74.05494748245513
+],
+"NM:centro comercial atlantis plaza": [
+4.665875076662211,
+-74.05733146940881
+],
+"NM:centro comercial avenida chile": [
+4.656682883520697,
+-74.0580246542057
+],
+"NM:centro comercial galerias": [
+4.6425865527538654,
+-74.07451363411715
+],
+"NM:centro comercial galerias cl 52": [
+4.641153682916259,
+-74.07413173319125
+],
+"NM:centro comercial iserra 100": [
+4.688581843349433,
+-74.06419593319559
+],
+"NM:centro comercial la cabrera": [
+4.667955480069552,
+-74.05185067938012
+],
+"NM:centro comercial la plazuela": [
+4.674981625850489,
+-74.05275915783146
+],
+"NM:centro comercial las rampas": [
+4.658580197536603,
+-74.06978013771457
+],
+"NM:centro comercial lourdes": [
+4.649179382486171,
+-74.06250413946184
+],
+"NM:centro comercial metropolis": [
+4.6811082885668345,
+-74.08250647779118
+],
+"NM:centro comercial mi placita": [
+4.674865405339137,
+-74.08422402059834
+],
+"NM:centro comercial morichal": [
+4.641548641722343,
+-74.07338066158616
+],
+"NM:centro comercial puente largo": [
+4.693550245208392,
+-74.06709958713711
+],
+"NM:centro comercial unilago": [
+4.6645662150639025,
+-74.05804686582047
+],
+"NM:centro cosmos 64": [
+4.651334993681202,
+-74.06325491345007
+],
+"NM:centro de negocios chico plaza": [
+4.683468083091287,
+-74.04841936463063
+],
+"NM:centro empresarial calle 100": [
+4.68585770978514,
+-74.05319437183677
+],
+"NM:centro johann kepler": [
+4.6494466308036735,
+-74.06747371539593
+],
+"NM:cl 67": [
+4.651966870842552,
+-74.05948074087112
+],
+"NM:cl 85": [
+4.66486785725905,
+-74.04602717215457
+],
+"NM:clin de traumatologia y ortopedi": [
+4.656188476406493,
+-74.05948532301278
+],
+"NM:clin eusalud br chapinero occ": [
+4.643070760992185,
+-74.06885896338278
+],
+"NM:clinica del country": [
+4.6690182222939915,
+-74.05567631526176
+],
+"NM:clinica del nino": [
+4.652603265085458,
+-74.06152654283714
+],
+"NM:clinica general de la 100": [
+4.689094787518689,
+-74.06264120724417
+],
+"NM:clinica la inmaculada": [
+4.651442820382031,
+-74.05723339061753
+],
+"NM:clinica palermo": [
+4.635449236814275,
+-74.07500504101412
+],
+"NM:col nuestra senora del pilar": [
+4.651280907225446,
+-74.07470762178944
+],
+"NM:col sag corazon de jesus bethlem": [
+4.648212236223334,
+-74.0594890413791
+],
+"NM:colegio americano de bogota": [
+4.634432305873437,
+-74.07381177040054
+],
+"NM:colegio cooperativo union social": [
+4.67400007738942,
+-74.08340335790523
+],
+"NM:colegio el carmelo": [
+4.634248119828564,
+-74.0767606874489
+],
+"NM:colegio marillac": [
+4.659179115260033,
+-74.07348837953072
+],
+"NM:colegio san pedro nolasco": [
+4.6566581739721125,
+-74.06606277388865
+],
+"NM:coliseo el campin": [
+4.648026056560991,
+-74.07829494880751
+],
+"NM:colombia": [
+4.661124976212144,
+-74.0682060000479
+],
+"NM:colsanitas cl 100": [
+4.683306979588953,
+-74.04523857106817
+],
+"NM:comfenalco": [
+4.639661118215686,
+-74.06385940091734
+],
+"NM:cuerpo of de bomberos de bogota": [
+4.648003430630715,
+-74.06381722063922
+],
+"NM:direccion de sanidad": [
+4.6390132841918215,
+-74.06288092006255
+],
+"NM:el campin": [
+4.649244605122253,
+-74.07437536253698
+],
+"NM:embajada de francia": [
+4.6742960495662675,
+-74.04773449897147
+],
+"NM:embajada de inglaterra": [
+4.660803199858031,
+-74.05580894549921
+],
+"NM:embajada de italia": [
+4.659979836179692,
+-74.05179141123168
+],
+"NM:embajada de japon": [
+4.654072074843449,
+-74.05586767206832
+],
+"NM:embajada de paz de colombia": [
+4.662607236040764,
+-74.0587140410217
+],
+"NM:embajada del peru": [
+4.662746440844081,
+-74.04879098426262
+],
+"NM:entrerios": [
+4.6855075091121146,
+-74.07673675020403
+],
+"NM:escuela de infanteria": [
+4.683877200650481,
+-74.04295124899865
+],
+"NM:escuela superior de guerra": [
+4.68550887637162,
+-74.04178459154856
+],
+"NM:est nemesio camacho el campin": [
+4.645376965079696,
+-74.07619711879302
+],
+"NM:estacion avenida chile": [
+4.665946809982851,
+-74.07472572005484
+],
+"NM:estacion avenida el dorado": [
+4.632043976371866,
+-74.07948500004316
+],
+"NM:estacion calle 100": [
+4.685561105222629,
+-74.05744181217703
+],
+"NM:estacion calle 106": [
+4.693622414310758,
+-74.05607333017494
+],
+"NM:estacion calle 45": [
+4.632604303310583,
+-74.06832734370784
+],
+"NM:estacion calle 63": [
+4.649555515597398,
+-74.065116320723
+],
+"NM:estacion calle 72": [
+4.658539731164998,
+-74.06103571740414
+],
+"NM:estacion calle 85": [
+4.672511677480981,
+-74.05962494085573
+],
+"NM:estacion ciudad universitaria": [
+4.632361412760113,
+-74.08445864896564
+],
+"NM:estacion cl 85": [
+4.671885235939519,
+-74.05881204076897
+],
+"NM:estacion coliseo": [
+4.651525139216724,
+-74.07796924007818
+],
+"NM:estacion el campin": [
+4.644827907716017,
+-74.07914707970558
+],
+"NM:estacion el polo": [
+4.669743672023656,
+-74.06426863507758
+],
+"NM:estacion la castellana": [
+4.675362619973348,
+-74.06467453841408
+],
+"NM:estacion marly": [
+4.640313950779139,
+-74.06555899892213
+],
+"NM:estacion nqs calle 75": [
+4.670778188933811,
+-74.07074963217349
+],
+"NM:estacion polo": [
+4.670633081586122,
+-74.06447046395026
+],
+"NM:estacion san martin": [
+4.676753925911145,
+-74.06692868614925
+],
+"NM:estacion simon bolivar": [
+4.658004606809674,
+-74.07767876559697
+],
+"NM:estacion suba calle 100": [
+4.689307745548974,
+-74.06612070353856
+],
+"NM:estacion universidad nacional": [
+4.635293832197416,
+-74.0794253657497
+],
+"NM:estacion virrey": [
+4.67638623587754,
+-74.05856504065736
+],
+"NM:estadio el campin": [
+4.643636498502214,
+-74.07860245649641
+],
+"NM:exito calle 80": [
+4.683262757149488,
+-74.0803547447631
+],
+"NM:fund universit san martin": [
+4.647335698048756,
+-74.06625992534798
+],
+"NM:fundacion oftalmologica nacional": [
+4.637959008401604,
+-74.0654884050631
+],
+"NM:galerias": [
+4.643653391524886,
+-74.07391526982266
+],
+"NM:gimnasio moderno": [
+4.659274676372413,
+-74.05533753690693
+],
+"NM:hotel dann carlton": [
+4.680117235787683,
+-74.05687704062679
+],
+"NM:hsp infantil san jose": [
+4.66606618274464,
+-74.07808347142912
+],
+"NM:icontec": [
+4.643722756986056,
+-74.08251375484807
+],
+"NM:ied alemania solidaria": [
+4.651683397718494,
+-74.07569303382066
+],
+"NM:ied alemania solidaria sede c": [
+4.660499029142504,
+-74.075383604096
+],
+"NM:ied centro obrero": [
+4.672476218201307,
+-74.08259815989759
+],
+"NM:ied julio florez": [
+4.687787796083523,
+-74.07710722004651
+],
+"NM:ied manuela beltran": [
+4.644247993453094,
+-74.06697267989225
+],
+"NM:ied palermo": [
+4.638108500112028,
+-74.07456969973262
+],
+"NM:ied santa rosa": [
+4.695736100046895,
+-74.07406472004101
+],
+"NM:iglesia divino salvador": [
+4.645285608035206,
+-74.06844020873456
+],
+"NM:iglesia siervas de maria": [
+4.664191955676004,
+-74.06854555736673
+],
+"NM:inst geografico agustin codazzi": [
+4.638411297804469,
+-74.07951824804802
+],
+"NM:k11 cl70a": [
+4.6559829504429215,
+-74.05962333616637
+],
+"NM:k11 cl86a": [
+4.670090117615555,
+-74.05003033610939
+],
+"NM:kr 14": [
+4.678871813291959,
+-74.04980964004977
+],
+"NM:kr 15": [
+4.640687338721304,
+-74.06778300989262
+],
+"NM:kr 4": [
+4.669219221826706,
+-74.04091568709828
+],
+"NM:kr 8#0": [
+4.648153937675279,
+-74.06042880482538
+],
+"NM:kr 9": [
+4.657304282480271,
+-74.05594299991368
+],
+"NM:los alcazares": [
+4.659749910845627,
+-74.0692804552886
+],
+"NM:monumento rafael uribe uribe": [
+4.666389070424139,
+-74.07181552914447
+],
+"NM:muequeta": [
+4.653000732199432,
+-74.0719842027228
+],
+"NM:museo del chico": [
+4.6738786481355445,
+-74.0424931339192
+],
+"NM:museo el chico": [
+4.675139695740396,
+-74.04096729575258
+],
+"NM:parque acevedo tejada": [
+4.6309649755591344,
+-74.08133886332537
+],
+"NM:parque alcazares": [
+4.66412084224742,
+-74.068772127861
+],
+"NM:parque andes norte": [
+4.689913864942841,
+-74.0684194443492
+],
+"NM:parque canal molinos": [
+4.696949112572487,
+-74.05007717840952
+],
+"NM:parque de la 93": [
+4.676420579469368,
+-74.04664305964845
+],
+"NM:parque de los novios": [
+4.652555659281454,
+-74.08118367589991
+],
+"NM:parque el campin": [
+4.647695976284957,
+-74.0735910000444
+],
+"NM:parque el divino salvador": [
+4.644668960611709,
+-74.06889519492869
+],
+"NM:parque el nogal": [
+4.659093016534377,
+-74.05237392447823
+],
+"NM:parque el virrey": [
+4.672343357220296,
+-74.05408739850965
+],
+"NM:parque gernika": [
+4.635075738535113,
+-74.07072432268825
+],
+"NM:parque j j vargas": [
+4.670156748332406,
+-74.08234797682078
+],
+"NM:parque la floresta": [
+4.690419976068669,
+-74.0759000000451
+],
+"NM:parque leon de greiff": [
+4.669134959303463,
+-74.05422841684364
+],
+"NM:parque lourdes": [
+4.650120100265202,
+-74.06346960208735
+],
+"NM:parque metropolis": [
+4.6794228363351955,
+-74.08466400495817
+],
+"NM:parque navarra": [
+4.691703801191583,
+-74.05095453648453
+],
+"NM:parque publico modelo": [
+4.6686401228203644,
+-74.0798659379828
+],
+"NM:parque publico san fernando": [
+4.67144313025918,
+-74.07837512847958
+],
+"NM:parroquia san fernando rey": [
+4.671808291849673,
+-74.07854341704967
+],
+"NM:parroquia santo domingo savio": [
+4.693215260710322,
+-74.06256594767542
+],
+"NM:pl 7 de agosto": [
+4.656944742845689,
+-74.0708638817627
+],
+"NM:portal de pontevedra": [
+4.695514111721125,
+-74.08003310539421
+],
+"NM:pquia la inmaculada concepcion": [
+4.6706572927764345,
+-74.04967497454447
+],
+"NM:pquia santa beatriz": [
+4.699394363082917,
+-74.04312936404999
+],
+"NM:puente de la 92": [
+4.678314360807906,
+-74.05891801433611
+],
+"NM:quinta mutis": [
+4.653389989421299,
+-74.07213130467218
+],
+"NM:san fernando occidental": [
+4.674023613536385,
+-74.08140809649571
+],
+"NM:san luis": [
+4.645237547149041,
+-74.07337150256262
+],
+"NM:san luis cl 58": [
+4.645840961450792,
+-74.07238348812281
+],
+"NM:san luis cl 61f": [
+4.649665768315788,
+-74.07258820045986
+],
+"NM:sede comunal 11 de noviembre": [
+4.666449086336341,
+-74.071552181042
+],
+"NM:seminario conciliar de bogota": [
+4.673972260529597,
+-74.0419388939437
+],
+"NM:sena#1": [
+4.631901976348948,
+-74.06320700004369
+],
+"NM:siete de agosto": [
+4.657954867689925,
+-74.07040306987638
+],
+"NM:teatro astor plaza": [
+4.653321976241776,
+-74.06222900004957
+],
+"NM:teatro la castellana": [
+4.684034235848236,
+-74.06055504035405
+],
+"NM:tecnoparque sena": [
+4.641812059490591,
+-74.06484207606141
+],
+"NM:unitec": [
+4.66178297620237,
+-74.0630120000433
+],
+"NM:univ militar nueva granada": [
+4.682099461507072,
+-74.0428614804695
+],
+"NM:universidad de la salle": [
+4.644799849582964,
+-74.06136172904425
+],
+"NM:universidad ean": [
+4.655589589772092,
+-74.05714277949131
+],
+"NM:universidad javeriana": [
+4.630480987066661,
+-74.06438587829567
+],
+"NM:universidad la gran colombia": [
+4.631362448828682,
+-74.06660619980715
+],
+"NM:universidad nacional": [
+4.6343075319162494,
+-74.07780543727934
+],
+"NM:universidad pedagogica": [
+4.659664976205009,
+-74.05986600004856
+],
+"NM:universidad pedagogica nacional": [
+4.657717637377924,
+-74.05880665084867
+],
+"NM:universidad piloto": [
+4.633680271800639,
+-74.06620648763662
+],
+"NM:universidad sergio arboleda": [
+4.661099105904342,
+-74.05998469295412
+],
+"NM:urb conjunto de la 100": [
+4.681814949333464,
+-74.04145173642135
+],
+"NM:urb el refugio": [
+4.664994996209381,
+-74.0461270162982
+],
+"NM:urb familiar potosi i sector": [
+4.697058726257636,
+-74.08243046552658
+],
+"NM:urb los sauces": [
+4.692069976062652,
+-74.0759000000439
+],
+"NM:urb morato": [
+4.698748090307907,
+-74.0699140611692
+],
+"NM:urb santa sofia": [
+4.670051006973212,
+-74.06591979642083
+]
+},
+"names": {
+"NM:ac 100": "AC 100",
+"NM:ac 80": "AC 80",
+"NM:academia nacional de medicina": "Academia Nacional de Medicina",
+"NM:ak 15": "AK 15",
+"NM:ak 68": "AK 68",
+"NM:alcazares": "Alcázares",
+"NM:aldeas infantiles sos colombia": "Aldeas Infantiles SOS Colombia",
+"NM:almacenes tia": "Almacenes Tía",
+"NM:autopista norte": "Autopista Norte",
+"NM:avenida calle 100": "Avenida Calle 100",
+"NM:avenida calle 106": "Avenida Calle 106",
+"NM:avenida calle 116#0": "Avenida Calle 116 (junto a Br. San Patricio)",
+"NM:avenida calle 116#1": "Avenida Calle 116 (junto a Pquia. Santa Beatriz)",
+"NM:avenida calle 80": "Avenida Calle 80",
+"NM:avenida caracas#0": "Av. Caracas",
+"NM:avenida caracas#1": "Avenida Caracas",
+"NM:avenida la esmeralda": "Avenida La Esmeralda",
+"NM:avenida morato": "Av. Morato",
+"NM:avenida pepe sierra": "Avenida Pepe Sierra",
+"NM:banco central": "Banco Central",
+"NM:br 12 de octubre": "Br. 12 de Octubre",
+"NM:br acevedo tejada": "Br. Acevedo Tejada",
+"NM:br alcazares": "Br. Alcázares",
+"NM:br alcazares norte": "Br. Alcázares Norte",
+"NM:br andes norte": "Br. Andes Norte",
+"NM:br antiguo country#0": "Br. Antiguo Country (junto a Pq. León de Greiff)",
+"NM:br antiguo country#1": "Br. Antiguo Country (junto a U. Sergio Arboleda)",
+"NM:br banco central": "Br. Banco Central",
+"NM:br baquero": "Br. Baquero",
+"NM:br belalcazar": "Br. Belalcázar",
+"NM:br bellavista": "Br. Bellavista",
+"NM:br benjamin herrera": "Br. Benjamín Herrera",
+"NM:br bosque calderon": "Br. Bosque Calderón",
+"NM:br campin occidental": "Br. Campín Occidental",
+"NM:br chapinero central": "Br. Chapinero Central",
+"NM:br chapinero norte": "Br. Chapinero Norte",
+"NM:br chapinero occidental": "Br. Chapinero Occidental",
+"NM:br chico navarra": "Br. Chicó Navarra",
+"NM:br chico norte ii sector": "Br. Chicó Norte II Sector",
+"NM:br chico norte iii sector": "Br. Chicó Norte III Sector",
+"NM:br chico norte sector iii": "Br. Chicó Norte Sector III",
+"NM:br chico norte#0": "Br. Chicó Norte (junto a Br. Chicó Norte II Sector)",
+"NM:br chico norte#1": "Br. Chicó Norte (junto a Br. Chicó Norte III Sector)",
+"NM:br chico oriental": "Br. Chicó Oriental",
+"NM:br colombia": "Br. Colombia",
+"NM:br concepcion norte": "Br. Concepción Norte",
+"NM:br el chico#0": "Br. El Chicó (junto a CADE Chicó)",
+"NM:br el chico#1": "Br. El Chicó (junto a Br. La Cabrera)",
+"NM:br el eden": "Br. El Edén",
+"NM:br el nogal": "Br. El Nogal",
+"NM:br el refugio": "Br. El Refugio",
+"NM:br el retiro": "Br. El Retiro",
+"NM:br el rosario": "Br. El Rosario",
+"NM:br emaus": "Br. Emaús",
+"NM:br entrerios": "Br. Entreríos",
+"NM:br espartillal": "Br. Espartillal",
+"NM:br estoril": "Br. Estoril",
+"NM:br galerias": "Br. Galerías",
+"NM:br granada": "Br. Granada",
+"NM:br j j vargas": "Br. J.J. Vargas",
+"NM:br juan xxiii": "Br. Juan XXIII",
+"NM:br julio flores": "Br. Julio Flores",
+"NM:br julio florez": "Br. Julio Flórez",
+"NM:br la alborada": "Br. La Alborada",
+"NM:br la alhambra": "Br. La Alhambra",
+"NM:br la aurora": "Br. La Aurora",
+"NM:br la cabrera": "Br. La Cabrera",
+"NM:br la castellana#0": "Br. La Castellana (junto a Hotel Dann Carlton)",
+"NM:br la castellana#1": "Br. La Castellana (junto a C.C. Iserra 100)",
+"NM:br la esperanza": "Br. La Esperanza",
+"NM:br la paz": "Br. La Paz",
+"NM:br la salle": "Br. La Salle",
+"NM:br la soledad": "Br. La Soledad",
+"NM:br las ferias": "Br. Las Ferias",
+"NM:br los alcazares norte": "Br. Los Alcázares Norte",
+"NM:br los andes": "Br. Los Andes",
+"NM:br los andes norte": "Br. Los Andes Norte",
+"NM:br maria cristina": "Br. Maria Cristina",
+"NM:br marly": "Br. Marly",
+"NM:br molinos norte": "Br. Molinos Norte",
+"NM:br monaco": "Br. Mónaco",
+"NM:br muequeta": "Br. Muequetá",
+"NM:br nicolas de federman#0": "Br. Nicolás de Federmán (junto a Inst Geográfico Agustín Codazzi)",
+"NM:br nicolas de federman#1": "Br. Nicolás de Federmán (junto a Br. Nicolás de Federmann)",
+"NM:br nicolas de federmann": "Br. Nicolás de Federmann",
+"NM:br pablo vi norte": "Br. Pablo VI Norte",
+"NM:br palermo": "Br. Palermo",
+"NM:br palermo ac 45": "Br. Palermo  AC 45",
+"NM:br pardo rubio": "Br. Pardo Rubio",
+"NM:br pasadena#0": "Br. Pasadena (junto a Br. La Castellana)",
+"NM:br pasadena#1": "Br. Pasadena (junto a Parroquia Santo Domingo Savio)",
+"NM:br polo club": "Br. Polo Club",
+"NM:br porciuncula": "Br. Porciúncula",
+"NM:br puente largo#0": "Br. Puente Largo (junto a Br. Mónaco)",
+"NM:br puente largo#1": "Br. Puente Largo (junto a Avenida Pepe Sierra)",
+"NM:br quesada": "Br. Quesada",
+"NM:br quinta camacho": "Br. Quinta Camacho",
+"NM:br quinta mutis": "Br. Quinta Mutis",
+"NM:br rafael nunez": "Br. Rafael Nuñez",
+"NM:br rafael uribe": "Br. Rafael Uribe",
+"NM:br rincon del chico": "Br. Rincón del Chicó",
+"NM:br san felipe": "Br. San Felipe",
+"NM:br san fernando": "Br. San Fernando",
+"NM:br san fernando occidental": "Br. San Fernando Occidental",
+"NM:br san luis#0": "Br. San Luis (junto a Pq. El Divino Salvador)",
+"NM:br san luis#1": "Br. San Luis (junto a CENDA)",
+"NM:br san miguel": "Br. San Miguel",
+"NM:br san patricio": "Br. San Patricio",
+"NM:br santa ana occidental": "Br. Santa Ana Occidental",
+"NM:br santa barbara central": "Br. Santa Bárbara Central",
+"NM:br santa barbara central i y ii": "Br. Santa Bárbara Central I y II",
+"NM:br santa barbara occidental": "Br. Santa Bárbara Occidental",
+"NM:br santa bibiana#0": "Br. Santa Bibiana",
+"NM:br santa rosa": "Br. Santa Rosa",
+"NM:br santa teresita": "Br. Santa Teresita",
+"NM:br santa teresita cl 43": "Br. Santa Teresita Cl 43",
+"NM:br sucre": "Br. Sucre",
+"NM:cade chico": "CADE Chicó",
+"NM:cafam floresta": "Cafam Floresta",
+"NM:cai alcazares": "CAI Alcázares",
+"NM:cai la soledad": "CAI La Soledad",
+"NM:cai polo club": "CAI Polo Club",
+"NM:calle 110": "Calle 110",
+"NM:calle 112": "Calle 112",
+"NM:calle 119": "Calle 119",
+"NM:calle 51 br quesada": "Calle 51 (Br. Quesada)",
+"NM:calle 63": "Calle 63",
+"NM:calle 74": "Calle 74",
+"NM:calle 83": "Calle 83",
+"NM:camara de comercio cl 67": "Cámara de Comercio CL 67",
+"NM:camara de comercio sede norte": "Cámara de Comercio Sede Norte",
+"NM:canal arzobispo#0": "Canal Arzobispo (junto a Br. Palermo)",
+"NM:canal arzobispo#1": "Canal Arzobispo (junto a Br. Belalcázar)",
+"NM:carrera 17": "Carrera 17",
+"NM:ced avenida chile": "CED. AV. Chile",
+"NM:ced simon bolivar sedeb": "CED Simón Bolívar SedeB",
+"NM:cementerio chapinero": "Cementerio Chapinero",
+"NM:cenda": "CENDA",
+"NM:centro comercial andino": "C.C. Andino",
+"NM:centro comercial aquarium": "C. C. Aquarium",
+"NM:centro comercial artelana": "C.C. Artelana",
+"NM:centro comercial atlantis plaza": "C.C. Atlantis Plaza",
+"NM:centro comercial avenida chile": "C.C. Avenida Chile",
+"NM:centro comercial galerias": "C.C. Galerías",
+"NM:centro comercial galerias cl 52": "C.C. Galerías CL 52",
+"NM:centro comercial iserra 100": "C.C. Iserra 100",
+"NM:centro comercial la cabrera": "C.C. La Cabrera",
+"NM:centro comercial la plazuela": "C.C. La Plazuela",
+"NM:centro comercial las rampas": "C.C. Las Rampas",
+"NM:centro comercial lourdes": "C.C. Lourdes",
+"NM:centro comercial metropolis": "C.C. Metrópolis",
+"NM:centro comercial mi placita": "C.C. Mi Placita",
+"NM:centro comercial morichal": "C.C. Morichal",
+"NM:centro comercial puente largo": "C.C. Puente Largo",
+"NM:centro comercial unilago": "C.C. Unilago",
+"NM:centro cosmos 64": "Centro Cosmos 64",
+"NM:centro de negocios chico plaza": "Centro de Negocios Chicó Plaza",
+"NM:centro empresarial calle 100": "Centro Empresarial Calle 100",
+"NM:centro johann kepler": "Centro Johann Kepler",
+"NM:cl 67": "Cl 67",
+"NM:cl 85": "Cl 85",
+"NM:clin de traumatologia y ortopedi": "Clín de Traumatología y Ortopedi",
+"NM:clin eusalud br chapinero occ": "Clín Eusalud (Br Chapinero Occ)",
+"NM:clinica del country": "Clínica del Country",
+"NM:clinica del nino": "Clínica del Niño",
+"NM:clinica general de la 100": "Clínica General de la 100",
+"NM:clinica la inmaculada": "Clínica La Inmaculada",
+"NM:clinica palermo": "Clínica Palermo",
+"NM:col nuestra senora del pilar": "Col Nuestra Señora del Pilar",
+"NM:col sag corazon de jesus bethlem": "Col Sag Corazón de Jesús Bethlem",
+"NM:colegio americano de bogota": "Colegio Americano de Bogotá",
+"NM:colegio cooperativo union social": "Colegio Cooperativo Unión Social",
+"NM:colegio el carmelo": "Colegio El Carmelo",
+"NM:colegio marillac": "Colegio Marillac",
+"NM:colegio san pedro nolasco": "Colegio San Pedro Nolasco",
+"NM:coliseo el campin": "Coliseo El Campín",
+"NM:colombia": "Colombia",
+"NM:colsanitas cl 100": "Colsanitas CL 100",
+"NM:comfenalco": "Comfenalco",
+"NM:cuerpo of de bomberos de bogota": "Cuerpo Of de Bomberos de Bogotá",
+"NM:direccion de sanidad": "Dirección de Sanidad",
+"NM:el campin": "El Campín",
+"NM:embajada de francia": "Embajada de Francia",
+"NM:embajada de inglaterra": "Embajada de Inglaterra",
+"NM:embajada de italia": "Embajada de Italia",
+"NM:embajada de japon": "Embajada de Japón",
+"NM:embajada de paz de colombia": "Embajada de Paz de Colombia",
+"NM:embajada del peru": "Embajada del Perú",
+"NM:entrerios": "Entreríos",
+"NM:escuela de infanteria": "Escuela de Infantería",
+"NM:escuela superior de guerra": "Escuela Superior de Guerra",
+"NM:est nemesio camacho el campin": "Est Nemesio Camacho el Campín",
+"NM:estacion avenida chile": "Estación Av. Chile",
+"NM:estacion avenida el dorado": "Estación Av. El Dorado",
+"NM:estacion calle 100": "Estación Calle 100",
+"NM:estacion calle 106": "Estación Calle 106",
+"NM:estacion calle 45": "Estación Calle 45",
+"NM:estacion calle 63": "Estación Calle 63",
+"NM:estacion calle 72": "Estación Calle 72",
+"NM:estacion calle 85": "Estación Calle 85",
+"NM:estacion ciudad universitaria": "Estación Ciudad Universitaria",
+"NM:estacion cl 85": "Estación CL 85",
+"NM:estacion coliseo": "Estación Coliseo",
+"NM:estacion el campin": "Estación EL Campín",
+"NM:estacion el polo": "Estación El Polo",
+"NM:estacion la castellana": "Estación La Castellana",
+"NM:estacion marly": "Estación Marly",
+"NM:estacion nqs calle 75": "Estación NQS - Calle 75",
+"NM:estacion polo": "Estación Polo",
+"NM:estacion san martin": "Estación San Martín",
+"NM:estacion simon bolivar": "Estación Simón Bolívar",
+"NM:estacion suba calle 100": "Estación Suba - Calle 100",
+"NM:estacion universidad nacional": "Estación U. Nacional",
+"NM:estacion virrey": "Estación Virrey",
+"NM:estadio el campin": "Estadio El Campín",
+"NM:exito calle 80": "Éxito Calle 80",
+"NM:fund universit san martin": "Fund. Universit. San Martin",
+"NM:fundacion oftalmologica nacional": "Fundación Oftalmológica Nacional",
+"NM:galerias": "Galerías",
+"NM:gimnasio moderno": "Gimnasio Moderno",
+"NM:hotel dann carlton": "Hotel Dann Carlton",
+"NM:hsp infantil san jose": "Hsp. Infantil San José",
+"NM:icontec": "ICONTEC",
+"NM:ied alemania solidaria": "IED Alemania Solidaria",
+"NM:ied alemania solidaria sede c": "IED Alemania Solidaria Sede C",
+"NM:ied centro obrero": "IED Centro Obrero",
+"NM:ied julio florez": "IED Julio Flórez",
+"NM:ied manuela beltran": "IED Manuela Beltrán",
+"NM:ied palermo": "IED Palermo",
+"NM:ied santa rosa": "IED SANTA ROSA",
+"NM:iglesia divino salvador": "Iglesia Divino Salvador",
+"NM:iglesia siervas de maria": "Iglesia Siervas de María",
+"NM:inst geografico agustin codazzi": "Inst Geográfico Agustín Codazzi",
+"NM:k11 cl70a": "K11 - CL70A",
+"NM:k11 cl86a": "K11 - CL86A",
+"NM:kr 14": "Kr 14",
+"NM:kr 15": "Kr 15",
+"NM:kr 4": "KR 4",
+"NM:kr 8#0": "KR 8",
+"NM:kr 9": "KR 9",
+"NM:los alcazares": "Los Alcázares",
+"NM:monumento rafael uribe uribe": "Monumento Rafael Uribe Uribe",
+"NM:muequeta": "Muequetá",
+"NM:museo del chico": "Museo del Chicó",
+"NM:museo el chico": "Museo El Chicó",
+"NM:parque acevedo tejada": "Pq. Acevedo Tejada",
+"NM:parque alcazares": "Pq. Alcázares",
+"NM:parque andes norte": "Pq. Andes Norte",
+"NM:parque canal molinos": "Pq. Canal Molinos",
+"NM:parque de la 93": "Parque de la 93",
+"NM:parque de los novios": "Pq. de los Novios",
+"NM:parque el campin": "Pq. El Campin",
+"NM:parque el divino salvador": "Pq. El Divino Salvador",
+"NM:parque el nogal": "Pq. el Nogal",
+"NM:parque el virrey": "Pq. El Virrey",
+"NM:parque gernika": "Parque Gernika",
+"NM:parque j j vargas": "Pq. J.J. Vargas",
+"NM:parque la floresta": "Pq la Floresta",
+"NM:parque leon de greiff": "Pq. León de Greiff",
+"NM:parque lourdes": "Pq. Lourdes",
+"NM:parque metropolis": "Pq. Metrópolis",
+"NM:parque navarra": "Pq. Navarra",
+"NM:parque publico modelo": "Pq. Público Modelo",
+"NM:parque publico san fernando": "Parque Público San Fernando",
+"NM:parroquia san fernando rey": "Parroquia San Fernando Rey",
+"NM:parroquia santo domingo savio": "Parroquia Santo Domingo Savio",
+"NM:pl 7 de agosto": "Pl. 7 de Agosto",
+"NM:portal de pontevedra": "Portal de Pontevedra",
+"NM:pquia la inmaculada concepcion": "Pquia. La Inmaculada Concepción",
+"NM:pquia santa beatriz": "Pquia. Santa Beatriz",
+"NM:puente de la 92": "Puente de la 92",
+"NM:quinta mutis": "Quinta Mutis",
+"NM:san fernando occidental": "San Fernando Occidental",
+"NM:san luis": "San Luis",
+"NM:san luis cl 58": "San Luis CL 58",
+"NM:san luis cl 61f": "San Luis  CL 61F",
+"NM:sede comunal 11 de noviembre": "Sede Comunal 11 de Noviembre",
+"NM:seminario conciliar de bogota": "Seminario Conciliar de Bogotá",
+"NM:sena#1": "SENA",
+"NM:siete de agosto": "Siete de Agosto",
+"NM:teatro astor plaza": "Teatro Astor Plaza",
+"NM:teatro la castellana": "Teatro La Castellana",
+"NM:tecnoparque sena": "Tecnoparque SENA",
+"NM:unitec": "Unitec",
+"NM:univ militar nueva granada": "Univ. Militar Nueva Granada",
+"NM:universidad de la salle": "Universidad De La Salle",
+"NM:universidad ean": "Universidad EAN",
+"NM:universidad javeriana": "Universidad Javeriana",
+"NM:universidad la gran colombia": "Universidad La Gran Colombia",
+"NM:universidad nacional": "U. Nacional",
+"NM:universidad pedagogica": "U. Pedagogica",
+"NM:universidad pedagogica nacional": "U. Pedagógica Nacional",
+"NM:universidad piloto": "Universidad Piloto",
+"NM:universidad sergio arboleda": "U. Sergio Arboleda",
+"NM:urb conjunto de la 100": "Urb. Conjunto de La 100",
+"NM:urb el refugio": "Urb. El Refugio",
+"NM:urb familiar potosi i sector": "Urb. Familiar Potosí I Sector",
+"NM:urb los sauces": "Urb. Los Sauces",
+"NM:urb morato": "Urb. Morato",
+"NM:urb santa sofia": "Urb. Santa Sofía"
+},
+"edges": [
+[
+"NM:ac 100",
+"NM:br chico norte iii sector",
+{
+"dist_m": 429.04404217310787,
+"rutas": [
+"192",
+"BA900",
+"CA117",
+"K303",
+"KB309"
+],
+"n_rutas": 5,
+"trips": 372
+}
+],
+[
+"NM:ac 100",
+"NM:br santa bibiana#0",
+{
+"dist_m": 253.06165320687268,
+"rutas": [
+"192",
+"291",
+"A134",
+"BA900",
+"BK904",
+"CA117",
+"K303",
+"KB309",
+"T62"
+],
+"n_rutas": 9,
+"trips": 1325
+}
+],
+[
+"NM:ac 100",
+"NM:colsanitas cl 100",
+{
+"dist_m": 895.6741435577263,
+"rutas": [
+"A134"
+],
+"n_rutas": 1,
+"trips": 31
+}
+],
+[
+"NM:ac 80",
+"NM:centro comercial metropolis",
+{
+"dist_m": 211.44029268358864,
+"rutas": [
+"402",
+"A305",
+"B916",
+"C156",
+"CD122",
+"HD607"
+],
+"n_rutas": 6,
+"trips": 1130
+}
+],
+[
+"NM:ac 80",
+"NM:entrerios",
+{
+"dist_m": 594.3184399851689,
+"rutas": [
+"402",
+"A305",
+"B916",
+"C156",
+"CD122",
+"HD607"
+],
+"n_rutas": 6,
+"trips": 1130
+}
+],
+[
+"NM:academia nacional de medicina",
+"NM:br chapinero norte",
+{
+"dist_m": 378.0784577213039,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:academia nacional de medicina",
+"NM:embajada de japon",
+{
+"dist_m": 303.0633831687538,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:ak 15",
+"NM:br chico norte ii sector",
+{
+"dist_m": 326.81120573334965,
+"rutas": [
+"DA203"
+],
+"n_rutas": 1,
+"trips": 111
+}
+],
+[
+"NM:ak 15",
+"NM:br chico norte sector iii",
+{
+"dist_m": 301.1154406845679,
+"rutas": [
+"B303",
+"HA708"
+],
+"n_rutas": 2,
+"trips": 313
+}
+],
+[
+"NM:ak 15",
+"NM:br chico norte#0",
+{
+"dist_m": 482.9978812720288,
+"rutas": [
+"B303",
+"DA203",
+"HA708"
+],
+"n_rutas": 3,
+"trips": 424
+}
+],
+[
+"NM:ak 68",
+"NM:cafam floresta",
+{
+"dist_m": 131.69069016187154,
+"rutas": [
+"CA124",
+"CD122"
+],
+"n_rutas": 2,
+"trips": 419
+}
+],
+[
+"NM:ak 68",
+"NM:parque la floresta",
+{
+"dist_m": 223.01374113790698,
+"rutas": [
+"CA124",
+"CD122"
+],
+"n_rutas": 2,
+"trips": 419
+}
+],
+[
+"NM:alcazares",
+"NM:monumento rafael uribe uribe",
+{
+"dist_m": 190.2665033863262,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1281
+}
+],
+[
+"NM:alcazares",
+"NM:parque alcazares",
+{
+"dist_m": 230.92783992442435,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1281
+}
+],
+[
+"NM:aldeas infantiles sos colombia",
+"NM:br j j vargas",
+{
+"dist_m": 324.92144272832667,
+"rutas": [
+"DH216",
+"K306",
+"KA306"
+],
+"n_rutas": 3,
+"trips": 472
+}
+],
+[
+"NM:almacenes tia",
+"NM:br rafael uribe",
+{
+"dist_m": 272.99918007414374,
+"rutas": [
+"12",
+"466",
+"669",
+"FA427",
+"SE10"
+],
+"n_rutas": 5,
+"trips": 902
+}
+],
+[
+"NM:almacenes tia",
+"NM:centro comercial las rampas",
+{
+"dist_m": 192.77244686513208,
+"rutas": [
+"A306",
+"KA306"
+],
+"n_rutas": 2,
+"trips": 248
+}
+],
+[
+"NM:almacenes tia",
+"NM:colegio marillac",
+{
+"dist_m": 302.4110841659042,
+"rutas": [
+"12",
+"466",
+"669",
+"A306",
+"DA214",
+"DA215",
+"FA427",
+"KA306",
+"SE10"
+],
+"n_rutas": 9,
+"trips": 1532
+}
+],
+[
+"NM:almacenes tia",
+"NM:quinta mutis",
+{
+"dist_m": 482.56146688295263,
+"rutas": [
+"DA214",
+"DA215"
+],
+"n_rutas": 2,
+"trips": 382
+}
+],
+[
+"NM:autopista norte",
+"NM:br estoril",
+{
+"dist_m": 560.3689031718671,
+"rutas": [
+"193B",
+"291",
+"402",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"CA151",
+"F404",
+"HA606",
+"HA610",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 17,
+"trips": 3365
+}
+],
+[
+"NM:autopista norte",
+"NM:br santa bibiana#0",
+{
+"dist_m": 622.3290289078005,
+"rutas": [
+"193B",
+"291",
+"402",
+"442",
+"634",
+"661",
+"AB020",
+"BD237",
+"BK904",
+"CA151",
+"F404",
+"HA606",
+"HA610",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 18,
+"trips": 3398
+}
+],
+[
+"NM:autopista norte",
+"NM:estacion calle 100",
+{
+"dist_m": 308.6610702429918,
+"rutas": [
+"AB020"
+],
+"n_rutas": 1,
+"trips": 33
+}
+],
+[
+"NM:avenida calle 100",
+"NM:br chico navarra",
+{
+"dist_m": 230.02059313481598,
+"rutas": [
+"KB326",
+"Z4B"
+],
+"n_rutas": 2,
+"trips": 246
+}
+],
+[
+"NM:avenida calle 100",
+"NM:br chico norte iii sector",
+{
+"dist_m": 521.6410378957244,
+"rutas": [
+"T26"
+],
+"n_rutas": 1,
+"trips": 134
+}
+],
+[
+"NM:avenida calle 100",
+"NM:br rincon del chico",
+{
+"dist_m": 279.18479552011036,
+"rutas": [
+"E61",
+"F404",
+"T26"
+],
+"n_rutas": 3,
+"trips": 324
+}
+],
+[
+"NM:avenida calle 100",
+"NM:br santa bibiana#0",
+{
+"dist_m": 342.88289015319816,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"F404",
+"K303",
+"KB326",
+"Z4B"
+],
+"n_rutas": 11,
+"trips": 1622
+}
+],
+[
+"NM:avenida calle 100",
+"NM:colsanitas cl 100",
+{
+"dist_m": 457.2846124304236,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"CA117",
+"CA164",
+"E61",
+"K303"
+],
+"n_rutas": 7,
+"trips": 1075
+}
+],
+[
+"NM:avenida calle 106",
+"NM:br molinos norte",
+{
+"dist_m": 258.9081510262383,
+"rutas": [
+"192",
+"B303",
+"BD237",
+"BD906",
+"C134",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"KB326",
+"T26",
+"Z4B"
+],
+"n_rutas": 12,
+"trips": 2179
+}
+],
+[
+"NM:avenida calle 106",
+"NM:br rincon del chico",
+{
+"dist_m": 403.1876664693578,
+"rutas": [
+"192",
+"B303",
+"BD237",
+"BD906",
+"C134",
+"CA117",
+"CA164",
+"DA203",
+"E17",
+"E43",
+"E61",
+"KB326",
+"T26",
+"Z4B"
+],
+"n_rutas": 14,
+"trips": 2641
+}
+],
+[
+"NM:avenida calle 116#0",
+"NM:br san patricio",
+{
+"dist_m": 97.9265701740854,
+"rutas": [
+"192",
+"291",
+"A134",
+"BA900",
+"BK904",
+"CA117",
+"K303",
+"KB309",
+"T62"
+],
+"n_rutas": 9,
+"trips": 864
+}
+],
+[
+"NM:avenida calle 116#1",
+"NM:br santa barbara occidental",
+{
+"dist_m": 616.2053120911785,
+"rutas": [
+"C25"
+],
+"n_rutas": 1,
+"trips": 206
+}
+],
+[
+"NM:avenida calle 116#1",
+"NM:calle 112",
+{
+"dist_m": 193.0249643433929,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"K303",
+"KB326",
+"Z4B"
+],
+"n_rutas": 10,
+"trips": 1456
+}
+],
+[
+"NM:avenida calle 116#1",
+"NM:pquia santa beatriz",
+{
+"dist_m": 268.8769485644087,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"C25",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"K303",
+"KB326",
+"Z4B"
+],
+"n_rutas": 11,
+"trips": 1662
+}
+],
+[
+"NM:avenida calle 80",
+"NM:br entrerios",
+{
+"dist_m": 400.5853819640451,
+"rutas": [
+"291",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"C404",
+"CA124",
+"E44",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD630",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 18,
+"trips": 3805
+}
+],
+[
+"NM:avenida calle 80",
+"NM:cafam floresta",
+{
+"dist_m": 709.0893175303286,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"CA124",
+"CD122",
+"E44",
+"F404",
+"G156",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD607",
+"HD630",
+"K305",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 24,
+"trips": 4932
+}
+],
+[
+"NM:avenida calle 80",
+"NM:centro comercial metropolis",
+{
+"dist_m": 470.25502885658307,
+"rutas": [
+"291",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"C404",
+"CA124",
+"E44",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD630",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 18,
+"trips": 3676
+}
+],
+[
+"NM:avenida calle 80",
+"NM:exito calle 80",
+{
+"dist_m": 137.44535033800108,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"CA124",
+"CD122",
+"E44",
+"F404",
+"G156",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD607",
+"HD630",
+"K305",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 24,
+"trips": 4932
+}
+],
+[
+"NM:avenida caracas#0",
+"NM:br la esperanza",
+{
+"dist_m": 544.4074516150066,
+"rutas": [
+"HA600"
+],
+"n_rutas": 1,
+"trips": 133
+}
+],
+[
+"NM:avenida caracas#0",
+"NM:centro cosmos 64",
+{
+"dist_m": 491.00276395656095,
+"rutas": [
+"HA600"
+],
+"n_rutas": 1,
+"trips": 133
+}
+],
+[
+"NM:avenida caracas#0",
+"NM:clinica del nino",
+{
+"dist_m": 420.33959017470755,
+"rutas": [
+"466"
+],
+"n_rutas": 1,
+"trips": 192
+}
+],
+[
+"NM:avenida caracas#0",
+"NM:colegio san pedro nolasco",
+{
+"dist_m": 286.1035153596241,
+"rutas": [
+"466",
+"AA002",
+"KA306"
+],
+"n_rutas": 3,
+"trips": 769
+}
+],
+[
+"NM:avenida caracas#0",
+"NM:teatro astor plaza",
+{
+"dist_m": 311.1287118514029,
+"rutas": [
+"466",
+"AA002",
+"KA306"
+],
+"n_rutas": 3,
+"trips": 577
+}
+],
+[
+"NM:avenida caracas#1",
+"NM:ied manuela beltran",
+{
+"dist_m": 250.6310679268292,
+"rutas": [
+"AA003",
+"GA516"
+],
+"n_rutas": 2,
+"trips": 258
+}
+],
+[
+"NM:avenida caracas#1",
+"NM:tecnoparque sena",
+{
+"dist_m": 220.48609663492272,
+"rutas": [
+"AA003",
+"GA516"
+],
+"n_rutas": 2,
+"trips": 258
+}
+],
+[
+"NM:avenida la esmeralda",
+"NM:br j j vargas",
+{
+"dist_m": 159.52040689227803,
+"rutas": [
+"K306",
+"KA306"
+],
+"n_rutas": 2,
+"trips": 248
+}
+],
+[
+"NM:avenida la esmeralda",
+"NM:colegio cooperativo union social",
+{
+"dist_m": 437.84093318971463,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"SE10",
+"SE14"
+],
+"n_rutas": 7,
+"trips": 1425
+}
+],
+[
+"NM:avenida la esmeralda",
+"NM:parque publico modelo",
+{
+"dist_m": 275.60772764853147,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"K306",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 9,
+"trips": 1673
+}
+],
+[
+"NM:avenida morato",
+"NM:avenida pepe sierra",
+{
+"dist_m": 506.0431617112535,
+"rutas": [
+"CA124"
+],
+"n_rutas": 1,
+"trips": 21
+}
+],
+[
+"NM:avenida morato",
+"NM:br andes norte",
+{
+"dist_m": 704.2066432922948,
+"rutas": [
+"HD607",
+"HD630"
+],
+"n_rutas": 2,
+"trips": 440
+}
+],
+[
+"NM:avenida morato",
+"NM:br julio flores",
+{
+"dist_m": 362.5232818068406,
+"rutas": [
+"CA124",
+"HD607",
+"HD630"
+],
+"n_rutas": 3,
+"trips": 461
+}
+],
+[
+"NM:avenida morato",
+"NM:br santa rosa",
+{
+"dist_m": 368.5473727432764,
+"rutas": [
+"CA124"
+],
+"n_rutas": 1,
+"trips": 238
+}
+],
+[
+"NM:avenida morato",
+"NM:urb morato",
+{
+"dist_m": 450.20413929392424,
+"rutas": [
+"CA124"
+],
+"n_rutas": 1,
+"trips": 238
+}
+],
+[
+"NM:avenida pepe sierra",
+"NM:br julio flores",
+{
+"dist_m": 867.442301772275,
+"rutas": [
+"CA124"
+],
+"n_rutas": 1,
+"trips": 217
+}
+],
+[
+"NM:avenida pepe sierra",
+"NM:br puente largo#1",
+{
+"dist_m": 294.32310506435005,
+"rutas": [
+"599",
+"C156",
+"E44",
+"T795"
+],
+"n_rutas": 4,
+"trips": 805
+}
+],
+[
+"NM:banco central",
+"NM:br chapinero occidental",
+{
+"dist_m": 220.6779821520673,
+"rutas": [
+"DA213",
+"KB309"
+],
+"n_rutas": 2,
+"trips": 310
+}
+],
+[
+"NM:banco central",
+"NM:br galerias",
+{
+"dist_m": 422.89780613707455,
+"rutas": [
+"DA213",
+"GA538",
+"LA818"
+],
+"n_rutas": 3,
+"trips": 538
+}
+],
+[
+"NM:banco central",
+"NM:br quesada",
+{
+"dist_m": 488.23872007475853,
+"rutas": [
+"B303"
+],
+"n_rutas": 1,
+"trips": 233
+}
+],
+[
+"NM:banco central",
+"NM:centro comercial morichal",
+{
+"dist_m": 293.69127443250613,
+"rutas": [
+"B303",
+"BD906",
+"DA213",
+"GA538",
+"GA567",
+"KB309"
+],
+"n_rutas": 6,
+"trips": 1104
+}
+],
+[
+"NM:banco central",
+"NM:clin eusalud br chapinero occ",
+{
+"dist_m": 237.15835816903095,
+"rutas": [
+"BD906",
+"GA538",
+"GA567"
+],
+"n_rutas": 3,
+"trips": 561
+}
+],
+[
+"NM:banco central",
+"NM:san luis",
+{
+"dist_m": 399.687930625173,
+"rutas": [
+"LA818"
+],
+"n_rutas": 1,
+"trips": 181
+}
+],
+[
+"NM:banco central",
+"NM:san luis cl 58",
+{
+"dist_m": 396.10720571691354,
+"rutas": [
+"DA213",
+"GA538"
+],
+"n_rutas": 2,
+"trips": 357
+}
+],
+[
+"NM:br 12 de octubre",
+"NM:estacion avenida chile",
+{
+"dist_m": 273.9744942374168,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1840
+}
+],
+[
+"NM:br 12 de octubre",
+"NM:estacion nqs calle 75",
+{
+"dist_m": 484.1211720250613,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1840
+}
+],
+[
+"NM:br 12 de octubre",
+"NM:parroquia san fernando rey",
+{
+"dist_m": 595.9870884008585,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1581
+}
+],
+[
+"NM:br 12 de octubre",
+"NM:sede comunal 11 de noviembre",
+{
+"dist_m": 382.47603057582796,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1581
+}
+],
+[
+"NM:br acevedo tejada",
+"NM:estacion ciudad universitaria",
+{
+"dist_m": 330.106403963049,
+"rutas": [
+"KA319"
+],
+"n_rutas": 1,
+"trips": 272
+}
+],
+[
+"NM:br acevedo tejada",
+"NM:universidad nacional",
+{
+"dist_m": 537.232181579938,
+"rutas": [
+"166",
+"91",
+"KA319",
+"KA332"
+],
+"n_rutas": 4,
+"trips": 818
+}
+],
+[
+"NM:br alcazares",
+"NM:br colombia",
+{
+"dist_m": 481.4077538966137,
+"rutas": [
+"466",
+"669",
+"DA215",
+"FA427",
+"KA306",
+"SE10"
+],
+"n_rutas": 6,
+"trips": 1247
+}
+],
+[
+"NM:br alcazares",
+"NM:br la paz",
+{
+"dist_m": 435.9527634571239,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"K306",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 9,
+"trips": 1673
+}
+],
+[
+"NM:br alcazares",
+"NM:centro comercial las rampas",
+{
+"dist_m": 103.83662855024204,
+"rutas": [
+"SE14"
+],
+"n_rutas": 1,
+"trips": 241
+}
+],
+[
+"NM:br alcazares",
+"NM:colegio san pedro nolasco",
+{
+"dist_m": 547.3216484252176,
+"rutas": [
+"FA427"
+],
+"n_rutas": 1,
+"trips": 20
+}
+],
+[
+"NM:br alcazares",
+"NM:pl 7 de agosto",
+{
+"dist_m": 289.57182562566976,
+"rutas": [
+"DA214"
+],
+"n_rutas": 1,
+"trips": 155
+}
+],
+[
+"NM:br alcazares norte",
+"NM:br la aurora",
+{
+"dist_m": 187.0538732121287,
+"rutas": [
+"91",
+"BA900",
+"GA518",
+"H605"
+],
+"n_rutas": 4,
+"trips": 660
+}
+],
+[
+"NM:br alcazares norte",
+"NM:cai alcazares",
+{
+"dist_m": 325.68407403692413,
+"rutas": [
+"91",
+"BA900",
+"GA518",
+"H605"
+],
+"n_rutas": 4,
+"trips": 781
+}
+],
+[
+"NM:br alcazares norte",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 157.11677764187658,
+"rutas": [
+"91"
+],
+"n_rutas": 1,
+"trips": 121
+}
+],
+[
+"NM:br andes norte",
+"NM:br julio florez",
+{
+"dist_m": 659.5791661872935,
+"rutas": [
+"402",
+"442",
+"661",
+"BD237",
+"E44",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD630",
+"KB326"
+],
+"n_rutas": 11,
+"trips": 2531
+}
+],
+[
+"NM:br andes norte",
+"NM:br los andes norte",
+{
+"dist_m": 108.3267512320611,
+"rutas": [
+"HC705"
+],
+"n_rutas": 1,
+"trips": 236
+}
+],
+[
+"NM:br andes norte",
+"NM:centro comercial iserra 100",
+{
+"dist_m": 560.9926891482576,
+"rutas": [
+"402",
+"442",
+"661",
+"BD237",
+"HA606",
+"HA610",
+"HA611",
+"KB326",
+"T795"
+],
+"n_rutas": 9,
+"trips": 2065
+}
+],
+[
+"NM:br andes norte",
+"NM:parque andes norte",
+{
+"dist_m": 221.31693156323533,
+"rutas": [
+"G156",
+"HD607"
+],
+"n_rutas": 2,
+"trips": 352
+}
+],
+[
+"NM:br andes norte",
+"NM:urb morato",
+{
+"dist_m": 792.8555984072087,
+"rutas": [
+"599",
+"E44",
+"G156",
+"T795"
+],
+"n_rutas": 4,
+"trips": 803
+}
+],
+[
+"NM:br antiguo country#0",
+"NM:estacion calle 85",
+{
+"dist_m": 372.77300218816765,
+"rutas": [
+"193B"
+],
+"n_rutas": 1,
+"trips": 18
+}
+],
+[
+"NM:br antiguo country#0",
+"NM:estacion cl 85",
+{
+"dist_m": 260.47840094776654,
+"rutas": [
+"19-8"
+],
+"n_rutas": 1,
+"trips": 219
+}
+],
+[
+"NM:br antiguo country#0",
+"NM:parque leon de greiff",
+{
+"dist_m": 334.08170153741816,
+"rutas": [
+"19-8",
+"193B"
+],
+"n_rutas": 2,
+"trips": 237
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:br concepcion norte",
+{
+"dist_m": 661.9341007935028,
+"rutas": [
+"B919",
+"BD906",
+"C134",
+"CA151",
+"FA427"
+],
+"n_rutas": 5,
+"trips": 855
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:br polo club",
+{
+"dist_m": 917.3455832444845,
+"rutas": [
+"CA103"
+],
+"n_rutas": 1,
+"trips": 211
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:br porciuncula",
+{
+"dist_m": 312.6864154823254,
+"rutas": [
+"CA103"
+],
+"n_rutas": 1,
+"trips": 211
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:br san felipe",
+{
+"dist_m": 376.8483549672635,
+"rutas": [
+"466",
+"CA103",
+"CA117",
+"CA124",
+"KA334",
+"KB309"
+],
+"n_rutas": 6,
+"trips": 675
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:embajada de paz de colombia",
+{
+"dist_m": 183.87947418697374,
+"rutas": [
+"CA124",
+"KA334"
+],
+"n_rutas": 2,
+"trips": 42
+}
+],
+[
+"NM:br antiguo country#1",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 146.40574882808582,
+"rutas": [
+"466",
+"B919",
+"BD906",
+"C134",
+"CA103",
+"CA117",
+"CA151",
+"FA427",
+"KB309"
+],
+"n_rutas": 9,
+"trips": 1488
+}
+],
+[
+"NM:br banco central",
+"NM:br galerias",
+{
+"dist_m": 440.94039377208077,
+"rutas": [
+"BD906",
+"GA567",
+"K303",
+"KB309"
+],
+"n_rutas": 4,
+"trips": 747
+}
+],
+[
+"NM:br banco central",
+"NM:kr 15",
+{
+"dist_m": 353.2839892261052,
+"rutas": [
+"BD906",
+"GA567",
+"K303",
+"KB309"
+],
+"n_rutas": 4,
+"trips": 747
+}
+],
+[
+"NM:br baquero",
+"NM:br muequeta",
+{
+"dist_m": 313.8893958614751,
+"rutas": [
+"142",
+"59B",
+"621",
+"FA410",
+"GA532",
+"GA541"
+],
+"n_rutas": 6,
+"trips": 1135
+}
+],
+[
+"NM:br baquero",
+"NM:centro johann kepler",
+{
+"dist_m": 221.8036692008268,
+"rutas": [
+"142",
+"59B",
+"621",
+"FA410",
+"GA532"
+],
+"n_rutas": 5,
+"trips": 938
+}
+],
+[
+"NM:br baquero",
+"NM:fund universit san martin",
+{
+"dist_m": 477.20045867090766,
+"rutas": [
+"GA541"
+],
+"n_rutas": 1,
+"trips": 197
+}
+],
+[
+"NM:br belalcazar",
+"NM:br galerias",
+{
+"dist_m": 375.74367138617765,
+"rutas": [
+"GA518"
+],
+"n_rutas": 1,
+"trips": 194
+}
+],
+[
+"NM:br belalcazar",
+"NM:canal arzobispo#1",
+{
+"dist_m": 356.92459728987467,
+"rutas": [
+"191",
+"599",
+"A605",
+"AA003",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 11,
+"trips": 2449
+}
+],
+[
+"NM:br belalcazar",
+"NM:estadio el campin",
+{
+"dist_m": 242.82075586039494,
+"rutas": [
+"191",
+"599",
+"A605",
+"AA003",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 11,
+"trips": 2449
+}
+],
+[
+"NM:br belalcazar",
+"NM:icontec",
+{
+"dist_m": 552.5483048097107,
+"rutas": [
+"GA518"
+],
+"n_rutas": 1,
+"trips": 194
+}
+],
+[
+"NM:br bellavista",
+"NM:br emaus",
+{
+"dist_m": 448.58937661810353,
+"rutas": [
+"593",
+"B907",
+"CA124",
+"HA642",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 7,
+"trips": 1684
+}
+],
+[
+"NM:br bellavista",
+"NM:br porciuncula",
+{
+"dist_m": 638.0980610765098,
+"rutas": [
+"HA642"
+],
+"n_rutas": 1,
+"trips": 155
+}
+],
+[
+"NM:br bellavista",
+"NM:centro comercial avenida chile",
+{
+"dist_m": 413.3376326827591,
+"rutas": [
+"AA002",
+"KA334",
+"T06"
+],
+"n_rutas": 3,
+"trips": 756
+}
+],
+[
+"NM:br bellavista",
+"NM:embajada de inglaterra",
+{
+"dist_m": 499.560401466929,
+"rutas": [
+"CA124",
+"KA334"
+],
+"n_rutas": 2,
+"trips": 454
+}
+],
+[
+"NM:br bellavista",
+"NM:parque el nogal",
+{
+"dist_m": 352.2300125681047,
+"rutas": [
+"593",
+"AA002",
+"B907",
+"T06",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 7,
+"trips": 1831
+}
+],
+[
+"NM:br benjamin herrera",
+"NM:br la paz",
+{
+"dist_m": 830.5396531814467,
+"rutas": [
+"BD995"
+],
+"n_rutas": 1,
+"trips": 11
+}
+],
+[
+"NM:br benjamin herrera",
+"NM:estacion coliseo",
+{
+"dist_m": 341.74856895794767,
+"rutas": [
+"191",
+"599",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 8,
+"trips": 1790
+}
+],
+[
+"NM:br benjamin herrera",
+"NM:estacion simon bolivar",
+{
+"dist_m": 379.72528663953625,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1809
+}
+],
+[
+"NM:br benjamin herrera",
+"NM:ied alemania solidaria",
+{
+"dist_m": 395.06394139489527,
+"rutas": [
+"BD995"
+],
+"n_rutas": 1,
+"trips": 30
+}
+],
+[
+"NM:br bosque calderon",
+"NM:centro comercial aquarium",
+{
+"dist_m": 502.6912078356423,
+"rutas": [
+"AA001"
+],
+"n_rutas": 1,
+"trips": 109
+}
+],
+[
+"NM:br bosque calderon",
+"NM:comfenalco",
+{
+"dist_m": 349.9748244340764,
+"rutas": [
+"359",
+"B303"
+],
+"n_rutas": 2,
+"trips": 277
+}
+],
+[
+"NM:br bosque calderon",
+"NM:direccion de sanidad",
+{
+"dist_m": 369.4875254106873,
+"rutas": [
+"166",
+"359",
+"56A",
+"593",
+"59B",
+"A332",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 16,
+"trips": 3072
+}
+],
+[
+"NM:br bosque calderon",
+"NM:universidad de la salle",
+{
+"dist_m": 295.61648526920374,
+"rutas": [
+"166",
+"359",
+"56A",
+"593",
+"59B",
+"A332",
+"B303",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 17,
+"trips": 3349
+}
+],
+[
+"NM:br campin occidental",
+"NM:calle 63",
+{
+"dist_m": 322.33727563939703,
+"rutas": [
+"191",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 8,
+"trips": 1814
+}
+],
+[
+"NM:br campin occidental",
+"NM:estacion el campin",
+{
+"dist_m": 486.4114698230051,
+"rutas": [
+"191",
+"H605",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 2125
+}
+],
+[
+"NM:br campin occidental",
+"NM:parque de los novios",
+{
+"dist_m": 454.7894526926512,
+"rutas": [
+"H605"
+],
+"n_rutas": 1,
+"trips": 311
+}
+],
+[
+"NM:br chapinero central",
+"NM:br marly",
+{
+"dist_m": 1036.6969312289145,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:br chapinero central",
+"NM:centro comercial aquarium",
+{
+"dist_m": 317.5379265002821,
+"rutas": [
+"AA001"
+],
+"n_rutas": 1,
+"trips": 109
+}
+],
+[
+"NM:br chapinero central",
+"NM:cuerpo of de bomberos de bogota",
+{
+"dist_m": 479.96052767562315,
+"rutas": [
+"142",
+"166",
+"192",
+"193B",
+"359",
+"56A",
+"593",
+"59B",
+"621",
+"669",
+"A134",
+"BD906",
+"C15",
+"CA124",
+"CA151",
+"GA507",
+"GA538",
+"GA567",
+"H907",
+"HA601",
+"HA642",
+"K303",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 31,
+"trips": 4748
+}
+],
+[
+"NM:br chapinero central",
+"NM:ied manuela beltran",
+{
+"dist_m": 387.5861475270554,
+"rutas": [
+"GA538"
+],
+"n_rutas": 1,
+"trips": 203
+}
+],
+[
+"NM:br chapinero central",
+"NM:parque lourdes",
+{
+"dist_m": 714.2091469127313,
+"rutas": [
+"HA600",
+"HA642"
+],
+"n_rutas": 2,
+"trips": 153
+}
+],
+[
+"NM:br chapinero central",
+"NM:tecnoparque sena",
+{
+"dist_m": 255.79090024953535,
+"rutas": [
+"142",
+"166",
+"192",
+"193B",
+"359",
+"56A",
+"593",
+"59B",
+"621",
+"669",
+"A134",
+"AA001",
+"BD906",
+"C15",
+"CA124",
+"CA151",
+"GA507",
+"GA567",
+"H907",
+"HA600",
+"HA601",
+"HA642",
+"K303",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 32,
+"trips": 4807
+}
+],
+[
+"NM:br chapinero central",
+"NM:universidad de la salle",
+{
+"dist_m": 268.739603268537,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:br chapinero norte",
+"NM:camara de comercio cl 67",
+{
+"dist_m": 240.34737500647435,
+"rutas": [
+"FA410"
+],
+"n_rutas": 1,
+"trips": 251
+}
+],
+[
+"NM:br chapinero norte",
+"NM:centro comercial lourdes",
+{
+"dist_m": 311.5295625044953,
+"rutas": [
+"193B",
+"E25",
+"FA410"
+],
+"n_rutas": 3,
+"trips": 632
+}
+],
+[
+"NM:br chapinero norte",
+"NM:cl 67",
+{
+"dist_m": 292.95108446979,
+"rutas": [
+"193B",
+"E25"
+],
+"n_rutas": 2,
+"trips": 381
+}
+],
+[
+"NM:br chapinero norte",
+"NM:universidad de la salle",
+{
+"dist_m": 537.5901841960489,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:br chapinero occidental",
+"NM:br quesada",
+{
+"dist_m": 350.33171683223895,
+"rutas": [
+"142",
+"193B",
+"621",
+"669",
+"DA215",
+"HA600",
+"SE10"
+],
+"n_rutas": 7,
+"trips": 1311
+}
+],
+[
+"NM:br chapinero occidental",
+"NM:calle 51 br quesada",
+{
+"dist_m": 436.9644248580816,
+"rutas": [
+"GA507"
+],
+"n_rutas": 1,
+"trips": 195
+}
+],
+[
+"NM:br chapinero occidental",
+"NM:iglesia divino salvador",
+{
+"dist_m": 313.34116055730703,
+"rutas": [
+"142",
+"193B",
+"621",
+"669",
+"AA001",
+"DA215",
+"GA507",
+"HA600",
+"KB309",
+"SE10"
+],
+"n_rutas": 10,
+"trips": 1771
+}
+],
+[
+"NM:br chapinero occidental",
+"NM:kr 15",
+{
+"dist_m": 240.917129538546,
+"rutas": [
+"AA001"
+],
+"n_rutas": 1,
+"trips": 109
+}
+],
+[
+"NM:br chapinero occidental",
+"NM:parque el divino salvador",
+{
+"dist_m": 239.6839728245882,
+"rutas": [
+"DA213"
+],
+"n_rutas": 1,
+"trips": 154
+}
+],
+[
+"NM:br chico navarra",
+"NM:br chico norte iii sector",
+{
+"dist_m": 298.35176285499426,
+"rutas": [
+"193B",
+"KB309"
+],
+"n_rutas": 2,
+"trips": 35
+}
+],
+[
+"NM:br chico navarra",
+"NM:br rincon del chico",
+{
+"dist_m": 503.3498150290192,
+"rutas": [
+"634",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 242
+}
+],
+[
+"NM:br chico navarra",
+"NM:br santa bibiana#0",
+{
+"dist_m": 352.8610909944186,
+"rutas": [
+"193B",
+"634",
+"CA151",
+"KB309",
+"KB326",
+"Z4B"
+],
+"n_rutas": 6,
+"trips": 845
+}
+],
+[
+"NM:br chico navarra",
+"NM:centro de negocios chico plaza",
+{
+"dist_m": 302.0973571531487,
+"rutas": [
+"CA151",
+"KB309"
+],
+"n_rutas": 2,
+"trips": 320
+}
+],
+[
+"NM:br chico norte ii sector",
+"NM:br chico norte#0",
+{
+"dist_m": 647.0782259562731,
+"rutas": [
+"19-3",
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA103",
+"CA117",
+"CA151",
+"CA164",
+"DA203",
+"E61",
+"H907",
+"HA708",
+"K303",
+"KB309",
+"L919",
+"T12",
+"T13",
+"T163",
+"T25"
+],
+"n_rutas": 21,
+"trips": 2788
+}
+],
+[
+"NM:br chico norte ii sector",
+"NM:camara de comercio sede norte",
+{
+"dist_m": 550.0289289294178,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"KB309"
+],
+"n_rutas": 12,
+"trips": 1880
+}
+],
+[
+"NM:br chico norte ii sector",
+"NM:centro de negocios chico plaza",
+{
+"dist_m": 201.59006675106608,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"DA203",
+"E61",
+"KB309",
+"T163"
+],
+"n_rutas": 14,
+"trips": 2178
+}
+],
+[
+"NM:br chico norte ii sector",
+"NM:colsanitas cl 100",
+{
+"dist_m": 377.87890892006186,
+"rutas": [
+"19-3",
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"HA708",
+"K303",
+"KB309",
+"T12"
+],
+"n_rutas": 14,
+"trips": 2371
+}
+],
+[
+"NM:br chico norte ii sector",
+"NM:urb conjunto de la 100",
+{
+"dist_m": 750.7359391009483,
+"rutas": [
+"466",
+"CA103",
+"H907",
+"T13",
+"T163",
+"T25"
+],
+"n_rutas": 6,
+"trips": 329
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br chico norte sector iii",
+{
+"dist_m": 418.70027264834295,
+"rutas": [
+"192",
+"B303",
+"CA103",
+"KB309",
+"T163"
+],
+"n_rutas": 5,
+"trips": 102
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br chico norte#0",
+{
+"dist_m": 1079.5249123200485,
+"rutas": [
+"CA117"
+],
+"n_rutas": 1,
+"trips": 32
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br chico norte#1",
+{
+"dist_m": 677.6987374952278,
+"rutas": [
+"AB020",
+"B919",
+"BD995",
+"CA103",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163"
+],
+"n_rutas": 9,
+"trips": 1572
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br el chico#0",
+{
+"dist_m": 1050.7639829374134,
+"rutas": [
+"19-3"
+],
+"n_rutas": 1,
+"trips": 178
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br rincon del chico",
+{
+"dist_m": 779.3781005079218,
+"rutas": [
+"191",
+"192",
+"634",
+"B303",
+"BD237",
+"BD995",
+"C404",
+"CA103",
+"CA117",
+"HB608",
+"HB631",
+"KB326",
+"T11",
+"T26",
+"Z4B"
+],
+"n_rutas": 15,
+"trips": 3741
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:br santa bibiana#0",
+{
+"dist_m": 590.8938091322926,
+"rutas": [
+"291",
+"BA900",
+"BK904",
+"T62"
+],
+"n_rutas": 4,
+"trips": 600
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:centro de negocios chico plaza",
+{
+"dist_m": 408.1153781841892,
+"rutas": [
+"T163"
+],
+"n_rutas": 1,
+"trips": 187
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:centro empresarial calle 100",
+{
+"dist_m": 231.54886155222158,
+"rutas": [
+"193B",
+"291",
+"442",
+"634",
+"661",
+"B916",
+"BD237",
+"BK904",
+"C404",
+"CA151",
+"HA611",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 15,
+"trips": 3023
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:colsanitas cl 100",
+{
+"dist_m": 759.5338193809608,
+"rutas": [
+"192",
+"193B",
+"442",
+"661",
+"AB020",
+"CA117",
+"CA151",
+"HA708",
+"K303",
+"KB309",
+"T163",
+"Z8"
+],
+"n_rutas": 12,
+"trips": 1803
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:estacion calle 100",
+{
+"dist_m": 619.3637283233544,
+"rutas": [
+"19-3",
+"HA611"
+],
+"n_rutas": 2,
+"trips": 383
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:estacion virrey",
+{
+"dist_m": 1123.3227779040835,
+"rutas": [
+"193B",
+"BA900"
+],
+"n_rutas": 2,
+"trips": 156
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:hotel dann carlton",
+{
+"dist_m": 696.4445138021185,
+"rutas": [
+"191",
+"BA900",
+"BD995",
+"CA103",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1688
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:puente de la 92",
+{
+"dist_m": 998.5789725648364,
+"rutas": [
+"191",
+"T26"
+],
+"n_rutas": 2,
+"trips": 308
+}
+],
+[
+"NM:br chico norte iii sector",
+"NM:univ militar nueva granada",
+{
+"dist_m": 1042.0788047261005,
+"rutas": [
+"B916",
+"B919"
+],
+"n_rutas": 2,
+"trips": 194
+}
+],
+[
+"NM:br chico norte sector iii",
+"NM:br chico norte#0",
+{
+"dist_m": 775.7602454363912,
+"rutas": [
+"192",
+"CA103",
+"KB309",
+"T163"
+],
+"n_rutas": 4,
+"trips": 73
+}
+],
+[
+"NM:br chico norte sector iii",
+"NM:hotel dann carlton",
+{
+"dist_m": 528.5214966169417,
+"rutas": [
+"HA708"
+],
+"n_rutas": 1,
+"trips": 284
+}
+],
+[
+"NM:br chico norte#0",
+"NM:br chico oriental",
+{
+"dist_m": 750.0052532164704,
+"rutas": [
+"192",
+"B303",
+"CA117",
+"FA410",
+"KB309"
+],
+"n_rutas": 5,
+"trips": 121
+}
+],
+[
+"NM:br chico norte#0",
+"NM:embajada de francia",
+{
+"dist_m": 236.12598396203066,
+"rutas": [
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"H907",
+"K303",
+"KB309",
+"L919",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 17,
+"trips": 2427
+}
+],
+[
+"NM:br chico norte#0",
+"NM:kr 14",
+{
+"dist_m": 473.5968350431196,
+"rutas": [
+"FA410"
+],
+"n_rutas": 1,
+"trips": 225
+}
+],
+[
+"NM:br chico norte#0",
+"NM:parque de la 93",
+{
+"dist_m": 38.32690245828432,
+"rutas": [
+"19-3",
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"H907",
+"K303",
+"KB309",
+"L919",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 18,
+"trips": 2605
+}
+],
+[
+"NM:br chico norte#0",
+"NM:pquia la inmaculada concepcion",
+{
+"dist_m": 693.7947934227178,
+"rutas": [
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"H907",
+"K303",
+"KB309",
+"L919",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 17,
+"trips": 2427
+}
+],
+[
+"NM:br chico norte#1",
+"NM:estacion virrey",
+{
+"dist_m": 454.0048363483463,
+"rutas": [
+"B919"
+],
+"n_rutas": 1,
+"trips": 13
+}
+],
+[
+"NM:br chico norte#1",
+"NM:puente de la 92",
+{
+"dist_m": 325.9134552660392,
+"rutas": [
+"AB020",
+"BD995",
+"CA103",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163"
+],
+"n_rutas": 8,
+"trips": 1559
+}
+],
+[
+"NM:br chico oriental",
+"NM:br el refugio",
+{
+"dist_m": 223.92890726405048,
+"rutas": [
+"192",
+"466",
+"B303",
+"B907",
+"C134",
+"CA117",
+"CA151",
+"FA410",
+"KB309",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 12,
+"trips": 1248
+}
+],
+[
+"NM:br chico oriental",
+"NM:seminario conciliar de bogota",
+{
+"dist_m": 554.9225899497092,
+"rutas": [
+"466",
+"B907",
+"C134",
+"CA151",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 7,
+"trips": 1127
+}
+],
+[
+"NM:br colombia",
+"NM:br concepcion norte",
+{
+"dist_m": 277.85284224638195,
+"rutas": [
+"359",
+"E25",
+"T06"
+],
+"n_rutas": 3,
+"trips": 622
+}
+],
+[
+"NM:br colombia",
+"NM:br san felipe",
+{
+"dist_m": 336.83735292854277,
+"rutas": [
+"BA900",
+"GA518",
+"T06"
+],
+"n_rutas": 3,
+"trips": 563
+}
+],
+[
+"NM:br colombia",
+"NM:centro comercial las rampas",
+{
+"dist_m": 469.34979073481594,
+"rutas": [
+"BA900",
+"GA518"
+],
+"n_rutas": 2,
+"trips": 332
+}
+],
+[
+"NM:br colombia",
+"NM:clinica del nino",
+{
+"dist_m": 965.6054004643337,
+"rutas": [
+"CA124"
+],
+"n_rutas": 1,
+"trips": 19
+}
+],
+[
+"NM:br colombia",
+"NM:colegio san pedro nolasco",
+{
+"dist_m": 388.3929219073678,
+"rutas": [
+"466",
+"669",
+"AA002",
+"DA215",
+"FA427",
+"KA306",
+"SE10"
+],
+"n_rutas": 7,
+"trips": 1556
+}
+],
+[
+"NM:br colombia",
+"NM:colombia",
+{
+"dist_m": 283.2948943597775,
+"rutas": [
+"91",
+"A306",
+"A605",
+"KA306"
+],
+"n_rutas": 4,
+"trips": 697
+}
+],
+[
+"NM:br colombia",
+"NM:estacion calle 72",
+{
+"dist_m": 562.2555287930993,
+"rutas": [
+"91",
+"A306",
+"CA124",
+"KA306",
+"KA334"
+],
+"n_rutas": 5,
+"trips": 821
+}
+],
+[
+"NM:br colombia",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 540.3899437670141,
+"rutas": [
+"A605"
+],
+"n_rutas": 1,
+"trips": 311
+}
+],
+[
+"NM:br colombia",
+"NM:parque alcazares",
+{
+"dist_m": 548.2861765030663,
+"rutas": [
+"359",
+"CA124",
+"E25",
+"KA334"
+],
+"n_rutas": 4,
+"trips": 845
+}
+],
+[
+"NM:br colombia",
+"NM:siete de agosto",
+{
+"dist_m": 560.5986160743176,
+"rutas": [
+"AA002",
+"P500"
+],
+"n_rutas": 2,
+"trips": 409
+}
+],
+[
+"NM:br colombia",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 825.5792219047008,
+"rutas": [
+"P500"
+],
+"n_rutas": 1,
+"trips": 100
+}
+],
+[
+"NM:br concepcion norte",
+"NM:br la esperanza",
+{
+"dist_m": 705.7008970598852,
+"rutas": [
+"192",
+"B919",
+"BD906",
+"C134",
+"CA151",
+"GA507",
+"GA538",
+"GA567",
+"KB309",
+"P500"
+],
+"n_rutas": 10,
+"trips": 1774
+}
+],
+[
+"NM:br concepcion norte",
+"NM:br san felipe",
+{
+"dist_m": 483.5860736744816,
+"rutas": [
+"192",
+"359",
+"466",
+"CA117",
+"GA567",
+"KB309",
+"P500"
+],
+"n_rutas": 7,
+"trips": 1178
+}
+],
+[
+"NM:br concepcion norte",
+"NM:carrera 17",
+{
+"dist_m": 480.23631563032706,
+"rutas": [
+"466",
+"AA002",
+"FA427"
+],
+"n_rutas": 3,
+"trips": 697
+}
+],
+[
+"NM:br concepcion norte",
+"NM:estacion calle 72",
+{
+"dist_m": 384.97212837543987,
+"rutas": [
+"AA002",
+"GA538",
+"T06"
+],
+"n_rutas": 3,
+"trips": 743
+}
+],
+[
+"NM:br concepcion norte",
+"NM:estacion calle 85",
+{
+"dist_m": 1695.2048314403035,
+"rutas": [
+"B919"
+],
+"n_rutas": 1,
+"trips": 13
+}
+],
+[
+"NM:br concepcion norte",
+"NM:teatro astor plaza",
+{
+"dist_m": 581.9716583440234,
+"rutas": [
+"CA117"
+],
+"n_rutas": 1,
+"trips": 268
+}
+],
+[
+"NM:br concepcion norte",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 601.967028119323,
+"rutas": [
+"359",
+"E25"
+],
+"n_rutas": 2,
+"trips": 370
+}
+],
+[
+"NM:br el chico#0",
+"NM:cade chico",
+{
+"dist_m": 139.54775290127387,
+"rutas": [
+"19-3",
+"19-8",
+"FA427",
+"P500"
+],
+"n_rutas": 4,
+"trips": 663
+}
+],
+[
+"NM:br el chico#0",
+"NM:pquia la inmaculada concepcion",
+{
+"dist_m": 539.499690584629,
+"rutas": [
+"19-8",
+"FA427",
+"P500"
+],
+"n_rutas": 3,
+"trips": 485
+}
+],
+[
+"NM:br el chico#1",
+"NM:br la cabrera",
+{
+"dist_m": 676.4032499823516,
+"rutas": [
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 4,
+"trips": 959
+}
+],
+[
+"NM:br el chico#1",
+"NM:museo del chico",
+{
+"dist_m": 465.6329889514308,
+"rutas": [
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 4,
+"trips": 959
+}
+],
+[
+"NM:br el eden",
+"NM:br entrerios",
+{
+"dist_m": 467.65013026618266,
+"rutas": [
+"CA124",
+"HD630"
+],
+"n_rutas": 2,
+"trips": 474
+}
+],
+[
+"NM:br el eden",
+"NM:br julio florez",
+{
+"dist_m": 47.96972694967342,
+"rutas": [
+"HD630"
+],
+"n_rutas": 1,
+"trips": 236
+}
+],
+[
+"NM:br el eden",
+"NM:entrerios",
+{
+"dist_m": 530.2531452108148,
+"rutas": [
+"CD122",
+"HD607"
+],
+"n_rutas": 2,
+"trips": 385
+}
+],
+[
+"NM:br el eden",
+"NM:urb los sauces",
+{
+"dist_m": 375.3087864289454,
+"rutas": [
+"CA124",
+"CD122",
+"HD607"
+],
+"n_rutas": 3,
+"trips": 623
+}
+],
+[
+"NM:br el nogal",
+"NM:br el refugio",
+{
+"dist_m": 993.0673065822702,
+"rutas": [
+"192",
+"466",
+"CA151",
+"KB309"
+],
+"n_rutas": 4,
+"trips": 84
+}
+],
+[
+"NM:br el nogal",
+"NM:br el retiro",
+{
+"dist_m": 234.02513425238772,
+"rutas": [
+"193B",
+"A306",
+"GA538",
+"KA306",
+"KA319"
+],
+"n_rutas": 5,
+"trips": 880
+}
+],
+[
+"NM:br el nogal",
+"NM:gimnasio moderno",
+{
+"dist_m": 524.6409393519,
+"rutas": [
+"192",
+"193B",
+"466",
+"A306",
+"CA151",
+"GA538",
+"KA306",
+"KA319",
+"KB309"
+],
+"n_rutas": 9,
+"trips": 964
+}
+],
+[
+"NM:br el refugio",
+"NM:cl 85",
+{
+"dist_m": 343.9253803768736,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 540
+}
+],
+[
+"NM:br el refugio",
+"NM:embajada del peru",
+{
+"dist_m": 709.8416780263576,
+"rutas": [
+"B303",
+"B907",
+"C134",
+"CA117",
+"FA410",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 8,
+"trips": 1164
+}
+],
+[
+"NM:br el refugio",
+"NM:kr 4",
+{
+"dist_m": 454.9118285500991,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 1080
+}
+],
+[
+"NM:br el refugio",
+"NM:urb el refugio",
+{
+"dist_m": 336.17383121701135,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 540
+}
+],
+[
+"NM:br el retiro",
+"NM:br espartillal",
+{
+"dist_m": 391.5730639071897,
+"rutas": [
+"593"
+],
+"n_rutas": 1,
+"trips": 242
+}
+],
+[
+"NM:br el retiro",
+"NM:centro comercial andino",
+{
+"dist_m": 296.00612752907057,
+"rutas": [
+"193B",
+"A306",
+"GA538",
+"KA306",
+"KA319"
+],
+"n_rutas": 5,
+"trips": 880
+}
+],
+[
+"NM:br el retiro",
+"NM:parque el nogal",
+{
+"dist_m": 627.8127215956638,
+"rutas": [
+"593"
+],
+"n_rutas": 1,
+"trips": 242
+}
+],
+[
+"NM:br el rosario",
+"NM:calle 63",
+{
+"dist_m": 334.46553333894514,
+"rutas": [
+"191",
+"599",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 2031
+}
+],
+[
+"NM:br el rosario",
+"NM:el campin",
+{
+"dist_m": 784.7233881130378,
+"rutas": [
+"BD995"
+],
+"n_rutas": 1,
+"trips": 50
+}
+],
+[
+"NM:br el rosario",
+"NM:estacion simon bolivar",
+{
+"dist_m": 334.11592395921224,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 2081
+}
+],
+[
+"NM:br emaus",
+"NM:clinica la inmaculada",
+{
+"dist_m": 208.81304417402623,
+"rutas": [
+"593",
+"B907",
+"CA124",
+"HA642",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 7,
+"trips": 1684
+}
+],
+[
+"NM:br entrerios",
+"NM:cafam floresta",
+{
+"dist_m": 309.79753999740626,
+"rutas": [
+"291",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"C404",
+"E44",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 16,
+"trips": 3331
+}
+],
+[
+"NM:br espartillal",
+"NM:br porciuncula",
+{
+"dist_m": 648.0141225916168,
+"rutas": [
+"192",
+"193B",
+"466",
+"593",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"GA538",
+"H907",
+"K303",
+"KA306",
+"KA319",
+"KB309",
+"L919",
+"P500",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 23,
+"trips": 3648
+}
+],
+[
+"NM:br espartillal",
+"NM:centro comercial andino",
+{
+"dist_m": 408.6060595093913,
+"rutas": [
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"GA538",
+"H907",
+"K303",
+"KA306",
+"KA319",
+"KB309",
+"L919",
+"P500",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 22,
+"trips": 3406
+}
+],
+[
+"NM:br estoril",
+"NM:br santa bibiana#0",
+{
+"dist_m": 1118.9573710962877,
+"rutas": [
+"193B",
+"Z4B"
+],
+"n_rutas": 2,
+"trips": 32
+}
+],
+[
+"NM:br estoril",
+"NM:centro comercial iserra 100",
+{
+"dist_m": 500.0424842442186,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"F404",
+"HA606",
+"HA610",
+"HA611",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 16,
+"trips": 3244
+}
+],
+[
+"NM:br estoril",
+"NM:clinica general de la 100",
+{
+"dist_m": 353.91001962106475,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 358
+}
+],
+[
+"NM:br estoril",
+"NM:estacion calle 100",
+{
+"dist_m": 350.87688691113595,
+"rutas": [
+"HA611"
+],
+"n_rutas": 1,
+"trips": 205
+}
+],
+[
+"NM:br galerias",
+"NM:br nicolas de federman#0",
+{
+"dist_m": 856.8545015230526,
+"rutas": [
+"BD906",
+"C131",
+"DA213",
+"GA518",
+"GA538",
+"GA567",
+"K303",
+"KB309"
+],
+"n_rutas": 8,
+"trips": 1561
+}
+],
+[
+"NM:br galerias",
+"NM:br san luis#0",
+{
+"dist_m": 388.2263127437748,
+"rutas": [
+"AA003"
+],
+"n_rutas": 1,
+"trips": 107
+}
+],
+[
+"NM:br galerias",
+"NM:centro comercial galerias",
+{
+"dist_m": 38.78774020357568,
+"rutas": [
+"91",
+"97",
+"A720",
+"BD906",
+"C131",
+"DA213",
+"DA214",
+"DA218",
+"DL205",
+"GA506",
+"GA518",
+"GA538",
+"GA567",
+"HA720",
+"K303",
+"KB309",
+"LA805",
+"LA818"
+],
+"n_rutas": 18,
+"trips": 4890
+}
+],
+[
+"NM:br galerias",
+"NM:centro comercial galerias cl 52",
+{
+"dist_m": 147.45143724237656,
+"rutas": [
+"H131"
+],
+"n_rutas": 1,
+"trips": 263
+}
+],
+[
+"NM:br galerias",
+"NM:centro comercial morichal",
+{
+"dist_m": 174.6881477889929,
+"rutas": [
+"B303",
+"BD906",
+"DA213",
+"GA538",
+"GA567",
+"KB309"
+],
+"n_rutas": 6,
+"trips": 1104
+}
+],
+[
+"NM:br galerias",
+"NM:estadio el campin",
+{
+"dist_m": 451.1699054218216,
+"rutas": [
+"A605",
+"AA003",
+"SE14"
+],
+"n_rutas": 3,
+"trips": 659
+}
+],
+[
+"NM:br galerias",
+"NM:icontec",
+{
+"dist_m": 874.4246021651426,
+"rutas": [
+"B303",
+"BD906",
+"DA213",
+"GA538",
+"GA567",
+"H131",
+"KB309"
+],
+"n_rutas": 7,
+"trips": 1367
+}
+],
+[
+"NM:br galerias",
+"NM:ied palermo",
+{
+"dist_m": 469.6505544877898,
+"rutas": [
+"91",
+"97",
+"A720",
+"C131",
+"DA214",
+"DA218",
+"DL205",
+"GA506",
+"HA720",
+"LA805",
+"LA818"
+],
+"n_rutas": 11,
+"trips": 1850
+}
+],
+[
+"NM:br galerias",
+"NM:parque el campin",
+{
+"dist_m": 610.4912082361876,
+"rutas": [
+"A605",
+"SE14"
+],
+"n_rutas": 2,
+"trips": 552
+}
+],
+[
+"NM:br granada",
+"NM:br maria cristina",
+{
+"dist_m": 286.53754560304907,
+"rutas": [
+"HA601"
+],
+"n_rutas": 1,
+"trips": 260
+}
+],
+[
+"NM:br granada",
+"NM:camara de comercio cl 67",
+{
+"dist_m": 461.1781777973481,
+"rutas": [
+"HA601"
+],
+"n_rutas": 1,
+"trips": 130
+}
+],
+[
+"NM:br granada",
+"NM:ced simon bolivar sedeb",
+{
+"dist_m": 146.98910638039433,
+"rutas": [
+"166",
+"359",
+"56A",
+"A332",
+"B303",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 8,
+"trips": 1392
+}
+],
+[
+"NM:br granada",
+"NM:col sag corazon de jesus bethlem",
+{
+"dist_m": 404.48103979722015,
+"rutas": [
+"166",
+"359",
+"56A",
+"A332",
+"B303",
+"HA601",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 9,
+"trips": 1522
+}
+],
+[
+"NM:br j j vargas",
+"NM:centro comercial mi placita",
+{
+"dist_m": 507.8623719753203,
+"rutas": [
+"DH216"
+],
+"n_rutas": 1,
+"trips": 18
+}
+],
+[
+"NM:br j j vargas",
+"NM:ied centro obrero",
+{
+"dist_m": 210.38311819857554,
+"rutas": [
+"DH216"
+],
+"n_rutas": 1,
+"trips": 206
+}
+],
+[
+"NM:br juan xxiii",
+"NM:br la aurora",
+{
+"dist_m": 392.49837098550347,
+"rutas": [
+"BA900",
+"H605"
+],
+"n_rutas": 2,
+"trips": 449
+}
+],
+[
+"NM:br juan xxiii",
+"NM:br polo club",
+{
+"dist_m": 338.77156611626674,
+"rutas": [
+"GA518",
+"H605"
+],
+"n_rutas": 2,
+"trips": 505
+}
+],
+[
+"NM:br juan xxiii",
+"NM:br san felipe",
+{
+"dist_m": 584.3339243792578,
+"rutas": [
+"BA900",
+"CA103",
+"GA518"
+],
+"n_rutas": 3,
+"trips": 543
+}
+],
+[
+"NM:br juan xxiii",
+"NM:estacion el polo",
+{
+"dist_m": 246.9756439761782,
+"rutas": [
+"BA900",
+"CA103"
+],
+"n_rutas": 2,
+"trips": 349
+}
+],
+[
+"NM:br julio flores",
+"NM:br la alborada",
+{
+"dist_m": 431.2097732452149,
+"rutas": [
+"HD630"
+],
+"n_rutas": 1,
+"trips": 236
+}
+],
+[
+"NM:br julio flores",
+"NM:br santa rosa",
+{
+"dist_m": 274.00494603505626,
+"rutas": [
+"CD122"
+],
+"n_rutas": 1,
+"trips": 181
+}
+],
+[
+"NM:br julio flores",
+"NM:urb los sauces",
+{
+"dist_m": 214.65251129856196,
+"rutas": [
+"CA124",
+"CD122",
+"HD607"
+],
+"n_rutas": 3,
+"trips": 623
+}
+],
+[
+"NM:br julio florez",
+"NM:br la alborada",
+{
+"dist_m": 614.796713674221,
+"rutas": [
+"HD630"
+],
+"n_rutas": 1,
+"trips": 236
+}
+],
+[
+"NM:br julio florez",
+"NM:cafam floresta",
+{
+"dist_m": 210.9307545185297,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"BD237",
+"BK904",
+"E44",
+"F404",
+"G156",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD607",
+"HD630",
+"K305",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 22,
+"trips": 4513
+}
+],
+[
+"NM:br julio florez",
+"NM:ied julio florez",
+{
+"dist_m": 443.32521112710594,
+"rutas": [
+"HD630"
+],
+"n_rutas": 1,
+"trips": 472
+}
+],
+[
+"NM:br julio florez",
+"NM:parque andes norte",
+{
+"dist_m": 564.1938191964749,
+"rutas": [
+"291",
+"634",
+"BK904",
+"F404",
+"G156",
+"HD607",
+"K305",
+"K916",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 11,
+"trips": 1982
+}
+],
+[
+"NM:br la alhambra",
+"NM:br san patricio",
+{
+"dist_m": 1011.2709075106409,
+"rutas": [
+"C25",
+"E17",
+"T21"
+],
+"n_rutas": 3,
+"trips": 570
+}
+],
+[
+"NM:br la aurora",
+"NM:embajada de paz de colombia",
+{
+"dist_m": 1010.0506081160884,
+"rutas": [
+"91"
+],
+"n_rutas": 1,
+"trips": 17
+}
+],
+[
+"NM:br la aurora",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 294.9482098601311,
+"rutas": [
+"A605"
+],
+"n_rutas": 1,
+"trips": 311
+}
+],
+[
+"NM:br la aurora",
+"NM:urb santa sofia",
+{
+"dist_m": 427.8584670285205,
+"rutas": [
+"A605"
+],
+"n_rutas": 1,
+"trips": 311
+}
+],
+[
+"NM:br la cabrera",
+"NM:calle 83",
+{
+"dist_m": 457.9936764745608,
+"rutas": [
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 4,
+"trips": 959
+}
+],
+[
+"NM:br la cabrera",
+"NM:centro comercial andino",
+{
+"dist_m": 310.5048587681423,
+"rutas": [
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"GA538",
+"H907",
+"K303",
+"KA306",
+"KA319",
+"KB309",
+"L919",
+"P500",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 22,
+"trips": 3406
+}
+],
+[
+"NM:br la cabrera",
+"NM:centro comercial la cabrera",
+{
+"dist_m": 234.99605197121747,
+"rutas": [
+"GA538",
+"KA306",
+"KA319"
+],
+"n_rutas": 3,
+"trips": 713
+}
+],
+[
+"NM:br la cabrera",
+"NM:k11 cl86a",
+{
+"dist_m": 313.93956920241345,
+"rutas": [
+"19-8"
+],
+"n_rutas": 1,
+"trips": 219
+}
+],
+[
+"NM:br la cabrera",
+"NM:parque leon de greiff",
+{
+"dist_m": 528.1904488593705,
+"rutas": [
+"19-8"
+],
+"n_rutas": 1,
+"trips": 219
+}
+],
+[
+"NM:br la cabrera",
+"NM:pquia la inmaculada concepcion",
+{
+"dist_m": 376.79147812846486,
+"rutas": [
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"H907",
+"K303",
+"KB309",
+"L919",
+"P500",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 19,
+"trips": 2693
+}
+],
+[
+"NM:br la castellana#0",
+"NM:estacion la castellana",
+{
+"dist_m": 545.3307533495318,
+"rutas": [
+"191",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 8,
+"trips": 1623
+}
+],
+[
+"NM:br la castellana#0",
+"NM:estacion san martin",
+{
+"dist_m": 614.6873798891733,
+"rutas": [
+"599",
+"BA900"
+],
+"n_rutas": 2,
+"trips": 355
+}
+],
+[
+"NM:br la castellana#0",
+"NM:hotel dann carlton",
+{
+"dist_m": 588.6521246143591,
+"rutas": [
+"191",
+"BA900",
+"BD995",
+"CA103",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 1972
+}
+],
+[
+"NM:br la castellana#1",
+"NM:br pasadena#0",
+{
+"dist_m": 393.46210141902725,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 335
+}
+],
+[
+"NM:br la castellana#1",
+"NM:centro comercial iserra 100",
+{
+"dist_m": 465.25572347742644,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"A305",
+"B916",
+"BD237",
+"BK904",
+"C404",
+"HA606",
+"HA610",
+"HA611",
+"K305",
+"KB326",
+"T62",
+"T795",
+"Z4B",
+"Z8"
+],
+"n_rutas": 19,
+"trips": 4147
+}
+],
+[
+"NM:br la castellana#1",
+"NM:centro empresarial calle 100",
+{
+"dist_m": 795.1815899807186,
+"rutas": [
+"193B",
+"291",
+"402",
+"442",
+"634",
+"661",
+"B916",
+"BD237",
+"BK904",
+"C404",
+"CA151",
+"HA606",
+"HA610",
+"HA611",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 18,
+"trips": 3580
+}
+],
+[
+"NM:br la castellana#1",
+"NM:estacion calle 100",
+{
+"dist_m": 357.95415936494226,
+"rutas": [
+"A305",
+"T795"
+],
+"n_rutas": 2,
+"trips": 451
+}
+],
+[
+"NM:br la castellana#1",
+"NM:teatro la castellana",
+{
+"dist_m": 347.9241425130806,
+"rutas": [
+"K305",
+"T795"
+],
+"n_rutas": 2,
+"trips": 451
+}
+],
+[
+"NM:br la esperanza",
+"NM:br san luis#1",
+{
+"dist_m": 295.6507887189668,
+"rutas": [
+"P500"
+],
+"n_rutas": 1,
+"trips": 100
+}
+],
+[
+"NM:br la esperanza",
+"NM:centro johann kepler",
+{
+"dist_m": 318.630308877317,
+"rutas": [
+"192",
+"669",
+"B919",
+"BD906",
+"C134",
+"CA151",
+"DA215",
+"GA507",
+"GA538",
+"GA567",
+"HA600",
+"KB309",
+"SE10"
+],
+"n_rutas": 13,
+"trips": 2448
+}
+],
+[
+"NM:br la esperanza",
+"NM:colegio san pedro nolasco",
+{
+"dist_m": 500.0274983503676,
+"rutas": [
+"669",
+"DA215",
+"SE10"
+],
+"n_rutas": 3,
+"trips": 641
+}
+],
+[
+"NM:br la paz",
+"NM:cementerio chapinero",
+{
+"dist_m": 170.5446345983718,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"K306",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 9,
+"trips": 1673
+}
+],
+[
+"NM:br la paz",
+"NM:estacion avenida chile",
+{
+"dist_m": 568.0411704844571,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1820
+}
+],
+[
+"NM:br la paz",
+"NM:estacion simon bolivar",
+{
+"dist_m": 541.0568143805863,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1809
+}
+],
+[
+"NM:br la salle",
+"NM:col sag corazon de jesus bethlem",
+{
+"dist_m": 290.9879664042753,
+"rutas": [
+"166",
+"359",
+"56A",
+"593",
+"A332",
+"B303",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 16,
+"trips": 3204
+}
+],
+[
+"NM:br la salle",
+"NM:universidad de la salle",
+{
+"dist_m": 267.4406937569082,
+"rutas": [
+"166",
+"359",
+"56A",
+"593",
+"A332",
+"B303",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 16,
+"trips": 3204
+}
+],
+[
+"NM:br la soledad",
+"NM:br palermo ac 45",
+{
+"dist_m": 262.52509163980443,
+"rutas": [
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA506",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 8,
+"trips": 1199
+}
+],
+[
+"NM:br la soledad",
+"NM:br santa teresita",
+{
+"dist_m": 435.7801002637796,
+"rutas": [
+"166",
+"A332",
+"KA319",
+"KA332"
+],
+"n_rutas": 4,
+"trips": 680
+}
+],
+[
+"NM:br la soledad",
+"NM:cai la soledad",
+{
+"dist_m": 285.92838946148,
+"rutas": [
+"A720",
+"DA214",
+"DA218",
+"DL205",
+"GA506",
+"HA720",
+"LA805"
+],
+"n_rutas": 7,
+"trips": 1244
+}
+],
+[
+"NM:br la soledad",
+"NM:clinica palermo",
+{
+"dist_m": 318.38625543274236,
+"rutas": [
+"91",
+"A720",
+"DA214",
+"DA218",
+"DL205",
+"GA506",
+"HA720",
+"LA805"
+],
+"n_rutas": 8,
+"trips": 1244
+}
+],
+[
+"NM:br la soledad",
+"NM:estacion avenida el dorado",
+{
+"dist_m": 384.6046803927735,
+"rutas": [
+"166",
+"91",
+"A332",
+"KA319",
+"KA332"
+],
+"n_rutas": 5,
+"trips": 818
+}
+],
+[
+"NM:br las ferias",
+"NM:exito calle 80",
+{
+"dist_m": 384.589869097029,
+"rutas": [
+"621",
+"DA214"
+],
+"n_rutas": 2,
+"trips": 364
+}
+],
+[
+"NM:br los alcazares norte",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 240.15133833136736,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1539
+}
+],
+[
+"NM:br los alcazares norte",
+"NM:sede comunal 11 de noviembre",
+{
+"dist_m": 177.0284246743765,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1539
+}
+],
+[
+"NM:br los andes",
+"NM:br los andes norte",
+{
+"dist_m": 317.87678209897183,
+"rutas": [
+"C156",
+"HC705"
+],
+"n_rutas": 2,
+"trips": 384
+}
+],
+[
+"NM:br los andes",
+"NM:cafam floresta",
+{
+"dist_m": 509.21536067042723,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"A305",
+"B916",
+"BD237",
+"BK904",
+"C156",
+"C404",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 19,
+"trips": 3858
+}
+],
+[
+"NM:br los andes",
+"NM:estacion suba calle 100",
+{
+"dist_m": 417.5705669430856,
+"rutas": [
+"291",
+"402",
+"442",
+"634",
+"661",
+"A305",
+"B916",
+"BD237",
+"BK904",
+"C404",
+"HA606",
+"HA610",
+"HA611",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 17,
+"trips": 3474
+}
+],
+[
+"NM:br los andes norte",
+"NM:cafam floresta",
+{
+"dist_m": 819.4870776378525,
+"rutas": [
+"E44"
+],
+"n_rutas": 1,
+"trips": 218
+}
+],
+[
+"NM:br los andes norte",
+"NM:centro comercial puente largo",
+{
+"dist_m": 287.4072241961535,
+"rutas": [
+"C156",
+"E44"
+],
+"n_rutas": 2,
+"trips": 366
+}
+],
+[
+"NM:br marly",
+"NM:br sucre",
+{
+"dist_m": 365.8557923737074,
+"rutas": [
+"593",
+"CA124",
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1395
+}
+],
+[
+"NM:br marly",
+"NM:comfenalco",
+{
+"dist_m": 586.6423523515631,
+"rutas": [
+"KA332"
+],
+"n_rutas": 1,
+"trips": 193
+}
+],
+[
+"NM:br marly",
+"NM:estacion calle 45",
+{
+"dist_m": 463.74433390506044,
+"rutas": [
+"166",
+"193B",
+"97",
+"AA003",
+"C131",
+"C15",
+"KA319",
+"KA332"
+],
+"n_rutas": 8,
+"trips": 1572
+}
+],
+[
+"NM:br marly",
+"NM:sena#1",
+{
+"dist_m": 319.20215048635885,
+"rutas": [
+"579",
+"97",
+"C131",
+"T40"
+],
+"n_rutas": 4,
+"trips": 284
+}
+],
+[
+"NM:br marly",
+"NM:universidad javeriana",
+{
+"dist_m": 439.8578877781471,
+"rutas": [
+"C131",
+"T40"
+],
+"n_rutas": 2,
+"trips": 422
+}
+],
+[
+"NM:br marly",
+"NM:universidad la gran colombia",
+{
+"dist_m": 409.4436497963369,
+"rutas": [
+"579",
+"T40"
+],
+"n_rutas": 2,
+"trips": 227
+}
+],
+[
+"NM:br marly",
+"NM:universidad piloto",
+{
+"dist_m": 200.0782730310262,
+"rutas": [
+"166",
+"193B",
+"AA003",
+"C15",
+"KA319",
+"KA332"
+],
+"n_rutas": 6,
+"trips": 954
+}
+],
+[
+"NM:br molinos norte",
+"NM:br rincon del chico",
+{
+"dist_m": 484.54956575803277,
+"rutas": [
+"191",
+"BD995",
+"CA103",
+"E17",
+"E43",
+"F404",
+"HB608",
+"HB631",
+"T11",
+"T26"
+],
+"n_rutas": 10,
+"trips": 1666
+}
+],
+[
+"NM:br molinos norte",
+"NM:calle 112",
+{
+"dist_m": 530.9925518992283,
+"rutas": [
+"192",
+"B303",
+"BD237",
+"BD906",
+"C134",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"HB609",
+"KB326",
+"T26",
+"Z4B"
+],
+"n_rutas": 13,
+"trips": 2228
+}
+],
+[
+"NM:br monaco",
+"NM:br pasadena#1",
+{
+"dist_m": 455.5713416915757,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 340
+}
+],
+[
+"NM:br monaco",
+"NM:br puente largo#0",
+{
+"dist_m": 328.9021401060501,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 335
+}
+],
+[
+"NM:br muequeta",
+"NM:br quinta mutis",
+{
+"dist_m": 228.52901050072902,
+"rutas": [
+"142",
+"59B",
+"FA410",
+"GA532",
+"GA541"
+],
+"n_rutas": 5,
+"trips": 926
+}
+],
+[
+"NM:br muequeta",
+"NM:muequeta",
+{
+"dist_m": 222.87816541647203,
+"rutas": [
+"621"
+],
+"n_rutas": 1,
+"trips": 209
+}
+],
+[
+"NM:br nicolas de federman#0",
+"NM:calle 63",
+{
+"dist_m": 970.0814280308109,
+"rutas": [
+"599"
+],
+"n_rutas": 1,
+"trips": 217
+}
+],
+[
+"NM:br nicolas de federman#0",
+"NM:estacion el campin",
+{
+"dist_m": 354.1643896042066,
+"rutas": [
+"191",
+"H605",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 2125
+}
+],
+[
+"NM:br nicolas de federman#0",
+"NM:inst geografico agustin codazzi",
+{
+"dist_m": 705.2373111122347,
+"rutas": [
+"191",
+"599",
+"H605",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 2342
+}
+],
+[
+"NM:br nicolas de federman#1",
+"NM:br nicolas de federmann",
+{
+"dist_m": 109.04159129048996,
+"rutas": [
+"DH216",
+"GA532",
+"GA541"
+],
+"n_rutas": 3,
+"trips": 585
+}
+],
+[
+"NM:br nicolas de federman#1",
+"NM:parque de los novios",
+{
+"dist_m": 337.6431994437308,
+"rutas": [
+"GA532",
+"GA541"
+],
+"n_rutas": 2,
+"trips": 361
+}
+],
+[
+"NM:br pablo vi norte",
+"NM:parque de los novios",
+{
+"dist_m": 359.3815868478211,
+"rutas": [
+"GA532",
+"GA541"
+],
+"n_rutas": 2,
+"trips": 361
+}
+],
+[
+"NM:br palermo",
+"NM:br santa teresita",
+{
+"dist_m": 70.53787014985383,
+"rutas": [
+"579",
+"593",
+"731",
+"C131",
+"CA124",
+"GA537"
+],
+"n_rutas": 6,
+"trips": 534
+}
+],
+[
+"NM:br palermo",
+"NM:canal arzobispo#0",
+{
+"dist_m": 258.72377351757837,
+"rutas": [
+"142",
+"192",
+"56A",
+"579",
+"593",
+"621",
+"669",
+"731",
+"B919",
+"C131",
+"C134",
+"C15",
+"CA124",
+"CA151",
+"DA215",
+"GA507",
+"GA516",
+"GA537",
+"HA600",
+"LA809",
+"LA818",
+"SE10"
+],
+"n_rutas": 22,
+"trips": 3350
+}
+],
+[
+"NM:br palermo",
+"NM:clinica palermo",
+{
+"dist_m": 451.83509549652825,
+"rutas": [
+"97",
+"C131",
+"LA818"
+],
+"n_rutas": 3,
+"trips": 606
+}
+],
+[
+"NM:br palermo",
+"NM:colegio americano de bogota",
+{
+"dist_m": 280.78240528710546,
+"rutas": [
+"C15"
+],
+"n_rutas": 1,
+"trips": 203
+}
+],
+[
+"NM:br palermo",
+"NM:colegio el carmelo",
+{
+"dist_m": 586.7162936377902,
+"rutas": [
+"166",
+"AA003",
+"KA319",
+"KA332"
+],
+"n_rutas": 4,
+"trips": 787
+}
+],
+[
+"NM:br palermo",
+"NM:estacion calle 45",
+{
+"dist_m": 365.7310593036251,
+"rutas": [
+"166",
+"193B",
+"56A",
+"97",
+"AA003",
+"C131",
+"C15",
+"KA319",
+"KA332"
+],
+"n_rutas": 9,
+"trips": 1589
+}
+],
+[
+"NM:br palermo",
+"NM:parque gernika",
+{
+"dist_m": 219.71853630381838,
+"rutas": [
+"142",
+"192",
+"193B",
+"621",
+"669",
+"B919",
+"C134",
+"C15",
+"CA151",
+"DA215",
+"GA507",
+"GA516",
+"HA600",
+"LA809",
+"SE10"
+],
+"n_rutas": 15,
+"trips": 2775
+}
+],
+[
+"NM:br palermo ac 45",
+"NM:br santa teresita",
+{
+"dist_m": 385.18733174032286,
+"rutas": [
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"HA720"
+],
+"n_rutas": 5,
+"trips": 112
+}
+],
+[
+"NM:br palermo ac 45",
+"NM:colegio el carmelo",
+{
+"dist_m": 192.53642153505135,
+"rutas": [
+"91"
+],
+"n_rutas": 1,
+"trips": 138
+}
+],
+[
+"NM:br palermo ac 45",
+"NM:ied palermo",
+{
+"dist_m": 354.4849318391213,
+"rutas": [
+"91",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA506",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 9,
+"trips": 1471
+}
+],
+[
+"NM:br pardo rubio",
+"NM:br sucre",
+{
+"dist_m": 397.5804687193421,
+"rutas": [
+"166",
+"56A",
+"593",
+"A332",
+"B907",
+"CA124",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 13,
+"trips": 877
+}
+],
+[
+"NM:br pardo rubio",
+"NM:direccion de sanidad",
+{
+"dist_m": 529.7734940033417,
+"rutas": [
+"166",
+"359",
+"56A",
+"593",
+"59B",
+"A332",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 16,
+"trips": 3072
+}
+],
+[
+"NM:br pardo rubio",
+"NM:universidad javeriana",
+{
+"dist_m": 433.54406338503713,
+"rutas": [
+"359",
+"56A",
+"593",
+"59B",
+"B907",
+"CA124",
+"HA601",
+"HA642",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 12,
+"trips": 2195
+}
+],
+[
+"NM:br pasadena#0",
+"NM:br puente largo#0",
+{
+"dist_m": 766.7470913208738,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 335
+}
+],
+[
+"NM:br pasadena#1",
+"NM:parroquia santo domingo savio",
+{
+"dist_m": 238.44197229692602,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 358
+}
+],
+[
+"NM:br polo club",
+"NM:cai polo club",
+{
+"dist_m": 545.7989112144705,
+"rutas": [
+"599",
+"H605"
+],
+"n_rutas": 2,
+"trips": 528
+}
+],
+[
+"NM:br polo club",
+"NM:estacion calle 85",
+{
+"dist_m": 389.96341835839337,
+"rutas": [
+"AB020"
+],
+"n_rutas": 1,
+"trips": 33
+}
+],
+[
+"NM:br polo club",
+"NM:estacion polo",
+{
+"dist_m": 231.38742529390368,
+"rutas": [
+"599",
+"AB020",
+"CA103"
+],
+"n_rutas": 3,
+"trips": 461
+}
+],
+[
+"NM:br porciuncula",
+"NM:br san felipe",
+{
+"dist_m": 594.3339598522896,
+"rutas": [
+"91",
+"CA124",
+"KA334",
+"T06"
+],
+"n_rutas": 4,
+"trips": 764
+}
+],
+[
+"NM:br porciuncula",
+"NM:calle 74",
+{
+"dist_m": 617.9739664728627,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 284
+}
+],
+[
+"NM:br porciuncula",
+"NM:centro comercial avenida chile",
+{
+"dist_m": 373.8107527935104,
+"rutas": [
+"91"
+],
+"n_rutas": 1,
+"trips": 121
+}
+],
+[
+"NM:br porciuncula",
+"NM:centro comercial unilago",
+{
+"dist_m": 528.4061112222331,
+"rutas": [
+"192",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 13,
+"trips": 1987
+}
+],
+[
+"NM:br porciuncula",
+"NM:embajada de inglaterra",
+{
+"dist_m": 365.51344054790366,
+"rutas": [
+"AA002",
+"CA124",
+"KA334",
+"T06"
+],
+"n_rutas": 4,
+"trips": 460
+}
+],
+[
+"NM:br porciuncula",
+"NM:universidad ean",
+{
+"dist_m": 521.4915326539292,
+"rutas": [
+"166",
+"56A",
+"A332",
+"KA332",
+"LA814"
+],
+"n_rutas": 5,
+"trips": 720
+}
+],
+[
+"NM:br porciuncula",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 244.15516559554197,
+"rutas": [
+"166",
+"192",
+"193B",
+"466",
+"56A",
+"593",
+"91",
+"A134",
+"AA002",
+"BD906",
+"CA117",
+"CA124",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"GA538",
+"H907",
+"HA642",
+"K303",
+"KA306",
+"KA319",
+"KA332",
+"KA334",
+"KB309",
+"L919",
+"LA814",
+"P500",
+"T06",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 33,
+"trips": 6275
+}
+],
+[
+"NM:br porciuncula",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 173.03174739264938,
+"rutas": [
+"192",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA103",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 14,
+"trips": 2325
+}
+],
+[
+"NM:br puente largo#1",
+"NM:centro comercial puente largo",
+{
+"dist_m": 392.16918696329657,
+"rutas": [
+"599",
+"C156",
+"E44",
+"T795"
+],
+"n_rutas": 4,
+"trips": 805
+}
+],
+[
+"NM:br quesada",
+"NM:calle 51 br quesada",
+{
+"dist_m": 242.34496885433038,
+"rutas": [
+"LA809"
+],
+"n_rutas": 1,
+"trips": 153
+}
+],
+[
+"NM:br quesada",
+"NM:comfenalco",
+{
+"dist_m": 423.50229010536,
+"rutas": [
+"B303"
+],
+"n_rutas": 1,
+"trips": 233
+}
+],
+[
+"NM:br quesada",
+"NM:fundacion oftalmologica nacional",
+{
+"dist_m": 305.82531493514915,
+"rutas": [
+"LA809"
+],
+"n_rutas": 1,
+"trips": 153
+}
+],
+[
+"NM:br quesada",
+"NM:parque gernika",
+{
+"dist_m": 608.4533857650199,
+"rutas": [
+"142",
+"193B",
+"621",
+"669",
+"DA215",
+"HA600",
+"SE10"
+],
+"n_rutas": 7,
+"trips": 1311
+}
+],
+[
+"NM:br quinta camacho",
+"NM:camara de comercio cl 67",
+{
+"dist_m": 331.9693525093504,
+"rutas": [
+"B303",
+"KA319"
+],
+"n_rutas": 2,
+"trips": 262
+}
+],
+[
+"NM:br quinta camacho",
+"NM:centro comercial avenida chile",
+{
+"dist_m": 314.15380438652744,
+"rutas": [
+"12",
+"E25"
+],
+"n_rutas": 2,
+"trips": 305
+}
+],
+[
+"NM:br quinta camacho",
+"NM:cl 67",
+{
+"dist_m": 276.27697958337495,
+"rutas": [
+"12",
+"166",
+"193B",
+"359",
+"56A",
+"A332",
+"E25",
+"FA410",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 11,
+"trips": 1874
+}
+],
+[
+"NM:br quinta camacho",
+"NM:clin de traumatologia y ortopedi",
+{
+"dist_m": 196.81758410985606,
+"rutas": [
+"166",
+"192",
+"193B",
+"359",
+"466",
+"56A",
+"593",
+"A134",
+"AA002",
+"BD906",
+"CA117",
+"CA151",
+"E25",
+"FA410",
+"FA427",
+"GA538",
+"GA567",
+"H907",
+"HA642",
+"K303",
+"KA306",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 29,
+"trips": 4557
+}
+],
+[
+"NM:br quinta camacho",
+"NM:clinica del nino",
+{
+"dist_m": 283.8676858693902,
+"rutas": [
+"166",
+"192",
+"193B",
+"359",
+"466",
+"56A",
+"593",
+"A134",
+"AA002",
+"BD906",
+"CA117",
+"CA151",
+"E25",
+"FA410",
+"FA427",
+"GA538",
+"GA567",
+"H907",
+"HA642",
+"K303",
+"KA306",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 29,
+"trips": 4974
+}
+],
+[
+"NM:br quinta camacho",
+"NM:k11 cl70a",
+{
+"dist_m": 172.37648710700287,
+"rutas": [
+"56A",
+"AA002"
+],
+"n_rutas": 2,
+"trips": 417
+}
+],
+[
+"NM:br quinta camacho",
+"NM:universidad ean",
+{
+"dist_m": 315.57661852963116,
+"rutas": [
+"166",
+"193B",
+"359",
+"56A",
+"A332",
+"B303",
+"E25",
+"FA410",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 11,
+"trips": 1831
+}
+],
+[
+"NM:br quinta mutis",
+"NM:ied alemania solidaria",
+{
+"dist_m": 191.58065413252717,
+"rutas": [
+"142",
+"59B",
+"FA410",
+"GA532",
+"GA541",
+"H605",
+"P500"
+],
+"n_rutas": 7,
+"trips": 1337
+}
+],
+[
+"NM:br quinta mutis",
+"NM:quinta mutis",
+{
+"dist_m": 305.2546230820325,
+"rutas": [
+"H605",
+"P500"
+],
+"n_rutas": 2,
+"trips": 411
+}
+],
+[
+"NM:br rafael nunez",
+"NM:icontec",
+{
+"dist_m": 302.43204294451414,
+"rutas": [
+"B303",
+"BD906",
+"DA213",
+"GA518",
+"GA538",
+"GA567",
+"H131",
+"KB309"
+],
+"n_rutas": 8,
+"trips": 1561
+}
+],
+[
+"NM:br rafael uribe",
+"NM:carrera 17",
+{
+"dist_m": 285.23257503079503,
+"rutas": [
+"12",
+"466",
+"669",
+"AA002",
+"FA427",
+"SE10"
+],
+"n_rutas": 6,
+"trips": 1211
+}
+],
+[
+"NM:br rafael uribe",
+"NM:pl 7 de agosto",
+{
+"dist_m": 196.06480959481542,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 309
+}
+],
+[
+"NM:br rincon del chico",
+"NM:br santa bibiana#0",
+{
+"dist_m": 551.1197637113976,
+"rutas": [
+"402",
+"442",
+"661",
+"AB020",
+"BD237",
+"F404",
+"HA606",
+"HA610",
+"K916",
+"Z4B",
+"Z8"
+],
+"n_rutas": 11,
+"trips": 1975
+}
+],
+[
+"NM:br rincon del chico",
+"NM:centro de negocios chico plaza",
+{
+"dist_m": 471.6181259290811,
+"rutas": [
+"192",
+"B303",
+"BD906",
+"C134",
+"CA117",
+"CA164",
+"DA203",
+"E61"
+],
+"n_rutas": 8,
+"trips": 1189
+}
+],
+[
+"NM:br rincon del chico",
+"NM:colsanitas cl 100",
+{
+"dist_m": 353.1241670514726,
+"rutas": [
+"T12"
+],
+"n_rutas": 1,
+"trips": 220
+}
+],
+[
+"NM:br rincon del chico",
+"NM:escuela de infanteria",
+{
+"dist_m": 398.1140459148676,
+"rutas": [
+"191",
+"402",
+"442",
+"634",
+"661",
+"AB020",
+"BD237",
+"BD995",
+"C134",
+"C404",
+"CA103",
+"CA151",
+"F404",
+"HA606",
+"HA610",
+"HB608",
+"HB631",
+"K916",
+"T11",
+"T12",
+"Z4B",
+"Z8"
+],
+"n_rutas": 22,
+"trips": 4133
+}
+],
+[
+"NM:br san felipe",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 569.3358469643218,
+"rutas": [
+"12",
+"359",
+"91",
+"CA124",
+"E25",
+"KA334"
+],
+"n_rutas": 6,
+"trips": 1026
+}
+],
+[
+"NM:br san felipe",
+"NM:unitec",
+{
+"dist_m": 103.22328704595148,
+"rutas": [
+"12",
+"E25"
+],
+"n_rutas": 2,
+"trips": 305
+}
+],
+[
+"NM:br san felipe",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 751.8261409894785,
+"rutas": [
+"359"
+],
+"n_rutas": 1,
+"trips": 146
+}
+],
+[
+"NM:br san felipe",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 440.15664885937775,
+"rutas": [
+"192",
+"359",
+"466",
+"CA117",
+"GA567",
+"P500"
+],
+"n_rutas": 6,
+"trips": 756
+}
+],
+[
+"NM:br san fernando",
+"NM:monumento rafael uribe uribe",
+{
+"dist_m": 574.1700787880708,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1427
+}
+],
+[
+"NM:br san fernando",
+"NM:parque publico san fernando",
+{
+"dist_m": 344.7085888265067,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1427
+}
+],
+[
+"NM:br san fernando occidental",
+"NM:ced avenida chile",
+{
+"dist_m": 333.4530135398753,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1234
+}
+],
+[
+"NM:br san fernando occidental",
+"NM:centro comercial mi placita",
+{
+"dist_m": 74.52026615580733,
+"rutas": [
+"CA124",
+"G137",
+"G208",
+"KA334"
+],
+"n_rutas": 4,
+"trips": 917
+}
+],
+[
+"NM:br san fernando occidental",
+"NM:colegio cooperativo union social",
+{
+"dist_m": 178.73391703186934,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"DH216",
+"FA427",
+"SE10",
+"SE14"
+],
+"n_rutas": 8,
+"trips": 1631
+}
+],
+[
+"NM:br san fernando occidental",
+"NM:san fernando occidental",
+{
+"dist_m": 330.10473447394975,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1581
+}
+],
+[
+"NM:br san luis#0",
+"NM:est nemesio camacho el campin",
+{
+"dist_m": 363.34208098077687,
+"rutas": [
+"97"
+],
+"n_rutas": 1,
+"trips": 162
+}
+],
+[
+"NM:br san luis#0",
+"NM:parque el divino salvador",
+{
+"dist_m": 451.60021808883073,
+"rutas": [
+"DA213",
+"GA538"
+],
+"n_rutas": 2,
+"trips": 357
+}
+],
+[
+"NM:br san luis#0",
+"NM:san luis",
+{
+"dist_m": 50.664997355837244,
+"rutas": [
+"97"
+],
+"n_rutas": 1,
+"trips": 162
+}
+],
+[
+"NM:br san luis#0",
+"NM:san luis cl 58",
+{
+"dist_m": 84.08737499141199,
+"rutas": [
+"DA213",
+"GA538"
+],
+"n_rutas": 2,
+"trips": 357
+}
+],
+[
+"NM:br san luis#1",
+"NM:cenda",
+{
+"dist_m": 321.5455581888623,
+"rutas": [
+"142",
+"59B",
+"621",
+"FA410",
+"GA532",
+"GA541",
+"P500"
+],
+"n_rutas": 7,
+"trips": 1235
+}
+],
+[
+"NM:br san luis#1",
+"NM:centro johann kepler",
+{
+"dist_m": 171.87125384203532,
+"rutas": [
+"142",
+"59B",
+"621",
+"FA410",
+"GA532",
+"GA541"
+],
+"n_rutas": 6,
+"trips": 1135
+}
+],
+[
+"NM:br san miguel",
+"NM:estacion avenida chile",
+{
+"dist_m": 619.8994150531013,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1840
+}
+],
+[
+"NM:br san miguel",
+"NM:estacion simon bolivar",
+{
+"dist_m": 342.63347017487615,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 2081
+}
+],
+[
+"NM:br san miguel",
+"NM:hsp infantil san jose",
+{
+"dist_m": 559.1517245374815,
+"rutas": [
+"SE14"
+],
+"n_rutas": 1,
+"trips": 241
+}
+],
+[
+"NM:br san patricio",
+"NM:br santa barbara central",
+{
+"dist_m": 972.5499533536787,
+"rutas": [
+"C25"
+],
+"n_rutas": 1,
+"trips": 206
+}
+],
+[
+"NM:br san patricio",
+"NM:br santa barbara central i y ii",
+{
+"dist_m": 1038.4089595945516,
+"rutas": [
+"B908",
+"E17",
+"T21"
+],
+"n_rutas": 3,
+"trips": 497
+}
+],
+[
+"NM:br san patricio",
+"NM:br santa bibiana#0",
+{
+"dist_m": 854.3900433078295,
+"rutas": [
+"192",
+"291",
+"A134",
+"BA900",
+"BK904",
+"CA117",
+"K303",
+"KB309",
+"T62"
+],
+"n_rutas": 9,
+"trips": 864
+}
+],
+[
+"NM:br san patricio",
+"NM:estacion calle 106",
+{
+"dist_m": 749.2987288558156,
+"rutas": [
+"B908"
+],
+"n_rutas": 1,
+"trips": 306
+}
+],
+[
+"NM:br san patricio",
+"NM:parque canal molinos",
+{
+"dist_m": 40.00679789520928,
+"rutas": [
+"291",
+"BA900",
+"BK904",
+"KB309",
+"T62"
+],
+"n_rutas": 5,
+"trips": 739
+}
+],
+[
+"NM:br san patricio",
+"NM:parque navarra",
+{
+"dist_m": 554.0880901614738,
+"rutas": [
+"291",
+"BA900",
+"BK904",
+"KB309",
+"T62"
+],
+"n_rutas": 5,
+"trips": 756
+}
+],
+[
+"NM:br santa ana occidental",
+"NM:escuela de infanteria",
+{
+"dist_m": 635.2529074161264,
+"rutas": [
+"191",
+"634",
+"BD995",
+"C404",
+"CA103",
+"HB608",
+"HB631",
+"T11"
+],
+"n_rutas": 8,
+"trips": 1613
+}
+],
+[
+"NM:br santa barbara central",
+"NM:br santa barbara occidental",
+{
+"dist_m": 856.4390109103546,
+"rutas": [
+"B920",
+"C25",
+"E17",
+"T21"
+],
+"n_rutas": 4,
+"trips": 518
+}
+],
+[
+"NM:br santa barbara central",
+"NM:calle 119",
+{
+"dist_m": 292.1747846627272,
+"rutas": [
+"C25",
+"CB161",
+"HB609"
+],
+"n_rutas": 3,
+"trips": 537
+}
+],
+[
+"NM:br santa bibiana#0",
+"NM:calle 110",
+{
+"dist_m": 760.5003896411179,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"K303",
+"KB326",
+"Z4B"
+],
+"n_rutas": 10,
+"trips": 1456
+}
+],
+[
+"NM:br santa bibiana#0",
+"NM:centro de negocios chico plaza",
+{
+"dist_m": 623.5575243168244,
+"rutas": [
+"193B"
+],
+"n_rutas": 1,
+"trips": 139
+}
+],
+[
+"NM:br santa bibiana#0",
+"NM:parque navarra",
+{
+"dist_m": 337.43643102090545,
+"rutas": [
+"291",
+"BA900",
+"BK904",
+"KB309",
+"T62"
+],
+"n_rutas": 5,
+"trips": 756
+}
+],
+[
+"NM:br santa rosa",
+"NM:ied santa rosa",
+{
+"dist_m": 242.87380153938582,
+"rutas": [
+"CD122"
+],
+"n_rutas": 1,
+"trips": 362
+}
+],
+[
+"NM:br santa rosa",
+"NM:parque la floresta",
+{
+"dist_m": 653.5565475859706,
+"rutas": [
+"CA124",
+"CD122"
+],
+"n_rutas": 2,
+"trips": 419
+}
+],
+[
+"NM:br santa rosa",
+"NM:portal de pontevedra",
+{
+"dist_m": 435.1665388915928,
+"rutas": [
+"193B",
+"607A"
+],
+"n_rutas": 2,
+"trips": 325
+}
+],
+[
+"NM:br santa teresita",
+"NM:br santa teresita cl 43",
+{
+"dist_m": 131.89485489686746,
+"rutas": [
+"C15",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"HA720",
+"LA818"
+],
+"n_rutas": 7,
+"trips": 316
+}
+],
+[
+"NM:br santa teresita",
+"NM:br sucre",
+{
+"dist_m": 755.9212530611129,
+"rutas": [
+"HA642"
+],
+"n_rutas": 1,
+"trips": 20
+}
+],
+[
+"NM:br santa teresita",
+"NM:canal arzobispo#0",
+{
+"dist_m": 241.26015048198764,
+"rutas": [
+"HA642",
+"T12"
+],
+"n_rutas": 2,
+"trips": 39
+}
+],
+[
+"NM:br santa teresita",
+"NM:colegio americano de bogota",
+{
+"dist_m": 224.31433218852092,
+"rutas": [
+"97",
+"C15",
+"H131",
+"LA818"
+],
+"n_rutas": 4,
+"trips": 809
+}
+],
+[
+"NM:br santa teresita",
+"NM:estacion calle 45",
+{
+"dist_m": 433.65950507206696,
+"rutas": [
+"166",
+"579",
+"593",
+"731",
+"97",
+"A332",
+"C131",
+"CA124",
+"GA537",
+"H131",
+"KA319",
+"KA332",
+"T12"
+],
+"n_rutas": 13,
+"trips": 1658
+}
+],
+[
+"NM:br santa teresita cl 43",
+"NM:cai la soledad",
+{
+"dist_m": 336.7236936406583,
+"rutas": [
+"DA214"
+],
+"n_rutas": 1,
+"trips": 17
+}
+],
+[
+"NM:br sucre",
+"NM:canal arzobispo#0",
+{
+"dist_m": 731.2294312288843,
+"rutas": [
+"97"
+],
+"n_rutas": 1,
+"trips": 16
+}
+],
+[
+"NM:br sucre",
+"NM:estacion calle 45",
+{
+"dist_m": 329.96297129418497,
+"rutas": [
+"166",
+"56A",
+"579",
+"593",
+"731",
+"97",
+"A332",
+"C131",
+"CA124",
+"GA537",
+"H131",
+"KA319",
+"KA332",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 17,
+"trips": 1726
+}
+],
+[
+"NM:br sucre",
+"NM:sena#1",
+{
+"dist_m": 277.52453569199366,
+"rutas": [
+"579",
+"97",
+"C131"
+],
+"n_rutas": 3,
+"trips": 66
+}
+],
+[
+"NM:br sucre",
+"NM:universidad la gran colombia",
+{
+"dist_m": 106.9049682729467,
+"rutas": [
+"731",
+"97",
+"GA537",
+"H131"
+],
+"n_rutas": 4,
+"trips": 849
+}
+],
+[
+"NM:cade chico",
+"NM:centro comercial la plazuela",
+{
+"dist_m": 102.86594686818334,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"KB309"
+],
+"n_rutas": 13,
+"trips": 2105
+}
+],
+[
+"NM:cade chico",
+"NM:estacion virrey",
+{
+"dist_m": 573.3443966000533,
+"rutas": [
+"19-8",
+"FA427"
+],
+"n_rutas": 2,
+"trips": 239
+}
+],
+[
+"NM:cade chico",
+"NM:parque el virrey",
+{
+"dist_m": 272.0257734604452,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 15,
+"trips": 2351
+}
+],
+[
+"NM:cafam floresta",
+"NM:entrerios",
+{
+"dist_m": 374.74597655770054,
+"rutas": [
+"402",
+"A305",
+"B916",
+"C156"
+],
+"n_rutas": 4,
+"trips": 745
+}
+],
+[
+"NM:cai alcazares",
+"NM:los alcazares",
+{
+"dist_m": 276.2903482432452,
+"rutas": [
+"621",
+"91",
+"BA900",
+"DA218",
+"DL205",
+"GA518",
+"H605"
+],
+"n_rutas": 7,
+"trips": 1363
+}
+],
+[
+"NM:cai alcazares",
+"NM:parque alcazares",
+{
+"dist_m": 267.4906248016417,
+"rutas": [
+"621",
+"DA218",
+"DL205"
+],
+"n_rutas": 3,
+"trips": 582
+}
+],
+[
+"NM:cai polo club",
+"NM:estacion la castellana",
+{
+"dist_m": 226.6778486892792,
+"rutas": [
+"599",
+"H605"
+],
+"n_rutas": 2,
+"trips": 528
+}
+],
+[
+"NM:calle 110",
+"NM:calle 112",
+{
+"dist_m": 251.09034166312608,
+"rutas": [
+"192",
+"A134",
+"BD906",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"K303",
+"KB326",
+"Z4B"
+],
+"n_rutas": 10,
+"trips": 1456
+}
+],
+[
+"NM:calle 112",
+"NM:calle 119",
+{
+"dist_m": 323.62374976561915,
+"rutas": [
+"192",
+"B303",
+"BD237",
+"BD906",
+"C134",
+"CA117",
+"CA164",
+"DA203",
+"E61",
+"HB609",
+"KB326",
+"T26",
+"Z4B"
+],
+"n_rutas": 13,
+"trips": 2228
+}
+],
+[
+"NM:calle 51 br quesada",
+"NM:clin eusalud br chapinero occ",
+{
+"dist_m": 499.70088928551195,
+"rutas": [
+"192",
+"B919",
+"C134",
+"C15",
+"CA151",
+"GA516"
+],
+"n_rutas": 6,
+"trips": 1116
+}
+],
+[
+"NM:calle 51 br quesada",
+"NM:parque gernika",
+{
+"dist_m": 414.79058550517254,
+"rutas": [
+"192",
+"B919",
+"C134",
+"C15",
+"CA151",
+"GA507",
+"GA516",
+"LA809"
+],
+"n_rutas": 8,
+"trips": 1464
+}
+],
+[
+"NM:calle 74",
+"NM:embajada de italia",
+{
+"dist_m": 515.2974412492321,
+"rutas": [
+"AA002",
+"H907",
+"T06",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1451
+}
+],
+[
+"NM:calle 74",
+"NM:embajada de japon",
+{
+"dist_m": 285.6065450809169,
+"rutas": [
+"H907",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 4,
+"trips": 959
+}
+],
+[
+"NM:calle 74",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 480.5534986811772,
+"rutas": [
+"T06"
+],
+"n_rutas": 1,
+"trips": 19
+}
+],
+[
+"NM:calle 83",
+"NM:embajada de italia",
+{
+"dist_m": 523.5166280140884,
+"rutas": [
+"AA002",
+"H907",
+"T06",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1396
+}
+],
+[
+"NM:calle 83",
+"NM:urb el refugio",
+{
+"dist_m": 320.40676138118397,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 437
+}
+],
+[
+"NM:camara de comercio cl 67",
+"NM:ced simon bolivar sedeb",
+{
+"dist_m": 332.39332257073977,
+"rutas": [
+"166",
+"A332",
+"B303",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 6,
+"trips": 1075
+}
+],
+[
+"NM:camara de comercio cl 67",
+"NM:cl 67",
+{
+"dist_m": 56.09346055554509,
+"rutas": [
+"166",
+"A332",
+"FA410",
+"KA319",
+"KA332",
+"LA814"
+],
+"n_rutas": 6,
+"trips": 1064
+}
+],
+[
+"NM:camara de comercio cl 67",
+"NM:clinica del nino",
+{
+"dist_m": 270.6680505030066,
+"rutas": [
+"HA601"
+],
+"n_rutas": 1,
+"trips": 130
+}
+],
+[
+"NM:camara de comercio sede norte",
+"NM:centro comercial la plazuela",
+{
+"dist_m": 351.346650941163,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"KB309"
+],
+"n_rutas": 13,
+"trips": 2105
+}
+],
+[
+"NM:camara de comercio sede norte",
+"NM:kr 14",
+{
+"dist_m": 205.20865007061803,
+"rutas": [
+"FA410"
+],
+"n_rutas": 1,
+"trips": 225
+}
+],
+[
+"NM:canal arzobispo#0",
+"NM:estacion calle 45",
+{
+"dist_m": 466.03384244486494,
+"rutas": [
+"LA814",
+"T13",
+"T25"
+],
+"n_rutas": 3,
+"trips": 67
+}
+],
+[
+"NM:canal arzobispo#1",
+"NM:estacion universidad nacional",
+{
+"dist_m": 354.70604138371385,
+"rutas": [
+"191",
+"599",
+"A605",
+"AA003",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 11,
+"trips": 2449
+}
+],
+[
+"NM:carrera 17",
+"NM:centro cosmos 64",
+{
+"dist_m": 571.6774074966197,
+"rutas": [
+"669",
+"SE10"
+],
+"n_rutas": 2,
+"trips": 402
+}
+],
+[
+"NM:ced avenida chile",
+"NM:parque publico san fernando",
+{
+"dist_m": 435.8221564499059,
+"rutas": [
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 7,
+"trips": 1427
+}
+],
+[
+"NM:ced simon bolivar sedeb",
+"NM:cl 67",
+{
+"dist_m": 381.5346686570802,
+"rutas": [
+"359",
+"56A"
+],
+"n_rutas": 2,
+"trips": 317
+}
+],
+[
+"NM:cementerio chapinero",
+"NM:hsp infantil san jose",
+{
+"dist_m": 591.3040280069821,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"K306",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 9,
+"trips": 1673
+}
+],
+[
+"NM:cenda",
+"NM:col nuestra senora del pilar",
+{
+"dist_m": 341.86115378558753,
+"rutas": [
+"142",
+"59B",
+"FA410",
+"GA532",
+"GA541",
+"P500"
+],
+"n_rutas": 6,
+"trips": 1026
+}
+],
+[
+"NM:cenda",
+"NM:quinta mutis",
+{
+"dist_m": 300.4745538052104,
+"rutas": [
+"621"
+],
+"n_rutas": 1,
+"trips": 209
+}
+],
+[
+"NM:centro comercial andino",
+"NM:centro comercial la cabrera",
+{
+"dist_m": 157.69841048902592,
+"rutas": [
+"GA538",
+"KA306",
+"KA319"
+],
+"n_rutas": 3,
+"trips": 537
+}
+],
+[
+"NM:centro comercial andino",
+"NM:parque leon de greiff",
+{
+"dist_m": 321.32514722781804,
+"rutas": [
+"193B"
+],
+"n_rutas": 1,
+"trips": 157
+}
+],
+[
+"NM:centro comercial aquarium",
+"NM:fund universit san martin",
+{
+"dist_m": 333.362863438605,
+"rutas": [
+"59B",
+"GA532"
+],
+"n_rutas": 2,
+"trips": 289
+}
+],
+[
+"NM:centro comercial aquarium",
+"NM:universidad de la salle",
+{
+"dist_m": 294.50416238265933,
+"rutas": [
+"59B",
+"GA532"
+],
+"n_rutas": 2,
+"trips": 289
+}
+],
+[
+"NM:centro comercial artelana",
+"NM:clinica del country",
+{
+"dist_m": 187.2002768825663,
+"rutas": [
+"192",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 14,
+"trips": 2205
+}
+],
+[
+"NM:centro comercial artelana",
+"NM:parque el virrey",
+{
+"dist_m": 222.3303522146935,
+"rutas": [
+"192",
+"193B",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 15,
+"trips": 2351
+}
+],
+[
+"NM:centro comercial artelana",
+"NM:parque leon de greiff",
+{
+"dist_m": 175.08424614500532,
+"rutas": [
+"193B"
+],
+"n_rutas": 1,
+"trips": 139
+}
+],
+[
+"NM:centro comercial atlantis plaza",
+"NM:centro comercial unilago",
+{
+"dist_m": 165.73360918954594,
+"rutas": [
+"192",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 14,
+"trips": 2212
+}
+],
+[
+"NM:centro comercial atlantis plaza",
+"NM:clinica del country",
+{
+"dist_m": 394.7147386796869,
+"rutas": [
+"192",
+"466",
+"B303",
+"B919",
+"BD906",
+"C134",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"FA427",
+"KB309",
+"P500"
+],
+"n_rutas": 14,
+"trips": 2212
+}
+],
+[
+"NM:centro comercial avenida chile",
+"NM:embajada de japon",
+{
+"dist_m": 376.0665339959467,
+"rutas": [
+"593",
+"CA124"
+],
+"n_rutas": 2,
+"trips": 436
+}
+],
+[
+"NM:centro comercial avenida chile",
+"NM:gimnasio moderno",
+{
+"dist_m": 414.4211514598409,
+"rutas": [
+"A306",
+"KA306"
+],
+"n_rutas": 2,
+"trips": 40
+}
+],
+[
+"NM:centro comercial avenida chile",
+"NM:kr 9",
+{
+"dist_m": 240.83026210314384,
+"rutas": [
+"91",
+"GA538",
+"KA306"
+],
+"n_rutas": 3,
+"trips": 428
+}
+],
+[
+"NM:centro comercial avenida chile",
+"NM:universidad ean",
+{
+"dist_m": 155.9851050905504,
+"rutas": [
+"359",
+"B303"
+],
+"n_rutas": 2,
+"trips": 350
+}
+],
+[
+"NM:centro comercial avenida chile",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 144.04799027079517,
+"rutas": [
+"12",
+"359",
+"593",
+"91",
+"A306",
+"AA002",
+"B303",
+"CA124",
+"E25",
+"GA538",
+"KA306",
+"KA334",
+"T06"
+],
+"n_rutas": 13,
+"trips": 2625
+}
+],
+[
+"NM:centro comercial galerias",
+"NM:centro comercial galerias cl 52",
+{
+"dist_m": 164.8540857474109,
+"rutas": [
+"91",
+"97",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA506",
+"H720",
+"HA720",
+"LA805",
+"LA818"
+],
+"n_rutas": 11,
+"trips": 1814
+}
+],
+[
+"NM:centro comercial galerias",
+"NM:est nemesio camacho el campin",
+{
+"dist_m": 362.05763822096714,
+"rutas": [
+"97"
+],
+"n_rutas": 1,
+"trips": 162
+}
+],
+[
+"NM:centro comercial galerias",
+"NM:galerias",
+{
+"dist_m": 135.90543282759248,
+"rutas": [
+"91",
+"BA900",
+"C131",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA506",
+"GA518",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 12,
+"trips": 2464
+}
+],
+[
+"NM:centro comercial galerias",
+"NM:san luis",
+{
+"dist_m": 320.80622858881765,
+"rutas": [
+"91",
+"97",
+"A720",
+"BA900",
+"DA214",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"LA805",
+"LA818"
+],
+"n_rutas": 11,
+"trips": 1784
+}
+],
+[
+"NM:centro comercial galerias cl 52",
+"NM:ied palermo",
+{
+"dist_m": 342.07033147938574,
+"rutas": [
+"91",
+"97",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA506",
+"H131",
+"H720",
+"HA720",
+"LA805",
+"LA818"
+],
+"n_rutas": 12,
+"trips": 2077
+}
+],
+[
+"NM:centro comercial iserra 100",
+"NM:estacion suba calle 100",
+{
+"dist_m": 228.06939178731946,
+"rutas": [
+"291",
+"402",
+"442",
+"599",
+"634",
+"661",
+"A305",
+"B916",
+"BD237",
+"BK904",
+"C404",
+"HA606",
+"HA610",
+"HA611",
+"KB326",
+"T62",
+"T795",
+"Z4B",
+"Z8"
+],
+"n_rutas": 19,
+"trips": 3913
+}
+],
+[
+"NM:centro comercial iserra 100",
+"NM:parque andes norte",
+{
+"dist_m": 490.93675702475605,
+"rutas": [
+"291",
+"634",
+"BK904",
+"F404",
+"K305",
+"K916",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 9,
+"trips": 1630
+}
+],
+[
+"NM:centro comercial las rampas",
+"NM:colombia",
+{
+"dist_m": 332.4236222909662,
+"rutas": [
+"621",
+"91",
+"A306",
+"A605",
+"DA218",
+"DL205",
+"KA306"
+],
+"n_rutas": 7,
+"trips": 1279
+}
+],
+[
+"NM:centro comercial las rampas",
+"NM:pl 7 de agosto",
+{
+"dist_m": 217.93832559270123,
+"rutas": [
+"621",
+"91",
+"A605",
+"A720",
+"BA900",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"SE14"
+],
+"n_rutas": 10,
+"trips": 1867
+}
+],
+[
+"NM:centro comercial las rampas",
+"NM:siete de agosto",
+{
+"dist_m": 97.98554447090643,
+"rutas": [
+"HA720"
+],
+"n_rutas": 1,
+"trips": 253
+}
+],
+[
+"NM:centro comercial lourdes",
+"NM:centro johann kepler",
+{
+"dist_m": 551.574409876702,
+"rutas": [
+"AA001"
+],
+"n_rutas": 1,
+"trips": 109
+}
+],
+[
+"NM:centro comercial lourdes",
+"NM:estacion calle 63",
+{
+"dist_m": 292.5110208932578,
+"rutas": [
+"193B",
+"FA410",
+"GA532"
+],
+"n_rutas": 3,
+"trips": 554
+}
+],
+[
+"NM:centro comercial lourdes",
+"NM:kr 8#0",
+{
+"dist_m": 256.7197033142939,
+"rutas": [
+"AA001",
+"GA532"
+],
+"n_rutas": 2,
+"trips": 255
+}
+],
+[
+"NM:centro comercial lourdes",
+"NM:parque lourdes",
+{
+"dist_m": 149.63643565024236,
+"rutas": [
+"E25"
+],
+"n_rutas": 1,
+"trips": 224
+}
+],
+[
+"NM:centro comercial metropolis",
+"NM:exito calle 80",
+{
+"dist_m": 338.0186668941882,
+"rutas": [
+"291",
+"402",
+"442",
+"621",
+"634",
+"661",
+"BD237",
+"BK904",
+"CA124",
+"CD122",
+"DA214",
+"E44",
+"F404",
+"G156",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD607",
+"HD630",
+"K305",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 26,
+"trips": 5296
+}
+],
+[
+"NM:centro comercial metropolis",
+"NM:parque metropolis",
+{
+"dist_m": 303.80198426022247,
+"rutas": [
+"291",
+"402",
+"442",
+"621",
+"634",
+"661",
+"BD237",
+"BK904",
+"CA124",
+"CD122",
+"DA214",
+"E44",
+"F404",
+"G156",
+"HA606",
+"HA610",
+"HA611",
+"HC705",
+"HD607",
+"HD630",
+"K305",
+"K916",
+"KB326",
+"T62",
+"Z4B",
+"Z8"
+],
+"n_rutas": 26,
+"trips": 7604
+}
+],
+[
+"NM:centro comercial mi placita",
+"NM:ied centro obrero",
+{
+"dist_m": 321.00664443851934,
+"rutas": [
+"466",
+"669",
+"DA214",
+"DA215",
+"SE10",
+"SE14"
+],
+"n_rutas": 6,
+"trips": 1226
+}
+],
+[
+"NM:centro comercial mi placita",
+"NM:parque publico modelo",
+{
+"dist_m": 844.0642350943209,
+"rutas": [
+"SE10"
+],
+"n_rutas": 1,
+"trips": 21
+}
+],
+[
+"NM:centro comercial puente largo",
+"NM:estacion suba calle 100",
+{
+"dist_m": 484.05702731873515,
+"rutas": [
+"599",
+"T795"
+],
+"n_rutas": 2,
+"trips": 439
+}
+],
+[
+"NM:centro comercial unilago",
+"NM:embajada de paz de colombia",
+{
+"dist_m": 230.03591562265623,
+"rutas": [
+"FA410"
+],
+"n_rutas": 1,
+"trips": 225
+}
+],
+[
+"NM:centro cosmos 64",
+"NM:clinica del nino",
+{
+"dist_m": 237.86692310605983,
+"rutas": [
+"193B",
+"GA567",
+"H907",
+"L919",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 635
+}
+],
+[
+"NM:centro cosmos 64",
+"NM:parque lourdes",
+{
+"dist_m": 137.16939676481,
+"rutas": [
+"193B",
+"669",
+"GA507",
+"GA567",
+"H907",
+"HA600",
+"KA319",
+"L919",
+"SE10",
+"T13",
+"T25"
+],
+"n_rutas": 11,
+"trips": 1637
+}
+],
+[
+"NM:centro cosmos 64",
+"NM:teatro astor plaza",
+{
+"dist_m": 248.4820736444075,
+"rutas": [
+"KA319"
+],
+"n_rutas": 1,
+"trips": 272
+}
+],
+[
+"NM:centro de negocios chico plaza",
+"NM:colsanitas cl 100",
+{
+"dist_m": 352.96206368508706,
+"rutas": [
+"466",
+"B919"
+],
+"n_rutas": 2,
+"trips": 336
+}
+],
+[
+"NM:centro empresarial calle 100",
+"NM:colsanitas cl 100",
+{
+"dist_m": 926.1864034489365,
+"rutas": [
+"19-3",
+"402",
+"HA606",
+"HA610"
+],
+"n_rutas": 4,
+"trips": 758
+}
+],
+[
+"NM:centro empresarial calle 100",
+"NM:estacion calle 100",
+{
+"dist_m": 471.86931175323906,
+"rutas": [
+"19-3"
+],
+"n_rutas": 1,
+"trips": 178
+}
+],
+[
+"NM:centro johann kepler",
+"NM:estacion calle 63",
+{
+"dist_m": 261.5480995730196,
+"rutas": [
+"142",
+"193B",
+"59B",
+"621",
+"C15",
+"FA410",
+"GA532",
+"GA541"
+],
+"n_rutas": 8,
+"trips": 1495
+}
+],
+[
+"NM:centro johann kepler",
+"NM:fund universit san martin",
+{
+"dist_m": 270.54087648913656,
+"rutas": [
+"59B",
+"FA410",
+"GA532"
+],
+"n_rutas": 3,
+"trips": 558
+}
+],
+[
+"NM:centro johann kepler",
+"NM:iglesia divino salvador",
+{
+"dist_m": 474.9219498888956,
+"rutas": [
+"142",
+"192",
+"193B",
+"621",
+"669",
+"AA001",
+"B919",
+"BD906",
+"C134",
+"C15",
+"CA151",
+"DA215",
+"GA507",
+"GA538",
+"GA567",
+"HA600",
+"KB309",
+"SE10"
+],
+"n_rutas": 18,
+"trips": 3297
+}
+],
+[
+"NM:cl 85",
+"NM:embajada del peru",
+{
+"dist_m": 386.6093407742709,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 540
+}
+],
+[
+"NM:clin de traumatologia y ortopedi",
+"NM:k11 cl70a",
+{
+"dist_m": 27.499798340614166,
+"rutas": [
+"KA332"
+],
+"n_rutas": 1,
+"trips": 193
+}
+],
+[
+"NM:clin de traumatologia y ortopedi",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 185.92819334359154,
+"rutas": [
+"166",
+"192",
+"193B",
+"359",
+"466",
+"56A",
+"593",
+"A134",
+"AA002",
+"BD906",
+"CA117",
+"CA151",
+"FA410",
+"FA427",
+"GA538",
+"GA567",
+"H907",
+"HA642",
+"K303",
+"KA306",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 28,
+"trips": 3994
+}
+],
+[
+"NM:clin de traumatologia y ortopedi",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 548.834632353622,
+"rutas": [
+"359",
+"E25"
+],
+"n_rutas": 2,
+"trips": 370
+}
+],
+[
+"NM:clin eusalud br chapinero occ",
+"NM:ied manuela beltran",
+{
+"dist_m": 246.65784751337546,
+"rutas": [
+"GA516"
+],
+"n_rutas": 1,
+"trips": 151
+}
+],
+[
+"NM:clin eusalud br chapinero occ",
+"NM:iglesia divino salvador",
+{
+"dist_m": 250.61455099537724,
+"rutas": [
+"192",
+"B919",
+"BD906",
+"C134",
+"C15",
+"CA151",
+"GA538",
+"GA567"
+],
+"n_rutas": 8,
+"trips": 1526
+}
+],
+[
+"NM:clinica del nino",
+"NM:parque lourdes",
+{
+"dist_m": 350.16268075310944,
+"rutas": [
+"166",
+"192",
+"359",
+"56A",
+"593",
+"A134",
+"BD906",
+"CA124",
+"CA151",
+"E25",
+"FA410",
+"GA538",
+"HA601",
+"HA642",
+"K303",
+"KA332",
+"KB309",
+"LA814",
+"T12"
+],
+"n_rutas": 19,
+"trips": 3013
+}
+],
+[
+"NM:clinica del nino",
+"NM:teatro astor plaza",
+{
+"dist_m": 111.56928684055768,
+"rutas": [
+"466",
+"AA002",
+"CA117",
+"FA427",
+"KA306",
+"KA319"
+],
+"n_rutas": 6,
+"trips": 1283
+}
+],
+[
+"NM:clinica general de la 100",
+"NM:parroquia santo domingo savio",
+{
+"dist_m": 458.25162109167616,
+"rutas": [
+"193B",
+"CA151"
+],
+"n_rutas": 2,
+"trips": 358
+}
+],
+[
+"NM:clinica la inmaculada",
+"NM:col sag corazon de jesus bethlem",
+{
+"dist_m": 437.6505471085054,
+"rutas": [
+"593",
+"B907",
+"CA124",
+"HA642",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 7,
+"trips": 1684
+}
+],
+[
+"NM:clinica palermo",
+"NM:ied palermo",
+{
+"dist_m": 299.60718937297696,
+"rutas": [
+"91",
+"97",
+"A720",
+"C131",
+"DA214",
+"DA218",
+"DL205",
+"GA506",
+"HA720",
+"LA805",
+"LA818"
+],
+"n_rutas": 11,
+"trips": 1850
+}
+],
+[
+"NM:col nuestra senora del pilar",
+"NM:parque de los novios",
+{
+"dist_m": 731.5951183008127,
+"rutas": [
+"142",
+"59B",
+"FA410",
+"GA532",
+"GA541",
+"P500"
+],
+"n_rutas": 6,
+"trips": 1026
+}
+],
+[
+"NM:col sag corazon de jesus bethlem",
+"NM:kr 8#0",
+{
+"dist_m": 104.35478633239549,
+"rutas": [
+"AA001"
+],
+"n_rutas": 1,
+"trips": 109
+}
+],
+[
+"NM:colegio americano de bogota",
+"NM:ied palermo",
+{
+"dist_m": 417.316022639704,
+"rutas": [
+"97",
+"H131",
+"LA818"
+],
+"n_rutas": 3,
+"trips": 606
+}
+],
+[
+"NM:colegio cooperativo union social",
+"NM:parque j j vargas",
+{
+"dist_m": 443.07540504159607,
+"rutas": [
+"DH216"
+],
+"n_rutas": 1,
+"trips": 206
+}
+],
+[
+"NM:colegio el carmelo",
+"NM:universidad nacional",
+{
+"dist_m": 115.97939047320149,
+"rutas": [
+"166",
+"91",
+"KA319",
+"KA332"
+],
+"n_rutas": 4,
+"trips": 818
+}
+],
+[
+"NM:colegio marillac",
+"NM:ied alemania solidaria sede c",
+{
+"dist_m": 256.23959983383673,
+"rutas": [
+"12",
+"466",
+"669",
+"A306",
+"DA214",
+"DA215",
+"FA427",
+"KA306",
+"SE10"
+],
+"n_rutas": 9,
+"trips": 1532
+}
+],
+[
+"NM:colegio san pedro nolasco",
+"NM:teatro astor plaza",
+{
+"dist_m": 564.0469819924847,
+"rutas": [
+"FA427"
+],
+"n_rutas": 1,
+"trips": 166
+}
+],
+[
+"NM:coliseo el campin",
+"NM:el campin",
+{
+"dist_m": 455.0455540803396,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 309
+}
+],
+[
+"NM:coliseo el campin",
+"NM:est nemesio camacho el campin",
+{
+"dist_m": 375.2675420447824,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 309
+}
+],
+[
+"NM:coliseo el campin",
+"NM:estacion coliseo",
+{
+"dist_m": 390.7511936982279,
+"rutas": [
+"191",
+"599",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 8,
+"trips": 1790
+}
+],
+[
+"NM:coliseo el campin",
+"NM:estadio el campin",
+{
+"dist_m": 489.28497701872465,
+"rutas": [
+"191",
+"599",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 8,
+"trips": 1790
+}
+],
+[
+"NM:colombia",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 343.10257843522584,
+"rutas": [
+"621",
+"DA218",
+"DL205"
+],
+"n_rutas": 3,
+"trips": 582
+}
+],
+[
+"NM:colsanitas cl 100",
+"NM:univ militar nueva granada",
+{
+"dist_m": 295.6823501159691,
+"rutas": [
+"402",
+"442",
+"661",
+"AB020",
+"B919",
+"HA606",
+"HA610",
+"T12",
+"T163",
+"Z8"
+],
+"n_rutas": 10,
+"trips": 1852
+}
+],
+[
+"NM:comfenalco",
+"NM:tecnoparque sena",
+{
+"dist_m": 262.8032193145259,
+"rutas": [
+"359",
+"AA001",
+"KA332"
+],
+"n_rutas": 3,
+"trips": 346
+}
+],
+[
+"NM:cuerpo of de bomberos de bogota",
+"NM:estacion calle 63",
+{
+"dist_m": 224.75526149623903,
+"rutas": [
+"142",
+"59B",
+"621",
+"C15",
+"GA532",
+"GA541"
+],
+"n_rutas": 6,
+"trips": 941
+}
+],
+[
+"NM:cuerpo of de bomberos de bogota",
+"NM:fund universit san martin",
+{
+"dist_m": 280.7203432658438,
+"rutas": [
+"FA410",
+"GA532",
+"GA541"
+],
+"n_rutas": 3,
+"trips": 466
+}
+],
+[
+"NM:cuerpo of de bomberos de bogota",
+"NM:parque lourdes",
+{
+"dist_m": 238.4952363745017,
+"rutas": [
+"166",
+"192",
+"193B",
+"359",
+"56A",
+"593",
+"669",
+"A134",
+"BD906",
+"CA124",
+"CA151",
+"FA410",
+"GA507",
+"GA538",
+"GA567",
+"H907",
+"HA601",
+"HA642",
+"K303",
+"KA319",
+"KA332",
+"KB309",
+"L919",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 28,
+"trips": 4273
+}
+],
+[
+"NM:el campin",
+"NM:est nemesio camacho el campin",
+{
+"dist_m": 475.09844642148977,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 309
+}
+],
+[
+"NM:el campin",
+"NM:parque el campin",
+{
+"dist_m": 192.89788421506185,
+"rutas": [
+"AA002"
+],
+"n_rutas": 1,
+"trips": 309
+}
+],
+[
+"NM:el campin",
+"NM:quinta mutis",
+{
+"dist_m": 523.7610607264799,
+"rutas": [
+"91",
+"AA002",
+"BA900",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA518",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 11,
+"trips": 1977
+}
+],
+[
+"NM:el campin",
+"NM:san luis",
+{
+"dist_m": 459.2449186757913,
+"rutas": [
+"91",
+"BA900",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA518",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 10,
+"trips": 1668
+}
+],
+[
+"NM:embajada de francia",
+"NM:parque de la 93",
+{
+"dist_m": 265.40327558865124,
+"rutas": [
+"19-3",
+"192",
+"193B",
+"466",
+"A134",
+"BD906",
+"CA117",
+"CA151",
+"CA164",
+"E61",
+"FA410",
+"H907",
+"K303",
+"KB309",
+"L919",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 18,
+"trips": 2605
+}
+],
+[
+"NM:embajada de inglaterra",
+"NM:embajada de paz de colombia",
+{
+"dist_m": 379.34229403789624,
+"rutas": [
+"359",
+"91",
+"CA124",
+"E25",
+"FA410",
+"KA334"
+],
+"n_rutas": 6,
+"trips": 336
+}
+],
+[
+"NM:embajada de inglaterra",
+"NM:kr 9",
+{
+"dist_m": 389.34542473703556,
+"rutas": [
+"359",
+"91",
+"E25",
+"FA410"
+],
+"n_rutas": 4,
+"trips": 294
+}
+],
+[
+"NM:embajada de inglaterra",
+"NM:urb el refugio",
+{
+"dist_m": 1169.8817313488603,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 48
+}
+],
+[
+"NM:embajada de italia",
+"NM:urb el refugio",
+{
+"dist_m": 839.6888320305542,
+"rutas": [
+"AA002",
+"T06"
+],
+"n_rutas": 2,
+"trips": 55
+}
+],
+[
+"NM:embajada de paz de colombia",
+"NM:iglesia siervas de maria",
+{
+"dist_m": 1103.7525490829203,
+"rutas": [
+"359",
+"E25"
+],
+"n_rutas": 2,
+"trips": 52
+}
+],
+[
+"NM:embajada del peru",
+"NM:gimnasio moderno",
+{
+"dist_m": 821.8463814165253,
+"rutas": [
+"B303",
+"C134",
+"CA117",
+"FA410"
+],
+"n_rutas": 4,
+"trips": 115
+}
+],
+[
+"NM:embajada del peru",
+"NM:parque el nogal",
+{
+"dist_m": 568.0766338576574,
+"rutas": [
+"AA002",
+"B907",
+"T06",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 6,
+"trips": 1589
+}
+],
+[
+"NM:escuela de infanteria",
+"NM:univ militar nueva granada",
+{
+"dist_m": 197.9257555728898,
+"rutas": [
+"T12"
+],
+"n_rutas": 1,
+"trips": 201
+}
+],
+[
+"NM:escuela de infanteria",
+"NM:urb conjunto de la 100",
+{
+"dist_m": 283.19651056688815,
+"rutas": [
+"402",
+"442",
+"634",
+"661",
+"AB020",
+"BD237",
+"C134",
+"CA151",
+"CB109",
+"F404",
+"HA606",
+"HA610",
+"HB608",
+"K916",
+"T11",
+"T12",
+"Z4B",
+"Z8"
+],
+"n_rutas": 18,
+"trips": 2724
+}
+],
+[
+"NM:escuela superior de guerra",
+"NM:urb conjunto de la 100",
+{
+"dist_m": 412.3990447407534,
+"rutas": [
+"E26B",
+"T21"
+],
+"n_rutas": 2,
+"trips": 388
+}
+],
+[
+"NM:estacion avenida chile",
+"NM:estacion nqs calle 75",
+{
+"dist_m": 694.8284050786777,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 1830
+}
+],
+[
+"NM:estacion avenida chile",
+"NM:hsp infantil san jose",
+{
+"dist_m": 372.3641788900224,
+"rutas": [
+"12"
+],
+"n_rutas": 1,
+"trips": 42
+}
+],
+[
+"NM:estacion avenida chile",
+"NM:sede comunal 11 de noviembre",
+{
+"dist_m": 356.11865956542124,
+"rutas": [
+"12"
+],
+"n_rutas": 1,
+"trips": 42
+}
+],
+[
+"NM:estacion avenida el dorado",
+"NM:estacion universidad nacional",
+{
+"dist_m": 361.42791716364525,
+"rutas": [
+"191",
+"599",
+"A605",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 2342
+}
+],
+[
+"NM:estacion avenida el dorado",
+"NM:parque acevedo tejada",
+{
+"dist_m": 237.93229331760685,
+"rutas": [
+"166",
+"91",
+"A332",
+"KA332"
+],
+"n_rutas": 4,
+"trips": 546
+}
+],
+[
+"NM:estacion calle 100",
+"NM:estacion calle 85",
+{
+"dist_m": 1471.0626547811241,
+"rutas": [
+"AB020"
+],
+"n_rutas": 1,
+"trips": 33
+}
+],
+[
+"NM:estacion calle 100",
+"NM:teatro la castellana",
+{
+"dist_m": 384.52978235311394,
+"rutas": [
+"K305",
+"T795"
+],
+"n_rutas": 2,
+"trips": 451
+}
+],
+[
+"NM:estacion calle 45",
+"NM:universidad la gran colombia",
+{
+"dist_m": 235.49238002022292,
+"rutas": [
+"97"
+],
+"n_rutas": 1,
+"trips": 16
+}
+],
+[
+"NM:estacion calle 72",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 263.41246463914933,
+"rutas": [
+"91",
+"A306",
+"AA002",
+"CA124",
+"GA538",
+"KA306",
+"KA334",
+"T06"
+],
+"n_rutas": 8,
+"trips": 1564
+}
+],
+[
+"NM:estacion calle 85",
+"NM:estacion cl 85",
+{
+"dist_m": 113.87854408333192,
+"rutas": [
+"19-8"
+],
+"n_rutas": 1,
+"trips": 219
+}
+],
+[
+"NM:estacion calle 85",
+"NM:estacion virrey",
+{
+"dist_m": 446.55708744726326,
+"rutas": [
+"19-8",
+"193B",
+"B919",
+"BA900",
+"FA427"
+],
+"n_rutas": 5,
+"trips": 408
+}
+],
+[
+"NM:estacion el polo",
+"NM:estacion san martin",
+{
+"dist_m": 833.387708309336,
+"rutas": [
+"BA900",
+"CA103"
+],
+"n_rutas": 2,
+"trips": 349
+}
+],
+[
+"NM:estacion la castellana",
+"NM:estacion nqs calle 75",
+{
+"dist_m": 844.4872786646927,
+"rutas": [
+"191",
+"599",
+"BD995",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 9,
+"trips": 3453
+}
+],
+[
+"NM:estacion la castellana",
+"NM:estacion polo",
+{
+"dist_m": 526.3867686257801,
+"rutas": [
+"AB020",
+"CA103"
+],
+"n_rutas": 2,
+"trips": 244
+}
+],
+[
+"NM:estacion la castellana",
+"NM:puente de la 92",
+{
+"dist_m": 717.4446514246177,
+"rutas": [
+"191",
+"AB020",
+"BD995",
+"CA103",
+"HA708",
+"HB608",
+"HB631",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 1867
+}
+],
+[
+"NM:estacion la castellana",
+"NM:urb santa sofia",
+{
+"dist_m": 606.5335120589405,
+"rutas": [
+"A605"
+],
+"n_rutas": 1,
+"trips": 311
+}
+],
+[
+"NM:estacion marly",
+"NM:kr 15",
+{
+"dist_m": 249.96036946541741,
+"rutas": [
+"AA001",
+"BD906",
+"GA567",
+"K303",
+"KB309"
+],
+"n_rutas": 5,
+"trips": 856
+}
+],
+[
+"NM:estacion marly",
+"NM:tecnoparque sena",
+{
+"dist_m": 184.56157587014226,
+"rutas": [
+"BD906",
+"GA567",
+"K303",
+"KB309"
+],
+"n_rutas": 4,
+"trips": 747
+}
+],
+[
+"NM:estacion polo",
+"NM:estacion san martin",
+{
+"dist_m": 733.1066610389629,
+"rutas": [
+"599"
+],
+"n_rutas": 1,
+"trips": 217
+}
+],
+[
+"NM:estacion universidad nacional",
+"NM:inst geografico agustin codazzi",
+{
+"dist_m": 346.79917802288026,
+"rutas": [
+"191",
+"599",
+"H605",
+"HA708",
+"HB608",
+"HB631",
+"SE14",
+"T11",
+"T163",
+"T26"
+],
+"n_rutas": 10,
+"trips": 2342
+}
+],
+[
+"NM:fundacion oftalmologica nacional",
+"NM:tecnoparque sena",
+{
+"dist_m": 434.38679614591194,
+"rutas": [
+"142",
+"166",
+"192",
+"193B",
+"359",
+"56A",
+"593",
+"59B",
+"621",
+"A134",
+"AA003",
+"C15",
+"CA124",
+"CA151",
+"GA507",
+"GA516",
+"H907",
+"HA600",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"L919",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 28,
+"trips": 3800
+}
+],
+[
+"NM:fundacion oftalmologica nacional",
+"NM:universidad piloto",
+{
+"dist_m": 482.3843179797294,
+"rutas": [
+"142",
+"166",
+"192",
+"193B",
+"359",
+"56A",
+"593",
+"59B",
+"621",
+"669",
+"A134",
+"AA003",
+"C15",
+"CA124",
+"CA151",
+"GA507",
+"GA516",
+"H907",
+"HA600",
+"HA601",
+"HA642",
+"KA319",
+"KA332",
+"L919",
+"LA809",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 30,
+"trips": 4129
+}
+],
+[
+"NM:galerias",
+"NM:san luis",
+{
+"dist_m": 186.17408888756896,
+"rutas": [
+"91",
+"BA900",
+"DA214",
+"DA215",
+"DA218",
+"DL205",
+"GA518",
+"H720",
+"HA720",
+"LA805"
+],
+"n_rutas": 10,
+"trips": 1668
+}
+],
+[
+"NM:gimnasio moderno",
+"NM:kr 9",
+{
+"dist_m": 229.14303359816296,
+"rutas": [
+"193B",
+"FA410",
+"GA538",
+"KA306",
+"KA319"
+],
+"n_rutas": 5,
+"trips": 837
+}
+],
+[
+"NM:gimnasio moderno",
+"NM:universidad ean",
+{
+"dist_m": 455.9978769563765,
+"rutas": [
+"B303",
+"KA319"
+],
+"n_rutas": 2,
+"trips": 58
+}
+],
+[
+"NM:gimnasio moderno",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 553.5458223703755,
+"rutas": [
+"192",
+"466",
+"C134",
+"CA117",
+"CA151",
+"KB309"
+],
+"n_rutas": 6,
+"trips": 144
+}
+],
+[
+"NM:hsp infantil san jose",
+"NM:ied alemania solidaria sede c",
+{
+"dist_m": 687.5615190366798,
+"rutas": [
+"12",
+"466",
+"669",
+"A306",
+"DA214",
+"DA215",
+"FA427",
+"KA306",
+"SE10"
+],
+"n_rutas": 9,
+"trips": 1532
+}
+],
+[
+"NM:hsp infantil san jose",
+"NM:parque publico modelo",
+{
+"dist_m": 347.763227431762,
+"rutas": [
+"12",
+"466",
+"669",
+"A306",
+"DA214",
+"DA215",
+"FA427",
+"K306",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 11,
+"trips": 3488
+}
+],
+[
+"NM:ied alemania solidaria",
+"NM:parque de los novios",
+{
+"dist_m": 616.2013019325342,
+"rutas": [
+"142",
+"59B",
+"FA410",
+"GA532",
+"GA541",
+"H605",
+"P500"
+],
+"n_rutas": 7,
+"trips": 1337
+}
+],
+[
+"NM:ied centro obrero",
+"NM:parque publico modelo",
+{
+"dist_m": 523.1029301127048,
+"rutas": [
+"12",
+"466",
+"669",
+"DA214",
+"DA215",
+"FA427",
+"KA306",
+"SE10",
+"SE14"
+],
+"n_rutas": 9,
+"trips": 1576
+}
+],
+[
+"NM:ied manuela beltran",
+"NM:parque el divino salvador",
+{
+"dist_m": 218.15311353706193,
+"rutas": [
+"GA538"
+],
+"n_rutas": 1,
+"trips": 203
+}
+],
+[
+"NM:k11 cl70a",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 213.068668436032,
+"rutas": [
+"56A",
+"AA002",
+"KA332"
+],
+"n_rutas": 3,
+"trips": 610
+}
+],
+[
+"NM:k11 cl86a",
+"NM:pquia la inmaculada concepcion",
+{
+"dist_m": 74.3537693294819,
+"rutas": [
+"19-8"
+],
+"n_rutas": 1,
+"trips": 219
+}
+],
+[
+"NM:kr 8#0",
+"NM:universidad de la salle",
+{
+"dist_m": 387.02453082610674,
+"rutas": [
+"GA532"
+],
+"n_rutas": 1,
+"trips": 146
+}
+],
+[
+"NM:kr 9",
+"NM:universidad ean",
+{
+"dist_m": 232.45207043375356,
+"rutas": [
+"193B",
+"359",
+"E25",
+"FA410",
+"KA319"
+],
+"n_rutas": 5,
+"trips": 703
+}
+],
+[
+"NM:los alcazares",
+"NM:siete de agosto",
+{
+"dist_m": 235.20104061936362,
+"rutas": [
+"621",
+"91",
+"BA900",
+"DA218",
+"DL205",
+"GA518",
+"H605"
+],
+"n_rutas": 7,
+"trips": 1363
+}
+],
+[
+"NM:monumento rafael uribe uribe",
+"NM:parque alcazares",
+{
+"dist_m": 421.16138168301796,
+"rutas": [
+"359"
+],
+"n_rutas": 1,
+"trips": 146
+}
+],
+[
+"NM:muequeta",
+"NM:pl 7 de agosto",
+{
+"dist_m": 455.7916881624652,
+"rutas": [
+"621",
+"91",
+"A605",
+"A720",
+"AA002",
+"BA900",
+"DA214",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"LA805",
+"SE14"
+],
+"n_rutas": 13,
+"trips": 2511
+}
+],
+[
+"NM:muequeta",
+"NM:san luis cl 61f",
+{
+"dist_m": 376.82447050959655,
+"rutas": [
+"91",
+"A605",
+"A720",
+"AA002",
+"BA900",
+"DA214",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"LA805",
+"SE14"
+],
+"n_rutas": 12,
+"trips": 2302
+}
+],
+[
+"NM:museo del chico",
+"NM:museo el chico",
+{
+"dist_m": 219.6757206911644,
+"rutas": [
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 3,
+"trips": 716
+}
+],
+[
+"NM:parque el campin",
+"NM:san luis cl 61f",
+{
+"dist_m": 245.61452657987783,
+"rutas": [
+"A605",
+"AA002",
+"SE14"
+],
+"n_rutas": 3,
+"trips": 861
+}
+],
+[
+"NM:parque j j vargas",
+"NM:parque publico modelo",
+{
+"dist_m": 322.65396026798044,
+"rutas": [
+"A306",
+"KA306"
+],
+"n_rutas": 2,
+"trips": 218
+}
+],
+[
+"NM:parroquia san fernando rey",
+"NM:san fernando occidental",
+{
+"dist_m": 401.83657671285397,
+"rutas": [
+"12",
+"359",
+"621",
+"CA124",
+"DA218",
+"DL205",
+"E25",
+"KA334"
+],
+"n_rutas": 8,
+"trips": 1581
+}
+],
+[
+"NM:pl 7 de agosto",
+"NM:siete de agosto",
+{
+"dist_m": 123.38627937751157,
+"rutas": [
+"LA805"
+],
+"n_rutas": 1,
+"trips": 180
+}
+],
+[
+"NM:portal de pontevedra",
+"NM:urb familiar potosi i sector",
+{
+"dist_m": 316.361649784978,
+"rutas": [
+"193B",
+"607A"
+],
+"n_rutas": 2,
+"trips": 325
+}
+],
+[
+"NM:quinta mutis",
+"NM:siete de agosto",
+{
+"dist_m": 542.5267777573044,
+"rutas": [
+"621",
+"91",
+"AA002",
+"BA900",
+"DA218",
+"DL205",
+"GA518",
+"H605",
+"HA720",
+"LA805",
+"P500"
+],
+"n_rutas": 11,
+"trips": 2205
+}
+],
+[
+"NM:san luis",
+"NM:san luis cl 58",
+{
+"dist_m": 128.4230681073766,
+"rutas": [
+"91",
+"A720",
+"BA900",
+"DA214",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"LA805"
+],
+"n_rutas": 9,
+"trips": 1441
+}
+],
+[
+"NM:san luis cl 58",
+"NM:san luis cl 61f",
+{
+"dist_m": 425.90385217662214,
+"rutas": [
+"91",
+"A720",
+"BA900",
+"DA214",
+"DA218",
+"DL205",
+"GA518",
+"HA720",
+"LA805"
+],
+"n_rutas": 9,
+"trips": 1441
+}
+],
+[
+"NM:seminario conciliar de bogota",
+"NM:urb conjunto de la 100",
+{
+"dist_m": 873.7368165544488,
+"rutas": [
+"466",
+"C134",
+"CA151",
+"T12"
+],
+"n_rutas": 4,
+"trips": 298
+}
+],
+[
+"NM:sena#1",
+"NM:universidad javeriana",
+{
+"dist_m": 205.03043113002752,
+"rutas": [
+"579",
+"T40"
+],
+"n_rutas": 2,
+"trips": 218
+}
+],
+[
+"NM:unitec",
+"NM:universidad pedagogica",
+{
+"dist_m": 420.75040173278967,
+"rutas": [
+"12",
+"E25"
+],
+"n_rutas": 2,
+"trips": 305
+}
+],
+[
+"NM:univ militar nueva granada",
+"NM:urb conjunto de la 100",
+{
+"dist_m": 159.404215421001,
+"rutas": [
+"HA606",
+"HA610"
+],
+"n_rutas": 2,
+"trips": 393
+}
+],
+[
+"NM:universidad la gran colombia",
+"NM:universidad piloto",
+{
+"dist_m": 261.50982988917895,
+"rutas": [
+"142",
+"192",
+"359",
+"56A",
+"593",
+"59B",
+"621",
+"669",
+"A134",
+"CA124",
+"CA151",
+"GA507",
+"GA516",
+"H907",
+"HA600",
+"HA601",
+"HA642",
+"L919",
+"LA809",
+"LA814",
+"SE10",
+"T12",
+"T13",
+"T25"
+],
+"n_rutas": 24,
+"trips": 3175
+}
+],
+[
+"NM:universidad pedagogica",
+"NM:universidad pedagogica nacional",
+{
+"dist_m": 246.3148669326017,
+"rutas": [
+"12",
+"B303",
+"CA164",
+"E25"
+],
+"n_rutas": 4,
+"trips": 551
+}
+],
+[
+"NM:universidad pedagogica",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 160.00957667433966,
+"rutas": [
+"B303",
+"CA164"
+],
+"n_rutas": 2,
+"trips": 246
+}
+],
+[
+"NM:universidad pedagogica nacional",
+"NM:universidad sergio arboleda",
+{
+"dist_m": 398.02433327799264,
+"rutas": [
+"359",
+"GA567"
+],
+"n_rutas": 2,
+"trips": 262
+}
+]
+],
+"meta": {
+"fuente": "GTFS SIMUR / Transmilenio S.A. 2026-04-29",
+"componente": "zonal (buses azules, agencia 3)",
+"zona": "Chapinero y barrios vecinos (Teusaquillo, Chico, Usaquen sur), Bogota",
+"nodos": "paradas reales (postes fusionados por parent_station / nombre)",
+"postes_fusionados": 594,
+"bbox": [
+4.63,
+4.7,
+-74.085,
+-74.04
+],
+"min_trips_edge": 8
+}
+}
