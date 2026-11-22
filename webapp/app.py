@@ -37,12 +37,14 @@ from flask import Flask, Response, abort, request, send_file
 
 from src.agent import RoutePlannerAgent
 from src.gtfs_graph import load_zonal_graph
+from src.ml import integracion
 from src.plot_search import plot_result
 from src.search import STRATEGIES, SearchResult, search
 from src.simulacion import POLITICAS, ViajeSimulado, simular_viaje
 from src.traffic import ConfigTrafico, ModeloTrafico, fmt_hora, parse_hora
 
 G = load_zonal_graph()
+PRED = integracion.PredictorTramos(G) if integracion.modelos_disponibles() else None
 NOMBRES = sorted(G.names.values(), key=str.casefold)
 ALGOS = {  # clave -> (nombre largo, nombre corto)
     "bfs": ("BFS · anchura", "BFS"),
@@ -84,6 +86,8 @@ class Params:
     semilla: int = 1
     obs: str = "global"   # el agente siempre ve el trafico de toda la red
     todos: bool = False   # True = ejecutar los algoritmos y armar la tabla comparativa
+    fuente: str = "perfil"   # perfil | ml: de donde sale el multiplicador de trafico
+    dia: str = "habil"       # habil | sabado | domingo (solo lo usa la fuente ml)
 
     @property
     def t_min(self) -> int:
@@ -108,7 +112,9 @@ def _params() -> Params:
         semilla = 1
     return Params((a.get("origen") or "").strip(), (a.get("destino") or "").strip(),
                   alg if alg in ALGOS else "astar", hora, peso, a.get("sim") == "1",
-                  semilla, todos=a.get("todos") == "1")
+                  semilla, todos=a.get("todos") == "1",
+                  fuente="ml" if (PRED and a.get("fuente") == "ml") else "perfil",
+                  dia=a.get("dia") if a.get("dia") in integracion.DIAS else "habil")
 
 
 # ---------------------------------------------------------------------------
@@ -120,37 +126,50 @@ def _modelo(peso: float) -> ModeloTrafico:
 
 
 @lru_cache(maxsize=64)
-def _mult(t_min: int, peso: float) -> dict | None:
-    """Snapshot del trafico tipico a esa hora (None si el trafico esta desactivado)."""
-    return _modelo(peso).mult_esperado(t_min * 60.0) if peso else None
+def _mult(t_min: int, peso: float, fuente: str = "perfil", dia: str = "habil") -> dict | None:
+    """Snapshot de trafico a esa hora (None si el trafico esta desactivado).
+
+    fuente "perfil": perfil horario del GTFS por factor espacial sintetico.
+    fuente "ml": tiempo por tramo que predice el modelo de regresion.
+    """
+    if not peso:
+        return None
+    if fuente == "ml":
+        return PRED.mult(t_min // 60, dia)
+    return _modelo(peso).mult_esperado(t_min * 60.0)
 
 
 @lru_cache(maxsize=512)
-def _buscar(oid: str, did: str, alg: str, t_min: int, peso: float) -> SearchResult:
+def _buscar(oid: str, did: str, alg: str, t_min: int, peso: float,
+            fuente: str = "perfil", dia: str = "habil") -> SearchResult:
     with _LOCK:
-        return search(G, oid, did, alg, mult=_mult(t_min, peso), peso_trafico=peso,
+        return search(G, oid, did, alg, mult=_mult(t_min, peso, fuente, dia), peso_trafico=peso,
                       v_libre_ms=_modelo(peso).v_libre_ms)
 
 
-def _txt_trafico(t_min: int, peso: float) -> str | None:
-    return f"{fmt_hora(t_min * 60)}, peso {peso:g}" if peso else None
+def _txt_trafico(t_min: int, peso: float, fuente: str = "perfil", dia: str = "habil") -> str | None:
+    if not peso:
+        return None
+    return f"{fmt_hora(t_min * 60)}, peso {peso:g}" + (f", predicho por ML ({dia})" if fuente == "ml" else "")
 
 
 @lru_cache(maxsize=64)
-def _png(oid: str, did: str, alg: str, t_min: int, peso: float) -> bytes:
-    res = _buscar(oid, did, alg, t_min, peso)
+def _png(oid: str, did: str, alg: str, t_min: int, peso: float,
+         fuente: str = "perfil", dia: str = "habil") -> bytes:
+    res = _buscar(oid, did, alg, t_min, peso, fuente, dia)
     with _LOCK:
         tmp = Path(tempfile.gettempdir()) / f"ruta_web_{alg}_{abs(hash((oid, did, t_min, peso)))}.png"
         try:
             plot_result(G, res, out_path=tmp, origen=G.name(oid), destino=G.name(did),
-                        mult=_mult(t_min, peso), trafico_txt=_txt_trafico(t_min, peso))
+                        mult=_mult(t_min, peso, fuente, dia),
+                        trafico_txt=_txt_trafico(t_min, peso, fuente, dia))
             return tmp.read_bytes()
         finally:
             tmp.unlink(missing_ok=True)
 
 
-def _benchmark(oid: str, did: str, t_min: int, peso: float):
-    res = {a: _buscar(oid, did, a, t_min, peso) for a in ALGOS}
+def _benchmark(oid: str, did: str, t_min: int, peso: float, fuente: str = "perfil", dia: str = "habil"):
+    res = {a: _buscar(oid, did, a, t_min, peso, fuente, dia) for a in ALGOS}
     opt = res["ucs"].path_cost_m   # UCS es optimo en coste (con el mismo trafico)
     des = {a: (100.0 * opt / r.path_cost_m if r.found and r.path_cost_m else 0.0)
            for a, r in res.items()}
@@ -268,6 +287,9 @@ ol.steps .d{margin-left:auto;color:var(--muted);flex:none;text-align:right}
 .tag{font-size:11px;font-weight:700;padding:1px 7px;border-radius:99px;flex:none}
 .t-go{background:#dbeafe;color:#1e40af} .t-keep{background:#f1f5f9;color:#475569}
 .t-tr{background:#fde68a;color:#92400e} .t-rp{background:#c7d2fe;color:#3730a3}
+.cg{font-size:11px;font-weight:600;padding:1px 8px;border-radius:99px;flex:none}
+.c-baja{background:#dcfce7;color:#166534} .c-media{background:#fef3c7;color:#92400e}
+.c-alta{background:#fee2e2;color:#991b1b}
 details{margin-top:14px} summary{cursor:pointer;color:var(--brand2);font-weight:600;font-size:13.5px}
 details[open] summary{margin-bottom:10px}
 .gwrap{border:1px solid var(--line);border-radius:12px;overflow:hidden}
@@ -302,8 +324,12 @@ $('#peso').addEventListener('input', e => { $('#pv').textContent = e.target.valu
   const pts = D.nodos.map(n => [n[0], n[1]]);
   const vista = () => map.fitBounds(L.latLngBounds(pts), {padding: [20, 20]});
   vista();
-  D.tramos.forEach(t => { if (!t[3]) L.polyline([pts[t[0]], pts[t[1]]],
-    {color: t[2], weight: 3, opacity: D.hay_ruta ? 0.55 : 0.85}).addTo(map); });
+  const lineas = [];
+  D.tramos.forEach(t => { if (!t[3]) lineas.push([t, L.polyline([pts[t[0]], pts[t[1]]],
+    {color: t[2], weight: 3, opacity: D.hay_ruta ? 0.55 : 0.85}).addTo(map)]); });
+  const colorpor = $('#colorpor');
+  if (colorpor) colorpor.addEventListener('change', () =>
+    lineas.forEach(([t, l]) => l.setStyle({color: t[+colorpor.value]})));
   D.tramos.forEach(t => { if (t[3]) L.polyline([pts[t[0]], pts[t[1]]],
     {color: '#1b2631', weight: 11, opacity: 1, lineCap: 'round'}).addTo(map); });
   D.tramos.forEach(t => { if (t[3]) L.polyline([pts[t[0]], pts[t[1]]],
@@ -333,6 +359,21 @@ $('#f').addEventListener('submit', e => {
 # ---------------------------------------------------------------------------
 # Piezas de HTML
 # ---------------------------------------------------------------------------
+def _campos_ml(p: Params) -> str:
+    if not PRED:
+        return ""
+    dias = "".join(f'<option value="{k}"{" selected" if p.dia == k else ""}>{t}</option>'
+                   for k, t in (("habil", "Hábil"), ("sabado", "Sábado"), ("domingo", "Domingo")))
+    return (
+        '<label class="f" title="De dónde sale la congestión de cada tramo: del perfil horario del GTFS '
+        'o del tiempo que predice el modelo de regresión entrenado con el GTFS.">Fuente del tráfico ⓘ'
+        '<select class="f" name="fuente">'
+        f'<option value="perfil"{" selected" if p.fuente == "perfil" else ""}>Perfil horario del GTFS</option>'
+        f'<option value="ml"{" selected" if p.fuente == "ml" else ""}>Predicción de regresión (ML)</option>'
+        '</select></label>'
+        f'<label class="f">Día de la semana<select class="f" name="dia">{dias}</select></label>')
+
+
 def _form(p: Params) -> str:
     datalist = "".join(f'<option value="{escape(n)}">' for n in NOMBRES)
     pills = "".join(
@@ -341,7 +382,7 @@ def _form(p: Params) -> str:
         for k, v in ALGOS.items()
     )
     ejemplos = "".join(
-        f'<a href="/?{escape(urlencode({"origen": o, "destino": d, "alg": p.alg, "hora": p.hora, "peso": p.peso}))}">'
+        f'<a href="/?{escape(urlencode({"origen": o, "destino": d, "alg": p.alg, "hora": p.hora, "peso": p.peso, "fuente": p.fuente, "dia": p.dia}))}">'
         f'{escape(o)} → {escape(d)}</a>'
         for o, d in EJEMPLOS
     )
@@ -369,6 +410,7 @@ def _form(p: Params) -> str:
         <input id="hora" name="hora" type="time" value="{escape(p.hora)}" required></label>
       <label class="f">Peso del tráfico en el coste: <b id="pv">{p.peso:g}</b>
         <input id="peso" name="peso" type="range" min="0" max="1" step="0.1" value="{p.peso:g}"></label>
+      {_campos_ml(p)}
       <label class="chk"><input type="checkbox" name="sim" value="1"{" checked" if p.sim else ""}>
         Simular tráfico cambiante</label>
       <label class="f" title="Número que fija el tráfico «real» simulado: misma semilla = mismo tráfico (repetible); otra semilla = otro escenario.">Semilla (realidad) ⓘ
@@ -450,17 +492,43 @@ def _tabla_benchmark(res: dict, des: dict, sel: str) -> str:
             f'<tbody>{"".join(filas)}</tbody></table></div>')
 
 
-def _pasos(log) -> str:
+def _info_tramos(path: list[str], p: Params) -> dict:
+    """{(a, b): (clase de congestion prevista, grupo K-Medias)} de los tramos de la ruta."""
+    if not PRED:
+        return {}
+    h = p.t_min // 60
+    return {(a, b): (PRED.clase(a, b, h, p.dia), PRED.grupo(a, b)) for a, b in zip(path, path[1:])}
+
+
+def _resumen_ml(info: dict, p: Params) -> str:
+    if not info:
+        return ""
+    cl = [c for c, _ in info.values()]
+    gr = [g for _, g in info.values() if g]
+    clases = " · ".join(f"{cl.count(c)} {c}" for c in ("baja", "media", "alta") if cl.count(c))
+    grupos = " · ".join(f"{gr.count(g)} del grupo {g} ({integracion.NOMBRES_GRUPO[g]})"
+                        for g in sorted(set(gr))) or "sin perfil"
+    return (f'<p class="note">Congestión prevista por el clasificador ({escape(p.hora)}, día {escape(p.dia)}): '
+            f'{clases}. Tramos por grupo de K-Medias: {grupos}.</p>')
+
+
+def _pasos(log, info: dict | None = None) -> str:
     nombres = log.plan.path_names[1:]
+    path = log.plan.path
     lis = []
-    for s, destino in zip(log.bitacora, nombres):
+    for i, (s, destino) in enumerate(zip(log.bitacora, nombres)):
+        chip = ""
+        if info:
+            clase, grupo = info[(path[i], path[i + 1])]
+            chip = (f'<span class="cg c-{clase}">congestión {clase}'
+                    f'{f" · grupo {grupo}" if grupo else ""}</span>')
         etiqueta = ("t-tr", "transbordo") if s.transbordo else \
                    ("t-go", "tomar") if s.accion.startswith("tomar") else ("t-keep", "seguir")
         lis.append(
             f'<li class="{"tr" if s.transbordo else ""}"><span class="n">{s.paso}</span>'
             f'<span class="tag {etiqueta[0]}">{etiqueta[1]}</span>'
             f'<span>ruta <span class="bus">{escape(s.ruta_bus)}</span> → {escape(destino)}</span>'
-            f'<span class="d">{s.coste_tramo_m:,.0f} m</span></li>')
+            f'{chip}<span class="d">{s.coste_tramo_m:,.0f} m</span></li>')
     return f'<ol class="steps">{"".join(lis)}</ol>'
 
 
@@ -495,7 +563,7 @@ def _card_simulacion(p: Params, oid: str, did: str) -> str:
   <p class="sub">El tráfico real cambia mientras el agente avanza (fluctuaciones y picos repentinos de
     congestión) y el agente percibe el tráfico de toda la red (observabilidad global).
     La realidad es la misma (semilla {p.semilla}) para las tres políticas · {escape(ALGOS[alg_sim][0])},
-    salida {escape(p.hora)}.</p>
+    salida {escape(p.hora)}.{" La simulación usa siempre el perfil horario del GTFS como tráfico típico." if p.fuente == "ml" else ""}</p>
   <div class="tablewrap"><table class="bm" style="min-width:760px"><thead><tr>{head}</tr></thead>
     <tbody>{"".join(filas)}</tbody></table></div>
   <p class="note">Plan = tiempo estimado con el tráfico típico al salir · Real = tiempo vivido en la simulación ·
@@ -512,7 +580,12 @@ def _color_m(m: float) -> str:
     return f"rgb({min(r, 255)},{g},60)"
 
 
-def _datos_grafo(path: list[str] | None = None, mult: dict | None = None) -> str:
+_COL_CLASE = {"baja": "#22c55e", "media": "#f59e0b", "alta": "#dc2626"}
+_COL_GRUPO = {1: "#dc2626", 2: "#f59e0b", 3: "#22c55e", 4: "#2563eb"}
+
+
+def _datos_grafo(path: list[str] | None = None, mult: dict | None = None,
+                 clases: dict | None = None, grupos: dict | None = None) -> str:
     """JSON con nodos, tramos y camino para dibujar la red sobre un mapa (Leaflet)."""
     ids = sorted(G.adj)
     idx = {n: i for i, n in enumerate(ids)}
@@ -527,24 +600,36 @@ def _datos_grafo(path: list[str] | None = None, mult: dict | None = None) -> str
         for b in G.adj[a]:
             if a < b:
                 col = _color_m(max(mult.get((a, b), 1.0), mult.get((b, a), 1.0))) if mult else "#64748b"
-                tramos.append([idx[a], idx[b], col, 1 if (a, b) in en_ruta else 0])
+                cc = _COL_CLASE.get((clases or {}).get((a, b)), "#64748b")
+                cg = _COL_GRUPO.get((grupos or {}).get((a, b)), "#94a3b8")
+                tramos.append([idx[a], idx[b], col, 1 if (a, b) in en_ruta else 0, cc, cg])
     return json.dumps({"nodos": nodos, "tramos": tramos, "hay_ruta": bool(path)},
                       ensure_ascii=False).replace("</", "<\\/")
 
 
-def _card_grafo(path=None, mult=None) -> str:
+def _card_grafo(path=None, mult=None, clases=None, grupos=None) -> str:
     leyenda = ("camino encontrado en amarillo · verde = origen · rojo = destino"
                if path else "elige origen y destino para ver el camino resaltado")
     if mult:
         leyenda += " · color de los tramos = congestión (verde libre, rojo congestionado)"
+    selector_color = ""
+    if clases:
+        selector_color = (
+            '<p class="sub"><label>Colorear los tramos por '
+            '<select class="f" id="colorpor" style="width:auto;display:inline-block;padding:6px 10px">'
+            '<option value="2">congestión de la fuente elegida</option>'
+            '<option value="4">clase del clasificador (verde baja, ámbar media, rojo alta)</option>'
+            '<option value="5">grupo de K-Medias (1 rojo lento, 2 ámbar, 3 verde, 4 azul muy rápido)</option>'
+            '</select></label></p>')
     return f"""
 <section class="card">
   <h2>Grafo sobre el mapa</h2>
   <p class="sub">{len(NOMBRES)} paradas y {G.number_of_edges()} tramos sobre el mapa de Bogotá. Pasa el cursor
     sobre un nodo para ver el nombre de la parada; haz clic para usarla como origen o destino; rueda del
     mouse = zoom, arrastrar = mover. {leyenda}. <a href="#" id="zreset">Restablecer vista</a></p>
+  {selector_color}
   <div class="gwrap"><div id="mapa"></div></div>
-  <script type="application/json" id="gdata">{_datos_grafo(path, mult)}</script>
+  <script type="application/json" id="gdata">{_datos_grafo(path, mult, clases, grupos)}</script>
 </section>"""
 
 
@@ -586,14 +671,16 @@ def index():
         return _pagina(p, '<div class="err">El origen y el destino son la misma parada.</div>')
 
     if p.todos:
-        res, des = _benchmark(oid, did, p.t_min, p.peso)
+        res, des = _benchmark(oid, did, p.t_min, p.peso, p.fuente, p.dia)
     else:   # solo el algoritmo elegido: sin optimo de referencia, sin desempeño
-        res, des = {p.alg: _buscar(oid, did, p.alg, p.t_min, p.peso)}, {}
+        res, des = {p.alg: _buscar(oid, did, p.alg, p.t_min, p.peso, p.fuente, p.dia)}, {}
     r = res[p.alg]
     log = RoutePlannerAgent(G).run(oid, did, p.alg, plan=r)
-    p = Params(G.name(oid), G.name(did), p.alg, p.hora, p.peso, p.sim, p.semilla, todos=p.todos)
+    p = Params(G.name(oid), G.name(did), p.alg, p.hora, p.peso, p.sim, p.semilla, todos=p.todos,
+               fuente=p.fuente, dia=p.dia)
+    info = _info_tramos(r.path, p)
     q = urlencode({"origen": p.origen, "destino": p.destino, "alg": p.alg,
-                   "hora": p.hora, "peso": p.peso})
+                   "hora": p.hora, "peso": p.peso, "fuente": p.fuente, "dia": p.dia})
     d_sel = des.get(p.alg)
     if d_sel is None:
         badge_nivel = ""
@@ -603,9 +690,10 @@ def index():
                                 ("b-bad", f"solo {d_sel:.0f} % del óptimo"))
         badge_nivel = f'<span class="badge {nivel_cls}">{nivel_txt}</span>'
     if p.peso:
-        mult = _mult(p.t_min, p.peso)
+        mult = _mult(p.t_min, p.peso, p.fuente, p.dia)
         cm = sum(mult[(a, b)] for a, b in zip(r.path, r.path[1:])) / max(1, r.path_edges)
-        traf = f"tráfico {fmt_hora(p.t_min * 60)} · peso {p.peso:g} · congestión media ×{cm:.2f}"
+        traf = (f"tráfico {fmt_hora(p.t_min * 60)} · peso {p.peso:g} · congestión media ×{cm:.2f}"
+                + (f" · predicho por ML ({p.dia})" if p.fuente == "ml" else ""))
     else:
         traf = "sin tráfico (solo distancia)"
     ruta = ' <em>→</em> '.join(f"<span>{escape(n)}</span>" for n in r.path_names[:8])
@@ -622,6 +710,7 @@ def index():
   </div>
   <div class="route">{ruta}</div>
   {_kpis(r, d_sel)}
+  {_resumen_ml(info, p)}
 </section>
 
 <section class="card">
@@ -631,7 +720,8 @@ def index():
   {_tabla_benchmark(res, des, p.alg)}
 </section>
 
-{_card_grafo(r.path, _mult(p.t_min, p.peso))}
+{_card_grafo(r.path, _mult(p.t_min, p.peso, p.fuente, p.dia),
+             PRED.clases(p.t_min // 60, p.dia) if PRED else None, PRED.grupos() if PRED else None)}
 
 <section class="card">
   <h2>Ruta sobre el grafo (imagen)</h2>
@@ -644,7 +734,7 @@ def index():
 <section class="card">
   <h2>Ciclo percepción → acción del agente</h2>
   <p class="sub">{r.path_edges} tramos · {r.transbordos} transbordo(s). En amarillo, los cambios de bus.</p>
-  {_pasos(log)}
+  {_pasos(log, info)}
 </section>"""
     if p.sim:
         cuerpo += _card_simulacion(p, oid, did)
@@ -660,7 +750,7 @@ def ruta_png():
         oid, did = G.resolve(p.origen), G.resolve(p.destino)
     except KeyError:
         abort(404)
-    return send_file(io.BytesIO(_png(oid, did, p.alg, p.t_min, p.peso)),
+    return send_file(io.BytesIO(_png(oid, did, p.alg, p.t_min, p.peso, p.fuente, p.dia)),
                      mimetype="image/png", max_age=0)
 
 

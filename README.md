@@ -72,16 +72,17 @@ Proyecto_IA/
 │   ├── metaheuristics.py  hc, sa, ga, aco, pso
 │   ├── traffic.py      perfil horario y coste combinado con tráfico
 │   ├── simulacion.py   entorno dinámico y replanificación del agente
-│   ├── ml/dataset.py   dataset de aprendizaje automático (tiempo por tramo, ruta, hora)
+│   ├── ml/             dataset, regresión, clasificación, agrupamiento e integración con el agente
 │   ├── agent.py        agente PEAS (percepción → acción)
 │   ├── plot_search.py  dibuja la ruta sobre el grafo + panel de métricas
 │   ├── demo.py         ejecuta un algoritmo (gráfica + resumen); par por defecto
 │   ├── benchmark.py    comparación de los 5 algoritmos sobre varios pares
 │   └── geo.py          distancia euclidiana
 ├── scripts/     run_<algoritmo>.py (10), run_todos.py, benchmark_50.py, simular_viaje.py,
-│                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
+│                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, entrenar_regresion.py,
+│                entrenar_clasificacion.py, agrupar.py, ruta_ml.py, evaluar_integracion.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       198 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
+├── tests/       215 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
 └── docs/        Informe_proyecto_IA.pdf (informe del proyecto)
 ```
@@ -105,7 +106,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 198 pruebas
+python -m pytest -q                      # 215 pruebas
 ```
 
 - Par por defecto de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -159,7 +160,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - Factor espacial por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - Entorno dinámico (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 198 (`python -m pytest -q`).
+- Pruebas: 215 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 
@@ -260,4 +261,26 @@ python scripts/agrupar.py                # data/agrupamiento_tramos.csv, output/
 python scripts/agrupar.py --k 5          # otro número de grupos
 ```
 
-Siguientes pasos: integración con el agente y la web (usar el tiempo predicho en el costo del tramo y mostrar la congestión y los grupos).
+### Integración con el agente y la web (`src/ml/integracion.py`)
+
+`PredictorTramos` aplica los modelos entrenados a cada tramo: tiempo previsto (regresión), nivel de congestión (clasificador) y grupo de K-Medias. El tiempo predicho se convierte en el multiplicador de congestión que ya usaba la búsqueda, m = max(1, v_libre * t_predicho / dist), así que el agente lo usa sin cambiar los algoritmos. Como m >= 1, la heurística euclidiana sigue siendo admisible y A* sigue siendo óptimo para ese costo (hay pruebas que lo comprueban).
+
+- Agente: `RoutePlannerAgent.plan(origen, destino, estrategia, mult=..., peso_trafico=..., v_libre_ms=...)`.
+- Web: selector de fuente del tráfico (perfil del GTFS o predicción de regresión) y del día de la semana; cada tramo de la ruta muestra su congestión prevista y su grupo; el mapa se puede colorear por congestión, por clase del clasificador o por grupo de K-Medias.
+- Consola: compara la ruta por distancia con la ruta por tiempo predicho, tramo a tramo.
+
+```bash
+python scripts/ruta_ml.py "Br. Chicó Norte III Sector" "Br. Sucre" --hora 17:00 --dia habil
+python scripts/evaluar_integracion.py -n 250    # evaluación del costo con ML (varios minutos)
+```
+
+Evaluación (250 pares al azar y 4 horas, 431 comparaciones con tiempo programado en todos los tramos; predicciones de ML fuera de muestra; el tiempo incluye 134 s de espera por transbordo):
+
+| Criterio de costo | Tiempo con esperas (min) | Ahorro frente a distancia |
+|---|---|---|
+| Distancia + transbordos | 16,39 | --- |
+| Perfil horario del GTFS con factor sintético | 16,92 | -2,9 % |
+| Tiempo predicho por ML | 16,19 | +1,0 % (IC 95 %: 0,4 a 1,6) |
+| Oráculo (tiempo programado) | 15,73 | +3,4 % |
+
+La mejora con ML es pequeña pero consistente y recupera cerca de un tercio de lo que lograría el oráculo. Los tiempos son programados, no medidos, así que el resultado muestra que el modelo se acerca más al servicio programado que la distancia, no que acorte viajes reales.

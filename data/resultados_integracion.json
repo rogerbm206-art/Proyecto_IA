@@ -1,0 +1,124 @@
+{
+ "pares_aleatorios": 250,
+ "semilla": 42,
+ "horas": [
+  8,
+  12,
+  17,
+  21
+ ],
+ "algoritmo": "astar",
+ "comparaciones": 431,
+ "espera_transbordo_s": 134.3,
+ "por_criterio": [
+  {
+   "criterio": "distancia",
+   "pares": 431,
+   "tiempo_min": 14.345,
+   "transbordos": 0.914,
+   "tramos": 8.202,
+   "dist_m": 3395.72,
+   "tiempo_total_min": 16.391
+  },
+  {
+   "criterio": "perfil",
+   "pares": 431,
+   "tiempo_min": 14.543,
+   "transbordos": 1.06,
+   "tramos": 8.288,
+   "dist_m": 3388.748,
+   "tiempo_total_min": 16.917
+  },
+  {
+   "criterio": "ml",
+   "pares": 431,
+   "tiempo_min": 13.98,
+   "transbordos": 0.988,
+   "tramos": 7.812,
+   "dist_m": 3387.155,
+   "tiempo_total_min": 16.193
+  },
+  {
+   "criterio": "oraculo",
+   "pares": 431,
+   "tiempo_min": 13.463,
+   "transbordos": 1.014,
+   "tramos": 8.153,
+   "dist_m": 3405.768,
+   "tiempo_total_min": 15.733
+  }
+ ],
+ "frente_a_distancia": {
+  "perfil": {
+   "ahorro_medio_pct": -1.4,
+   "ahorro_total_medio_pct": -2.85,
+   "pares_mas_rapidos_pct": 20.6,
+   "pares_mas_lentos_pct": 24.4,
+   "pares_igual_pct": 55.0,
+   "ahorro_medio_ic95": [
+    -2.57,
+    -0.21
+   ],
+   "ahorro_total_ic95": [
+    -3.88,
+    -1.86
+   ]
+  },
+  "ml": {
+   "ahorro_medio_pct": 1.96,
+   "ahorro_total_medio_pct": 1.01,
+   "pares_mas_rapidos_pct": 20.4,
+   "pares_mas_lentos_pct": 9.0,
+   "pares_igual_pct": 70.5,
+   "ahorro_medio_ic95": [
+    1.12,
+    2.87
+   ],
+   "ahorro_total_ic95": [
+    0.4,
+    1.64
+   ]
+  },
+  "oraculo": {
+   "ahorro_medio_pct": 5.21,
+   "ahorro_total_medio_pct": 3.35,
+   "pares_mas_rapidos_pct": 39.4,
+   "pares_mas_lentos_pct": 5.6,
+   "pares_igual_pct": 55.0,
+   "ahorro_medio_ic95": [
+    4.2,
+    6.34
+   ],
+   "ahorro_total_ic95": [
+    2.69,
+    4.07
+   ]
+  }
+ },
+ "tiempo_medio_min_por_hora": {
+  "8": {
+   "distancia": 15.88,
+   "perfil": 16.13,
+   "ml": 15.54,
+   "oraculo": 14.49
+  },
+  "12": {
+   "distancia": 13.18,
+   "perfil": 13.41,
+   "ml": 12.74,
+   "oraculo": 12.28
+  },
+  "17": {
+   "distancia": 17.43,
+   "perfil": 17.85,
+   "ml": 16.98,
+   "oraculo": 16.5
+  },
+  "21": {
+   "distancia": 11.94,
+   "perfil": 11.95,
+   "ml": 11.66,
+   "oraculo": 11.47
+  }
+ }
+}

@@ -60,9 +60,14 @@ class RoutePlannerAgent:
         self._plan: list[str] = []
 
     # -- deliberacion ---------------------------------------------------------
-    def plan(self, origen: str, destino: str, estrategia: str = "astar") -> SearchResult:
-        """Calcula la ruta (sin recorrerla) y devuelve el `SearchResult`."""
-        return search(self.env, origen, destino, estrategia)
+    def plan(self, origen: str, destino: str, estrategia: str = "astar", **trafico) -> SearchResult:
+        """Calcula la ruta (sin recorrerla) y devuelve el `SearchResult`.
+
+        `trafico` admite `mult`, `peso_trafico` y `v_libre_ms` de `search`: con ellos el agente
+        planifica con el trafico del perfil del GTFS o con el tiempo que predice el modelo de ML
+        (`src.ml.integracion.PredictorTramos.mult`).
+        """
+        return search(self.env, origen, destino, estrategia, **trafico)
 
     # -- SENSORES -----------------------------------------------------------
     def perceive(self) -> dict:

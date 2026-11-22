@@ -31,13 +31,17 @@ CATEGORICAS = ["tipo_dia"]
 SEMILLA = 0
 
 
-def preparar(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series, pd.Series]:
-    """(X, y, grupos). El grupo de cada fila es su tramo."""
+def atributos(df: pd.DataFrame) -> pd.DataFrame:
+    """Matriz de entrada de los modelos (misma para regresion y clasificacion)."""
     X = df.copy()
     ang = 2 * np.pi * X["hora"] / 24
     X["hora_sin"], X["hora_cos"] = np.sin(ang), np.cos(ang)
-    grupos = X["u"] + "|" + X["v"]
-    return X[NUMERICAS + CATEGORICAS], X[OBJETIVO], grupos
+    return X[NUMERICAS + CATEGORICAS]
+
+
+def preparar(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series, pd.Series]:
+    """(X, y, grupos). El grupo de cada fila es su tramo."""
+    return atributos(df), df[OBJETIVO], df["u"] + "|" + df["v"]
 
 
 def _preproceso() -> ColumnTransformer:
