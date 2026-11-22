@@ -1,0 +1,14 @@
+{
+ "pares_consecutivos": 8357371,
+ "sin_tramo_en_grafo": 7749009,
+ "tiempo_o_distancia_invalidos": 7688,
+ "velocidad_imposible": 704,
+ "grupos_antes_de_min_obs": 154550,
+ "filas_finales": 120855,
+ "tramos": 553,
+ "rutas": 138,
+ "min_obs": 3,
+ "dt_max_s": 900,
+ "dist_min_m": 40.0,
+ "vel_max_kmh": 70.0
+}
