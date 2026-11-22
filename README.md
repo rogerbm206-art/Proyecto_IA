@@ -81,7 +81,7 @@ Proyecto_IA/
 ├── scripts/     run_<algoritmo>.py (10), run_todos.py, benchmark_50.py, simular_viaje.py,
 │                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       191 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
+├── tests/       198 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
 └── docs/        Informe_proyecto_IA.pdf (informe del proyecto)
 ```
@@ -105,7 +105,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 191 pruebas
+python -m pytest -q                      # 198 pruebas
 ```
 
 - Par por defecto de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -159,7 +159,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - Factor espacial por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - Entorno dinámico (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 191 (`python -m pytest -q`).
+- Pruebas: 198 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 
@@ -177,7 +177,7 @@ Ninguna usa Dijkstra ni el costo óptimo para construir soluciones. En las métr
 
 Uso: `python scripts/run_aco.py` (también `run_hc`, `run_sa`, `run_ga`, `run_pso`), `search(g, o, d, "aco", semilla=1)`, y los 10 algoritmos aparecen en la web y en `scripts/benchmark_50.py`. Pruebas: `tests/test_metaheuristicas.py`.
 
-## Aprendizaje automático (en desarrollo)
+## Aprendizaje automático
 
 Dataset construido desde el GTFS: una fila por tramo, ruta, hora y tipo de día (hábil, sábado, domingo), con el tiempo programado mediano como variable objetivo. Quedan 120 855 filas, 553 tramos y 138 rutas tras la depuración (`data/dataset_ml_resumen.json`). Los tiempos son programados, no medidos.
 
@@ -240,4 +240,24 @@ El árbol y la RNA rinden casi igual (la diferencia es menor que la desviación 
 python scripts/entrenar_clasificacion.py   # resultados en data/ y output/clf_*.png (varios minutos)
 ```
 
-Siguientes pasos: agrupamiento con K-Medias e integración con el agente y la web.
+### Agrupamiento de tramos con K-Medias (`src/ml/agrupamiento.py`)
+
+K-Medias agrupa los tramos por su perfil horario de velocidad: la mediana de la velocidad en cada hora de 5 a 23 h de un día hábil (19 valores en km/h, sin normalizar). Se descartan los tramos con menos de 15 de esas horas (quedan 501 de 553) y se interpolan las horas que faltan. El algoritmo asigna cada tramo al centroide más cercano y mueve cada centroide al promedio de su grupo, hasta que los grupos no cambian.
+
+Elección de k: k = 2 tiene la mayor silueta (0,67) pero solo separa 68 tramos muy rápidos del resto. Entre los demás, k = 4 tiene la mejor silueta (0,47) y coincide con el codo de la inercia, así que se usa k = 4 (decisión de juicio documentada en el informe). Estabilidad: índice de Rand ajustado de 0,99 en promedio al repetir con el 80 % de los tramos.
+
+| Grupo | Tramos | Vel. media (km/h) | Vel. 16-17 h | Vel. 21-23 h | Distancia (m) | Rutas |
+|---|---|---|---|---|---|---|
+| 1 (lento) | 150 | 8,8 | 6,9 | 12,4 | 306 | 4,0 |
+| 2 (medio) | 251 | 14,0 | 10,7 | 20,6 | 395 | 7,3 |
+| 3 (rápido) | 72 | 21,6 | 16,4 | 31,6 | 508 | 8,4 |
+| 4 (muy rápido) | 28 | 34,4 | 26,0 | 50,2 | 581 | 6,5 |
+
+Los grupos se distinguen por el nivel de velocidad: las curvas son casi paralelas y en todos la velocidad de las 16-17 h es entre 44 % y 48 % menor que la nocturna. Como el tiempo programado incluye la detención en la parada, los tramos cortos salen lentos aunque no estén congestionados. En el mapa los grupos están mezclados, no forman zonas.
+
+```bash
+python scripts/agrupar.py                # data/agrupamiento_tramos.csv, output/agr_*.png (segundos)
+python scripts/agrupar.py --k 5          # otro número de grupos
+```
+
+Siguientes pasos: integración con el agente y la web (usar el tiempo predicho en el costo del tramo y mostrar la congestión y los grupos).

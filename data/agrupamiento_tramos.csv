@@ -1,0 +1,502 @@
+u,v,dist_m,n_rutas,viajes_tramo,lat,lon,grupo,vel_media_kmh,vel_pico_kmh,vel_valle_kmh
+NM:ac 100,NM:br chico norte iii sector,429.0,5,372,4.686046,-74.051935,0,10.59,9.79,7.27
+NM:ac 100,NM:br santa bibiana#0,253.1,9,1325,4.688445,-74.050788,0,9.8,6.94,15.83
+NM:ac 80,NM:centro comercial metropolis,211.4,6,1130,4.681633,-74.081711,1,12.16,9.59,18.92
+NM:ac 80,NM:entrerios,594.3,6,1130,4.683832,-74.078826,1,14.34,11.42,21.9
+NM:academia nacional de medicina,NM:br chapinero norte,378.1,6,1395,4.650539,-74.058487,1,15.86,12.16,22.78
+NM:academia nacional de medicina,NM:embajada de japon,303.1,6,1395,4.652904,-74.056572,1,13.84,10.61,19.85
+NM:ak 15,NM:br chico norte ii sector,326.8,1,111,4.680392,-74.04896,1,13.22,9.16,20.3
+NM:ak 15,NM:br chico norte sector iii,301.1,2,313,4.679737,-74.050905,1,14.93,10.79,22.13
+NM:ak 15,NM:br chico norte#0,483.0,3,424,4.6776,-74.048139,2,20.07,14.04,30.44
+NM:ak 68,NM:cafam floresta,131.7,2,419,4.688273,-74.07445,0,6.38,5.16,9.98
+NM:ak 68,NM:parque la floresta,223.0,2,419,4.689615,-74.0753,1,13.53,10.95,20.85
+NM:alcazares,NM:monumento rafael uribe uribe,190.3,7,1281,4.665886,-74.071121,1,13.51,10.57,20.4
+NM:alcazares,NM:parque alcazares,230.9,7,1281,4.664752,-74.069599,1,13.49,10.6,20.02
+NM:aldeas infantiles sos colombia,NM:br j j vargas,324.9,3,472,4.669392,-74.083475,1,14.27,10.97,20.73
+NM:almacenes tia,NM:br rafael uribe,273.0,5,902,4.656886,-74.070266,1,14.33,11.32,21.75
+NM:almacenes tia,NM:centro comercial las rampas,192.8,2,248,4.658109,-74.07051,0,10.47,7.5,14.77
+NM:almacenes tia,NM:colegio marillac,302.4,9,1532,4.658409,-74.072364,1,13.43,10.31,19.36
+NM:almacenes tia,NM:quinta mutis,482.6,2,382,4.655514,-74.071686,1,13.45,11.41,15.69
+NM:autopista norte,NM:br estoril,560.4,17,3365,4.687131,-74.057308,1,14.08,10.34,21.8
+NM:autopista norte,NM:br santa bibiana#0,622.3,18,3398,4.687741,-74.052297,3,40.16,29.54,58.5
+NM:avenida calle 100,NM:br chico navarra,230.0,2,246,4.686082,-74.048921,0,10.58,8.11,15.06
+NM:avenida calle 100,NM:br chico norte iii sector,521.6,1,134,4.685268,-74.049991,1,15.72,10.94,20.87
+NM:avenida calle 100,NM:br rincon del chico,279.2,3,324,4.686447,-74.04668,0,8.36,5.74,12.02
+NM:avenida calle 100,NM:br santa bibiana#0,342.9,11,1622,4.687667,-74.048844,0,10.18,7.19,15.47
+NM:avenida calle 100,NM:colsanitas cl 100,457.3,7,1075,4.684862,-74.046589,0,9.71,7.27,14.41
+NM:avenida calle 106,NM:br molinos norte,258.9,12,2179,4.690271,-74.044848,1,15.36,10.9,23.11
+NM:avenida calle 106,NM:br rincon del chico,403.2,14,2641,4.688268,-74.045709,1,12.25,8.81,18.44
+NM:avenida calle 116#0,NM:br san patricio,97.9,9,864,4.697022,-74.050121,0,3.78,2.91,5.92
+NM:avenida calle 116#1,NM:br santa barbara occidental,616.2,1,206,4.697628,-74.04596,3,33.34,24.53,47.63
+NM:avenida calle 116#1,NM:calle 112,193.0,10,1456,4.696113,-74.043306,1,12.8,8.72,20.97
+NM:avenida calle 116#1,NM:pquia santa beatriz,268.9,11,1662,4.698187,-74.043193,1,13.07,9.21,20.19
+NM:avenida calle 80,NM:br entrerios,400.6,18,3805,4.684844,-74.077762,0,9.6,7.34,15.41
+NM:avenida calle 80,NM:cafam floresta,709.1,24,4932,4.685774,-74.076722,2,24.53,18.13,38.56
+NM:avenida calle 80,NM:centro comercial metropolis,470.3,18,3676,4.68246,-74.080875,2,24.6,18.86,39.2
+NM:avenida calle 80,NM:exito calle 80,137.4,24,4932,4.683537,-74.079799,0,8.22,6.18,12.68
+NM:avenida caracas#0,NM:br la esperanza,544.4,1,133,4.654013,-74.065402,0,9.43,8.28,11.39
+NM:avenida caracas#0,NM:centro cosmos 64,491.0,1,133,4.653534,-74.063454,0,10.53,9.32,12.72
+NM:avenida caracas#0,NM:clinica del nino,420.3,1,192,4.654168,-74.06259,0,10.32,7.6,15.24
+NM:avenida caracas#0,NM:colegio san pedro nolasco,286.1,3,769,4.656195,-74.064858,1,15.31,11.27,21.74
+NM:avenida caracas#0,NM:teatro astor plaza,311.1,3,577,4.654527,-74.062942,1,12.96,10.11,18.32
+NM:avenida caracas#1,NM:ied manuela beltran,250.6,2,258,4.644021,-74.065865,1,13.4,10.32,19.61
+NM:avenida caracas#1,NM:tecnoparque sena,220.5,2,258,4.642803,-74.0648,1,12.13,9.31,18.04
+NM:avenida la esmeralda,NM:br j j vargas,159.5,2,248,4.67066,-74.081911,0,8.95,6.68,12.22
+NM:avenida la esmeralda,NM:colegio cooperativo union social,437.8,7,1425,4.672367,-74.082299,1,12.96,10.4,17.68
+NM:avenida la esmeralda,NM:parque publico modelo,275.6,9,1673,4.669687,-74.080531,1,12.54,9.7,17.94
+NM:avenida morato,NM:br andes norte,704.2,2,440,4.693921,-74.070456,1,15.41,12.66,20.24
+NM:avenida morato,NM:br julio flores,362.5,3,461,4.694959,-74.074153,0,10.17,8.39,13.12
+NM:avenida morato,NM:br santa rosa,368.5,1,238,4.696133,-74.074529,2,19.25,15.96,28.53
+NM:avenida morato,NM:urb morato,450.2,1,238,4.697362,-74.071394,0,10.87,8.98,16.29
+NM:avenida pepe sierra,NM:br julio flores,867.4,1,217,4.696553,-74.072524,1,13.21,10.48,19.36
+NM:avenida pepe sierra,NM:br puente largo#1,294.3,4,805,4.697903,-74.069207,1,15.58,11.93,22.59
+NM:banco central,NM:br chapinero occidental,220.7,2,310,4.642548,-74.069947,0,6.03,5.42,7.96
+NM:banco central,NM:br galerias,422.9,3,538,4.642455,-74.072845,2,24.93,19.87,36.5
+NM:banco central,NM:br quesada,488.2,1,233,4.641105,-74.069311,2,23.51,18.13,35.95
+NM:banco central,NM:centro comercial morichal,293.7,6,1104,4.642065,-74.072161,1,12.42,9.68,19.11
+NM:banco central,NM:clin eusalud br chapinero occ,237.2,3,561,4.642826,-74.0699,0,5.89,4.34,9.16
+NM:banco central,NM:san luis,399.7,1,181,4.643909,-74.072157,1,14.49,11.58,20.72
+NM:banco central,NM:san luis cl 58,396.1,2,357,4.644211,-74.071663,1,16.64,13.19,24.38
+NM:br 12 de octubre,NM:estacion avenida chile,274.0,9,1840,4.667168,-74.074564,1,13.76,10.03,20.18
+NM:br 12 de octubre,NM:estacion nqs calle 75,484.1,9,1840,4.669584,-74.072576,1,15.32,11.1,22.48
+NM:br 12 de octubre,NM:parroquia san fernando rey,596.0,8,1581,4.670099,-74.076473,1,16.08,12.67,22.33
+NM:br 12 de octubre,NM:sede comunal 11 de noviembre,382.5,8,1581,4.667419,-74.072977,0,10.4,8.14,14.45
+NM:br acevedo tejada,NM:estacion ciudad universitaria,330.1,1,272,4.631865,-74.083055,1,13.53,10.94,19.11
+NM:br acevedo tejada,NM:universidad nacional,537.2,4,818,4.632838,-74.079729,0,10.19,7.92,14.12
+NM:br alcazares,NM:br colombia,481.4,6,1247,4.659795,-74.06799,2,18.74,14.43,24.43
+NM:br alcazares,NM:br la paz,436.0,9,1673,4.660186,-74.071954,2,18.65,14.69,25.76
+NM:br alcazares,NM:centro comercial las rampas,103.8,1,241,4.659013,-74.069957,0,2.91,2.61,3.78
+NM:br alcazares,NM:pl 7 de agosto,289.6,1,155,4.658195,-74.070499,0,5.14,4.66,5.73
+NM:br alcazares norte,NM:br la aurora,187.1,4,660,4.665526,-74.067116,0,11.14,8.09,15.34
+NM:br alcazares norte,NM:cai alcazares,325.7,4,781,4.663274,-74.067589,2,19.23,14.44,25.74
+NM:br andes norte,NM:br julio florez,659.6,11,2531,4.690682,-74.070765,3,41.34,32.42,57.06
+NM:br andes norte,NM:br los andes norte,108.3,1,236,4.691438,-74.067806,0,2.31,1.74,3.7
+NM:br andes norte,NM:centro comercial iserra 100,561.0,9,2065,4.690225,-74.066117,1,14.32,10.32,22.11
+NM:br andes norte,NM:parque andes norte,221.3,2,352,4.690891,-74.068228,0,7.64,6.11,10.91
+NM:br andes norte,NM:urb morato,792.9,4,803,4.695308,-74.068976,3,40.52,30.07,57.26
+NM:br antiguo country#0,NM:estacion cl 85,260.5,1,219,4.671367,-74.057758,0,8.66,7.18,8.45
+NM:br antiguo country#0,NM:parque leon de greiff,334.1,2,237,4.669992,-74.055466,0,8.87,7.34,8.65
+NM:br antiguo country#1,NM:br concepcion norte,661.9,5,855,4.660208,-74.062415,0,9.7,7.44,13.85
+NM:br antiguo country#1,NM:br polo club,917.3,1,211,4.66636,-74.061378,2,22.85,17.23,33.36
+NM:br antiguo country#1,NM:br porciuncula,312.7,1,211,4.661135,-74.059668,3,33.04,25.02,48.94
+NM:br antiguo country#1,NM:br san felipe,376.8,6,675,4.662353,-74.062055,2,18.61,13.72,29.2
+NM:br antiguo country#1,NM:universidad sergio arboleda,146.4,9,1488,4.661731,-74.06017,1,14.79,11.1,21.74
+NM:br banco central,NM:br galerias,440.9,4,747,4.64179,-74.072834,3,31.14,22.93,46.53
+NM:br banco central,NM:kr 15,353.3,4,747,4.64097,-74.069351,1,14.18,10.46,21.22
+NM:br baquero,NM:br muequeta,313.9,6,1135,4.650743,-74.070572,1,13.75,10.83,20.45
+NM:br baquero,NM:centro johann kepler,221.8,5,938,4.649968,-74.068327,0,9.18,7.32,13.64
+NM:br baquero,NM:fund universit san martin,477.2,1,197,4.648913,-74.06772,0,10.29,8.06,14.68
+NM:br belalcazar,NM:br galerias,375.7,1,194,4.641927,-74.076396,0,11.03,8.82,14.78
+NM:br belalcazar,NM:canal arzobispo#1,356.9,11,2449,4.639988,-74.078505,1,16.99,12.02,27.74
+NM:br belalcazar,NM:estadio el campin,242.8,11,2449,4.642581,-74.078322,1,15.4,10.94,25.21
+NM:br belalcazar,NM:icontec,552.5,1,194,4.642624,-74.080278,0,10.87,8.7,14.58
+NM:br bellavista,NM:br emaus,448.6,7,1684,4.654786,-74.055239,1,17.39,13.14,26.05
+NM:br bellavista,NM:br porciuncula,638.1,1,155,4.658239,-74.056639,1,12.31,8.77,17.74
+NM:br bellavista,NM:centro comercial avenida chile,413.3,3,756,4.656627,-74.056161,1,13.39,10.44,19.45
+NM:br bellavista,NM:embajada de inglaterra,499.6,2,454,4.658687,-74.055053,0,9.85,7.57,13.94
+NM:br bellavista,NM:parque el nogal,352.2,7,1831,4.657832,-74.053335,2,19.86,15.85,28.63
+NM:br benjamin herrera,NM:estacion coliseo,341.7,8,1790,4.653058,-74.077856,1,16.24,11.46,26.78
+NM:br benjamin herrera,NM:estacion simon bolivar,379.7,9,1809,4.656297,-74.077711,1,17.5,12.4,28.5
+NM:br bosque calderon,NM:comfenalco,350.0,2,277,4.640943,-74.062944,1,11.4,8.87,17.42
+NM:br bosque calderon,NM:direccion de sanidad,369.5,16,3072,4.64062,-74.062455,1,13.46,9.96,20.68
+NM:br bosque calderon,NM:universidad de la salle,295.6,17,3349,4.643513,-74.061695,2,21.41,15.83,32.6
+NM:br campin occidental,NM:calle 63,322.3,8,1814,4.650639,-74.078759,1,15.34,11.29,22.72
+NM:br campin occidental,NM:estacion el campin,486.4,9,2125,4.64701,-74.078998,1,15.35,11.23,22.36
+NM:br campin occidental,NM:parque de los novios,454.8,1,311,4.650874,-74.080016,1,12.39,8.29,16.05
+NM:br chapinero central,NM:br marly,1036.7,6,1395,4.639065,-74.064043,3,49.61,39.93,62.65
+NM:br chapinero central,NM:cuerpo of de bomberos de bogota,480.0,31,4748,4.64585,-74.063668,1,17.65,13.42,25.37
+NM:br chapinero central,NM:ied manuela beltran,387.6,1,203,4.643973,-74.065246,1,14.52,11.23,21.93
+NM:br chapinero central,NM:parque lourdes,714.2,2,153,4.646909,-74.063495,1,14.93,13.22,17.98
+NM:br chapinero central,NM:tecnoparque sena,255.8,32,4807,4.642755,-74.064181,0,9.6,7.37,15.0
+NM:br chapinero central,NM:universidad de la salle,268.7,6,1395,4.644249,-74.062441,1,13.87,10.72,19.93
+NM:br chapinero norte,NM:camara de comercio cl 67,240.3,1,251,4.650409,-74.05953,0,11.05,8.32,16.78
+NM:br chapinero norte,NM:centro comercial lourdes,311.5,3,632,4.64926,-74.061101,1,12.19,9.52,16.7
+NM:br chapinero norte,NM:cl 67,293.0,2,381,4.650654,-74.059589,0,9.68,7.65,13.19
+NM:br chapinero norte,NM:universidad de la salle,537.6,6,1395,4.647071,-74.06053,1,15.97,12.32,22.85
+NM:br chapinero occidental,NM:br quesada,350.3,7,1311,4.641072,-74.068316,0,9.39,7.66,12.79
+NM:br chapinero occidental,NM:calle 51 br quesada,437.0,1,195,4.640579,-74.069291,1,12.85,10.54,17.6
+NM:br chapinero occidental,NM:iglesia divino salvador,313.3,10,1771,4.6439,-74.068696,1,13.98,11.72,18.99
+NM:br chico navarra,NM:br rincon del chico,503.3,2,242,4.686112,-74.047662,0,10.81,7.98,16.41
+NM:br chico navarra,NM:br santa bibiana#0,352.9,6,845,4.687332,-74.049826,1,13.89,10.64,20.08
+NM:br chico navarra,NM:centro de negocios chico plaza,302.1,2,320,4.684608,-74.049161,0,8.37,7.12,11.76
+NM:br chico norte ii sector,NM:br chico norte#0,647.1,21,2788,4.678874,-74.047403,2,25.76,18.67,40.12
+NM:br chico norte ii sector,NM:camara de comercio sede norte,550.0,12,1880,4.679729,-74.049768,1,15.15,11.72,22.65
+NM:br chico norte ii sector,NM:centro de negocios chico plaza,201.6,14,2178,4.682567,-74.048322,2,18.73,14.1,27.32
+NM:br chico norte ii sector,NM:colsanitas cl 100,377.9,14,2371,4.682486,-74.046731,1,11.52,8.56,17.71
+NM:br chico norte ii sector,NM:urb conjunto de la 100,750.7,6,329,4.68174,-74.044838,2,22.18,13.98,32.8
+NM:br chico norte iii sector,NM:br chico norte#1,677.7,9,1572,4.681993,-74.054234,3,29.88,20.83,46.69
+NM:br chico norte iii sector,NM:br el chico#0,1050.8,1,178,4.679398,-74.052222,0,10.4,6.86,13.96
+NM:br chico norte iii sector,NM:br rincon del chico,779.4,15,3741,4.685299,-74.048732,1,17.02,12.46,25.77
+NM:br chico norte iii sector,NM:br santa bibiana#0,590.9,4,600,4.686518,-74.050896,3,36.26,28.47,56.8
+NM:br chico norte iii sector,NM:centro de negocios chico plaza,408.1,1,187,4.683794,-74.050231,0,9.44,6.12,14.04
+NM:br chico norte iii sector,NM:centro empresarial calle 100,231.5,15,3023,4.684989,-74.052619,0,10.83,8.39,18.14
+NM:br chico norte iii sector,NM:colsanitas cl 100,759.5,12,1803,4.683713,-74.048641,1,16.24,12.43,26.34
+NM:br chico norte iii sector,NM:estacion calle 100,619.4,2,383,4.68484,-74.054743,3,32.41,23.27,52.57
+NM:br chico norte iii sector,NM:estacion virrey,1123.3,2,156,4.680253,-74.055304,1,12.98,9.32,19.35
+NM:br chico norte iii sector,NM:hotel dann carlton,696.4,9,1688,4.682119,-74.05446,1,14.13,10.09,21.54
+NM:br chico norte iii sector,NM:puente de la 92,998.6,2,308,4.681217,-74.055481,1,14.54,10.6,24.6
+NM:br chico norte iii sector,NM:univ militar nueva granada,1042.1,2,194,4.68311,-74.047452,1,16.97,12.18,25.87
+NM:br chico norte sector iii,NM:hotel dann carlton,528.5,1,284,4.680236,-74.054496,1,12.65,9.18,18.71
+NM:br chico norte#0,NM:embajada de francia,236.1,17,2427,4.675189,-74.047158,1,14.43,10.61,20.65
+NM:br chico norte#0,NM:kr 14,473.6,1,225,4.677477,-74.048195,2,19.01,14.74,27.28
+NM:br chico norte#0,NM:pquia la inmaculada concepcion,693.8,17,2427,4.673369,-74.048128,3,31.75,23.12,50.88
+NM:br chico norte#1,NM:puente de la 92,325.9,8,1559,4.679091,-74.057671,1,15.74,11.02,24.81
+NM:br chico oriental,NM:br el refugio,223.9,12,1248,4.668671,-74.044596,0,8.26,6.74,11.75
+NM:br chico oriental,NM:seminario conciliar de bogota,554.9,7,1127,4.671821,-74.043208,1,14.08,11.5,20.05
+NM:br colombia,NM:br concepcion norte,277.9,3,622,4.659099,-74.065161,0,6.54,4.38,12.58
+NM:br colombia,NM:br san felipe,336.8,3,563,4.661243,-74.064801,1,11.59,9.09,17.56
+NM:br colombia,NM:centro comercial las rampas,469.3,2,332,4.659362,-74.067813,1,16.01,12.3,21.25
+NM:br colombia,NM:colegio san pedro nolasco,388.4,7,1556,4.658401,-74.065955,2,24.83,18.69,34.89
+NM:br colombia,NM:colombia,283.3,4,697,4.660635,-74.067026,1,12.8,7.86,15.22
+NM:br colombia,NM:estacion calle 72,562.3,5,821,4.659342,-74.063441,2,21.1,16.02,29.72
+NM:br colombia,NM:iglesia siervas de maria,540.4,1,311,4.662168,-74.067196,2,18.9,14.81,27.02
+NM:br colombia,NM:parque alcazares,548.3,4,845,4.662133,-74.067309,2,19.79,15.31,28.09
+NM:br colombia,NM:siete de agosto,560.6,2,409,4.65905,-74.068125,2,20.89,17.06,28.05
+NM:br concepcion norte,NM:br la esperanza,705.7,10,1774,4.655173,-74.065813,2,27.21,21.01,37.55
+NM:br concepcion norte,NM:br san felipe,483.6,7,1178,4.660198,-74.064115,2,23.05,17.67,34.53
+NM:br concepcion norte,NM:carrera 17,480.2,3,697,4.656364,-74.065825,2,20.39,15.25,31.67
+NM:br concepcion norte,NM:estacion calle 72,385.0,3,743,4.658296,-74.062755,1,14.92,11.04,22.3
+NM:br concepcion norte,NM:teatro astor plaza,582.0,1,268,4.655687,-74.063352,1,11.52,8.19,18.15
+NM:br concepcion norte,NM:universidad sergio arboleda,602.0,2,370,4.659576,-74.06223,1,12.41,9.56,16.44
+NM:br el chico#0,NM:cade chico,139.5,4,663,4.674714,-74.05303,0,6.34,4.01,11.12
+NM:br el chico#0,NM:pquia la inmaculada concepcion,539.5,3,485,4.672667,-74.051038,3,28.02,21.82,43.33
+NM:br el chico#1,NM:br la cabrera,676.4,4,959,4.668734,-74.047167,2,19.3,14.68,27.37
+NM:br el chico#1,NM:museo del chico,465.6,4,959,4.672037,-74.043492,1,13.87,10.58,19.57
+NM:br el eden,NM:br entrerios,467.7,2,474,4.687611,-74.07509,0,6.88,5.4,10.34
+NM:br el eden,NM:br julio florez,48.0,1,236,4.689422,-74.073696,0,2.05,1.69,2.74
+NM:br el eden,NM:entrerios,530.3,2,385,4.687427,-74.075318,0,7.01,5.86,9.24
+NM:br el eden,NM:urb los sauces,375.3,3,623,4.690708,-74.074899,1,13.49,10.7,20.45
+NM:br el nogal,NM:br el retiro,234.0,5,880,4.663724,-74.051656,1,11.45,8.4,16.85
+NM:br el nogal,NM:gimnasio moderno,524.6,9,964,4.661071,-74.053804,3,28.51,20.82,42.78
+NM:br el refugio,NM:cl 85,343.9,2,540,4.666269,-74.045371,1,14.16,11.25,20.36
+NM:br el refugio,NM:embajada del peru,709.8,8,1164,4.665209,-74.046753,2,19.5,15.82,27.92
+NM:br el refugio,NM:kr 4,454.9,2,1080,4.668445,-74.042815,1,13.42,9.74,19.68
+NM:br el refugio,NM:urb el refugio,336.2,2,540,4.666333,-74.045421,0,9.69,7.94,13.29
+NM:br el retiro,NM:br espartillal,391.6,1,242,4.664068,-74.052733,0,9.63,7.66,13.67
+NM:br el retiro,NM:centro comercial andino,296.0,5,880,4.665664,-74.051819,1,13.94,10.18,20.61
+NM:br el retiro,NM:parque el nogal,627.8,1,242,4.661837,-74.051708,0,11.33,9.0,16.09
+NM:br el rosario,NM:calle 63,334.5,9,2031,4.653582,-74.078514,1,15.39,11.26,22.3
+NM:br el rosario,NM:estacion simon bolivar,334.1,10,2081,4.656541,-74.07802,1,14.22,10.52,20.64
+NM:br emaus,NM:clinica la inmaculada,208.8,7,1684,4.652221,-74.056707,1,14.12,10.74,21.13
+NM:br entrerios,NM:cafam floresta,309.8,16,3331,4.686805,-74.07524,0,8.93,6.84,14.34
+NM:br espartillal,NM:br porciuncula,648.0,23,3648,4.661731,-74.056702,2,18.02,13.46,27.02
+NM:br espartillal,NM:centro comercial andino,408.6,22,3406,4.665151,-74.053509,1,14.0,10.21,21.85
+NM:br estoril,NM:centro comercial iserra 100,500.0,16,3244,4.68814,-74.061984,1,14.1,10.2,21.34
+NM:br estoril,NM:clinica general de la 100,353.9,2,358,4.688396,-74.061207,1,12.35,9.75,17.16
+NM:br estoril,NM:estacion calle 100,350.9,1,205,4.686629,-74.058607,0,6.12,4.79,9.42
+NM:br galerias,NM:br nicolas de federman#0,856.9,8,1561,4.64323,-74.078507,1,15.74,12.2,22.59
+NM:br galerias,NM:centro comercial galerias cl 52,147.5,1,263,4.641741,-74.07444,0,9.37,7.38,12.69
+NM:br galerias,NM:centro comercial morichal,174.7,6,1104,4.641939,-74.074065,1,12.38,9.68,18.95
+NM:br galerias,NM:estadio el campin,451.2,3,659,4.642982,-74.076676,1,16.01,12.04,23.1
+NM:br galerias,NM:icontec,874.4,7,1367,4.643026,-74.078631,2,18.53,14.24,28.8
+NM:br galerias,NM:ied palermo,469.7,11,1850,4.640218,-74.074659,1,16.82,12.84,23.66
+NM:br galerias,NM:parque el campin,610.5,2,552,4.645012,-74.07417,2,20.7,16.98,29.67
+NM:br granada,NM:br maria cristina,286.5,1,260,4.647814,-74.055917,0,9.62,8.12,10.86
+NM:br granada,NM:camara de comercio cl 67,461.2,1,130,4.650289,-74.057656,1,13.14,10.92,15.81
+NM:br granada,NM:ced simon bolivar sedeb,147.0,8,1392,4.649226,-74.056601,0,10.02,7.7,14.75
+NM:br granada,NM:col sag corazon de jesus bethlem,404.5,9,1522,4.648657,-74.05772,2,25.4,19.24,38.15
+NM:br j j vargas,NM:ied centro obrero,210.4,1,206,4.67153,-74.082613,1,13.36,10.68,20.47
+NM:br juan xxiii,NM:br la aurora,392.5,2,449,4.666979,-74.065355,2,26.58,18.13,37.89
+NM:br juan xxiii,NM:br polo club,338.8,2,505,4.668977,-74.063049,0,11.3,8.44,15.29
+NM:br juan xxiii,NM:br san felipe,584.3,3,543,4.66497,-74.063726,2,23.04,17.32,31.59
+NM:br juan xxiii,NM:estacion el polo,247.0,2,349,4.66867,-74.063982,1,12.86,9.26,18.93
+NM:br julio flores,NM:br la alborada,431.2,1,236,4.692811,-74.077012,1,12.46,10.3,16.69
+NM:br julio flores,NM:br santa rosa,274.0,1,181,4.695117,-74.075808,1,12.27,11.65,11.4
+NM:br julio flores,NM:urb los sauces,214.7,3,623,4.693007,-74.075666,0,9.28,7.4,13.98
+NM:br julio florez,NM:br la alborada,614.8,1,236,4.690588,-74.076042,3,32.59,26.92,42.98
+NM:br julio florez,NM:cafam floresta,210.9,22,4513,4.688616,-74.073846,0,4.86,3.54,7.56
+NM:br julio florez,NM:ied julio florez,443.3,1,472,4.688642,-74.0753,2,22.27,17.49,27.38
+NM:br julio florez,NM:parque andes norte,564.2,11,1982,4.689705,-74.070956,3,34.76,25.55,52.91
+NM:br la alhambra,NM:br san patricio,1011.3,3,570,4.698259,-74.054253,2,20.87,14.93,30.32
+NM:br la aurora,NM:iglesia siervas de maria,294.9,1,311,4.665276,-74.067779,0,7.89,6.14,11.3
+NM:br la aurora,NM:urb santa sofia,427.9,1,311,4.668206,-74.066467,1,13.72,10.75,19.85
+NM:br la cabrera,NM:calle 83,458.0,4,959,4.665323,-74.04918,1,16.02,12.24,22.48
+NM:br la cabrera,NM:centro comercial andino,310.5,22,3406,4.66701,-74.05122,2,25.77,18.72,37.38
+NM:br la cabrera,NM:centro comercial la cabrera,235.0,3,713,4.667614,-74.050847,3,35.71,25.46,52.27
+NM:br la cabrera,NM:k11 cl86a,313.9,1,219,4.668682,-74.049937,0,10.74,9.01,10.0
+NM:br la cabrera,NM:parque leon de greiff,528.2,1,219,4.668204,-74.052036,1,12.25,10.18,11.96
+NM:br la cabrera,NM:pquia la inmaculada concepcion,376.8,19,2693,4.668965,-74.049759,1,13.19,9.75,19.12
+NM:br la castellana#0,NM:estacion la castellana,545.3,8,1623,4.677471,-74.063418,1,15.76,11.18,23.84
+NM:br la castellana#0,NM:estacion san martin,614.7,2,355,4.678166,-74.064545,1,15.67,11.47,23.62
+NM:br la castellana#0,NM:hotel dann carlton,588.7,10,1972,4.679848,-74.059519,1,17.39,12.43,26.26
+NM:br la castellana#1,NM:br pasadena#0,393.5,2,335,4.688384,-74.061523,0,10.28,8.14,14.89
+NM:br la castellana#1,NM:centro comercial iserra 100,465.3,19,4147,4.687865,-74.062224,1,14.45,11.39,23.04
+NM:br la castellana#1,NM:centro empresarial calle 100,795.2,18,3580,4.686503,-74.056723,1,14.55,11.24,22.88
+NM:br la castellana#1,NM:estacion calle 100,358.0,2,451,4.686355,-74.058847,1,12.24,9.6,17.63
+NM:br la castellana#1,NM:teatro la castellana,347.9,2,451,4.685591,-74.060403,1,13.94,9.67,21.52
+NM:br la esperanza,NM:centro johann kepler,318.6,13,2448,4.65087,-74.067312,2,19.97,15.72,28.71
+NM:br la esperanza,NM:colegio san pedro nolasco,500.0,3,641,4.654476,-74.066607,1,14.45,11.69,19.06
+NM:br la paz,NM:cementerio chapinero,170.5,9,1673,4.66166,-74.074,0,8.93,7.15,12.09
+NM:br la paz,NM:estacion avenida chile,568.0,9,1820,4.663437,-74.07425,2,18.34,12.79,29.02
+NM:br la paz,NM:estacion simon bolivar,541.1,9,1809,4.659466,-74.075727,2,25.67,18.27,41.09
+NM:br la salle,NM:col sag corazon de jesus bethlem,291.0,16,3204,4.646919,-74.059292,1,13.66,10.17,20.95
+NM:br la salle,NM:universidad de la salle,267.4,16,3204,4.645212,-74.060228,1,14.21,10.5,21.94
+NM:br la soledad,NM:br palermo ac 45,262.5,8,1199,4.633891,-74.075643,0,7.71,6.21,9.88
+NM:br la soledad,NM:br santa teresita,435.8,4,680,4.633013,-74.074145,1,14.8,11.25,21.95
+NM:br la soledad,NM:cai la soledad,285.9,7,1244,4.631677,-74.075474,1,13.15,10.0,18.62
+NM:br la soledad,NM:clinica palermo,318.4,8,1244,4.634125,-74.075552,1,15.34,11.79,21.54
+NM:br la soledad,NM:estacion avenida el dorado,384.6,5,818,4.632423,-74.077792,1,12.15,9.39,17.33
+NM:br las ferias,NM:exito calle 80,384.6,2,364,4.682833,-74.082035,1,14.41,12.0,23.21
+NM:br los alcazares norte,NM:iglesia siervas de maria,240.2,8,1539,4.664849,-74.069406,1,13.26,10.38,18.52
+NM:br los alcazares norte,NM:sede comunal 11 de noviembre,177.0,8,1539,4.665977,-74.070909,1,13.25,10.28,18.36
+NM:br los andes,NM:br los andes norte,317.9,2,384,4.690165,-74.068732,0,9.58,7.38,15.33
+NM:br los andes,NM:cafam floresta,509.2,19,3858,4.688528,-74.072044,3,31.8,25.11,48.58
+NM:br los andes,NM:estacion suba calle 100,417.6,17,3474,4.689314,-74.068005,2,21.22,16.73,34.4
+NM:br los andes norte,NM:cafam floresta,819.5,1,218,4.689372,-74.070887,2,18.27,14.9,23.98
+NM:br los andes norte,NM:centro comercial puente largo,287.4,2,366,4.69228,-74.067337,1,13.25,11.2,16.36
+NM:br marly,NM:br sucre,365.9,6,1395,4.632877,-74.065105,1,13.33,10.54,18.48
+NM:br marly,NM:comfenalco,586.6,1,193,4.637047,-74.064213,3,35.87,28.54,49.91
+NM:br marly,NM:estacion calle 45,463.7,8,1572,4.633518,-74.066447,3,35.26,27.48,49.4
+NM:br marly,NM:sena#1,319.2,4,284,4.633167,-74.063887,1,15.78,12.64,22.01
+NM:br marly,NM:universidad javeriana,439.9,2,422,4.632457,-74.064476,0,10.68,8.05,15.81
+NM:br marly,NM:universidad la gran colombia,409.4,2,227,4.632898,-74.065586,1,14.03,10.28,20.11
+NM:br marly,NM:universidad piloto,200.1,6,954,4.634056,-74.065387,1,14.44,11.62,18.96
+NM:br molinos norte,NM:br rincon del chico,484.5,10,1666,4.688481,-74.04456,1,17.16,12.3,25.21
+NM:br molinos norte,NM:calle 112,531.0,13,2228,4.692865,-74.043527,1,17.07,12.12,25.59
+NM:br monaco,NM:br pasadena#1,455.6,2,340,4.697406,-74.062495,1,11.69,9.56,16.61
+NM:br monaco,NM:br puente largo#0,328.9,2,335,4.697983,-74.062575,1,13.68,10.97,19.96
+NM:br muequeta,NM:br quinta mutis,228.5,5,926,4.651182,-74.07298,1,13.82,10.76,20.89
+NM:br muequeta,NM:muequeta,222.9,1,209,4.651999,-74.071975,2,22.91,18.24,32.24
+NM:br nicolas de federman#0,NM:calle 63,970.1,1,217,4.648109,-74.080467,1,13.88,11.29,17.83
+NM:br nicolas de federman#0,NM:estacion el campin,354.2,9,2125,4.64448,-74.080706,1,17.35,12.64,25.23
+NM:br nicolas de federman#0,NM:inst geografico agustin codazzi,705.2,10,2342,4.641272,-74.080892,2,27.24,20.06,38.73
+NM:br nicolas de federman#1,NM:br nicolas de federmann,109.0,3,585,4.65133,-74.08431,1,14.74,11.23,21.99
+NM:br nicolas de federman#1,NM:parque de los novios,337.6,2,361,4.652171,-74.082657,0,11.02,8.33,15.9
+NM:br pablo vi norte,NM:parque de los novios,359.4,2,361,4.652227,-74.082771,0,9.21,7.16,13.64
+NM:br palermo,NM:br santa teresita,70.5,6,534,4.633254,-74.071873,0,3.0,2.28,4.48
+NM:br palermo,NM:canal arzobispo#0,258.7,22,3350,4.632169,-74.071896,1,13.54,10.67,22.2
+NM:br palermo,NM:clinica palermo,451.8,3,606,4.634366,-74.073281,1,14.42,10.9,20.68
+NM:br palermo,NM:colegio americano de bogota,280.8,1,203,4.633857,-74.072684,0,5.73,4.46,8.27
+NM:br palermo,NM:colegio el carmelo,586.7,4,787,4.633765,-74.074159,2,19.19,14.96,26.01
+NM:br palermo,NM:estacion calle 45,365.7,9,1589,4.632943,-74.069942,3,34.53,26.81,48.27
+NM:br palermo,NM:parque gernika,219.7,15,2775,4.634179,-74.07114,1,11.76,9.32,16.4
+NM:br palermo ac 45,NM:colegio el carmelo,192.5,1,138,4.634614,-74.075974,0,8.95,7.26,13.14
+NM:br palermo ac 45,NM:ied palermo,354.5,9,1471,4.636544,-74.074878,1,12.61,9.86,17.54
+NM:br pardo rubio,NM:br sucre,397.6,13,877,4.632819,-74.064662,1,15.15,11.54,22.47
+NM:br pardo rubio,NM:direccion de sanidad,529.8,16,3072,4.636665,-74.063281,1,17.54,12.95,26.85
+NM:br pardo rubio,NM:universidad javeriana,433.5,12,2195,4.632399,-74.064034,2,19.18,14.01,29.57
+NM:br pasadena#0,NM:br puente largo#0,766.7,2,335,4.693066,-74.062769,1,12.63,10.08,18.42
+NM:br pasadena#1,NM:parroquia santo domingo savio,238.4,2,358,4.694287,-74.062575,1,12.45,10.12,17.75
+NM:br polo club,NM:cai polo club,545.8,2,528,4.672808,-74.062516,2,22.6,16.5,31.24
+NM:br polo club,NM:estacion polo,231.4,3,461,4.670495,-74.063436,0,9.68,7.52,13.34
+NM:br porciuncula,NM:br san felipe,594.3,4,764,4.661124,-74.061369,3,30.29,23.06,43.23
+NM:br porciuncula,NM:calle 74,618.0,1,284,4.658132,-74.056836,2,26.1,21.3,36.11
+NM:br porciuncula,NM:centro comercial unilago,528.4,13,1987,4.662236,-74.058514,2,25.12,19.24,37.99
+NM:br porciuncula,NM:embajada de inglaterra,365.5,4,460,4.660355,-74.057395,2,20.03,15.61,28.49
+NM:br porciuncula,NM:universidad ean,521.5,5,720,4.657748,-74.058062,2,18.52,14.19,26.47
+NM:br porciuncula,NM:universidad pedagogica nacional,244.2,33,6275,4.658812,-74.058894,1,13.54,10.04,20.47
+NM:br porciuncula,NM:universidad sergio arboleda,173.0,14,2325,4.660503,-74.059483,2,18.64,14.37,27.89
+NM:br puente largo#1,NM:centro comercial puente largo,392.2,4,805,4.695097,-74.06795,1,15.54,11.92,22.53
+NM:br quesada,NM:calle 51 br quesada,242.3,1,153,4.639136,-74.068655,0,7.1,5.53,9.91
+NM:br quesada,NM:comfenalco,423.5,1,233,4.639645,-74.06577,3,29.88,23.18,45.5
+NM:br quesada,NM:fundacion oftalmologica nacional,305.8,1,153,4.638794,-74.066584,1,17.41,13.64,24.47
+NM:br quesada,NM:parque gernika,608.5,7,1311,4.637353,-74.069202,2,20.25,16.35,27.31
+NM:br quinta camacho,NM:camara de comercio cl 67,332.0,2,262,4.652957,-74.059553,1,12.09,9.61,18.49
+NM:br quinta camacho,NM:centro comercial avenida chile,314.2,2,305,4.65556,-74.058885,0,11.19,8.8,15.0
+NM:br quinta camacho,NM:cl 67,276.3,11,1874,4.653202,-74.059613,1,11.54,8.85,16.23
+NM:br quinta camacho,NM:clin de traumatologia y ortopedi,196.8,29,4557,4.655313,-74.059615,1,11.63,8.7,17.41
+NM:br quinta camacho,NM:clinica del nino,283.9,29,4974,4.65352,-74.060636,2,22.24,16.62,33.63
+NM:br quinta camacho,NM:k11 cl70a,172.4,2,417,4.65521,-74.059684,0,11.08,8.7,16.13
+NM:br quinta camacho,NM:universidad ean,315.6,11,1831,4.655014,-74.058444,2,23.39,17.9,34.48
+NM:br quinta mutis,NM:ied alemania solidaria,191.6,7,1337,4.651525,-74.074843,1,14.42,10.86,21.39
+NM:br quinta mutis,NM:quinta mutis,305.3,2,411,4.652379,-74.073063,1,16.08,11.59,21.9
+NM:br rafael nunez,NM:icontec,302.4,8,1561,4.644617,-74.083542,1,14.03,10.83,21.49
+NM:br rafael uribe,NM:carrera 17,285.2,6,1211,4.655405,-74.068234,1,13.7,11.05,21.04
+NM:br rafael uribe,NM:pl 7 de agosto,196.1,1,309,4.65654,-74.070078,1,12.58,10.4,18.1
+NM:br rincon del chico,NM:br santa bibiana#0,551.1,11,1975,4.687697,-74.047585,0,8.8,6.43,13.38
+NM:br rincon del chico,NM:centro de negocios chico plaza,471.6,8,1189,4.684973,-74.04692,1,15.71,11.53,24.06
+NM:br rincon del chico,NM:colsanitas cl 100,353.1,1,220,4.684892,-74.04533,0,5.39,4.04,8.19
+NM:br rincon del chico,NM:escuela de infanteria,398.1,22,4133,4.685177,-74.044186,2,23.46,17.01,38.25
+NM:br san felipe,NM:iglesia siervas de maria,569.3,6,1026,4.663267,-74.06615,2,21.78,16.67,29.48
+NM:br san felipe,NM:unitec,103.2,2,305,4.662063,-74.063384,0,6.85,5.38,9.15
+NM:br san felipe,NM:universidad pedagogica nacional,751.8,1,146,4.66003,-74.061281,0,9.61,7.72,12.18
+NM:br san felipe,NM:universidad sergio arboleda,440.2,6,756,4.661721,-74.06187,1,15.29,11.77,22.18
+NM:br san fernando,NM:monumento rafael uribe uribe,574.2,7,1427,4.667976,-74.073859,1,13.53,10.23,21.85
+NM:br san fernando,NM:parque publico san fernando,344.7,7,1427,4.670503,-74.077139,1,13.53,10.28,21.82
+NM:br san fernando occidental,NM:ced avenida chile,333.5,7,1234,4.67467,-74.082739,1,15.95,12.42,25.6
+NM:br san fernando occidental,NM:centro comercial mi placita,74.5,4,917,4.67518,-74.084109,0,7.9,6.07,12.15
+NM:br san fernando occidental,NM:colegio cooperativo union social,178.7,8,1631,4.674748,-74.083699,0,9.98,7.99,14.05
+NM:br san fernando occidental,NM:san fernando occidental,330.1,8,1581,4.67476,-74.082701,1,15.78,12.44,21.69
+NM:br san luis#0,NM:est nemesio camacho el campin,363.3,1,162,4.645341,-74.074558,3,29.2,21.1,39.64
+NM:br san luis#0,NM:parque el divino salvador,451.6,2,357,4.644987,-74.070907,3,28.08,22.14,40.97
+NM:br san luis#0,NM:san luis,50.7,1,162,4.645272,-74.073146,0,3.39,2.46,4.62
+NM:br san luis#0,NM:san luis cl 58,84.1,2,357,4.645573,-74.072652,0,4.89,3.82,7.14
+NM:br san luis#1,NM:cenda,321.5,7,1235,4.650472,-74.070246,1,14.13,11.11,21.18
+NM:br san luis#1,NM:centro johann kepler,171.9,6,1135,4.649832,-74.068146,1,11.64,8.97,18.04
+NM:br san miguel,NM:estacion avenida chile,619.9,9,1840,4.663512,-74.076088,1,17.1,12.4,25.1
+NM:br san miguel,NM:estacion simon bolivar,342.6,10,2081,4.659541,-74.077564,1,16.69,12.32,24.27
+NM:br san miguel,NM:hsp infantil san jose,559.2,1,241,4.663572,-74.077766,1,13.78,11.38,15.13
+NM:br san patricio,NM:br santa barbara central,972.5,1,206,4.696359,-74.045625,2,18.68,13.38,27.19
+NM:br san patricio,NM:br santa barbara central i y ii,1038.4,3,497,4.696131,-74.045344,3,28.92,20.51,44.26
+NM:br san patricio,NM:br santa bibiana#0,854.4,9,864,4.692757,-74.049878,3,42.25,32.36,60.26
+NM:br san patricio,NM:estacion calle 106,749.3,1,306,4.695109,-74.05304,0,10.5,8.98,12.02
+NM:br san patricio,NM:parque canal molinos,40.0,5,739,4.696773,-74.050042,0,2.08,1.66,3.24
+NM:br san patricio,NM:parque navarra,554.1,5,756,4.69415,-74.05048,2,27.08,21.6,41.9
+NM:br santa ana occidental,NM:escuela de infanteria,635.3,8,1613,4.686465,-74.041738,3,37.32,27.23,56.26
+NM:br santa barbara central,NM:br santa barbara occidental,856.4,4,518,4.697199,-74.044953,2,26.78,19.07,37.61
+NM:br santa barbara central,NM:calle 119,292.2,3,537,4.697125,-74.042095,0,9.99,7.2,14.64
+NM:br santa bibiana#0,NM:calle 110,760.5,10,1456,4.691097,-74.047106,2,22.32,15.49,35.63
+NM:br santa bibiana#0,NM:centro de negocios chico plaza,623.6,1,139,4.686192,-74.049084,0,8.74,6.56,12.28
+NM:br santa bibiana#0,NM:parque navarra,337.4,5,756,4.69031,-74.050352,0,9.01,7.17,14.16
+NM:br santa rosa,NM:ied santa rosa,242.9,1,362,4.696013,-74.075125,0,7.96,7.06,8.7
+NM:br santa rosa,NM:parque la floresta,653.6,2,419,4.693355,-74.076042,1,16.09,12.96,25.03
+NM:br santa rosa,NM:portal de pontevedra,435.2,2,325,4.695902,-74.078109,2,19.65,14.65,30.64
+NM:br santa teresita,NM:br santa teresita cl 43,131.9,7,316,4.632632,-74.072196,0,9.4,7.51,13.34
+NM:br santa teresita,NM:colegio americano de bogota,224.3,4,809,4.633829,-74.073001,0,10.35,8.06,14.45
+NM:br santa teresita,NM:estacion calle 45,433.7,13,1658,4.632915,-74.070259,3,40.24,30.61,59.58
+NM:br sucre,NM:estacion calle 45,330.0,17,1726,4.631963,-74.066985,2,24.73,18.71,36.15
+NM:br sucre,NM:universidad la gran colombia,106.9,4,849,4.631342,-74.066124,0,3.78,2.93,5.76
+NM:cade chico,NM:centro comercial la plazuela,102.9,13,2105,4.674867,-74.053209,0,8.08,6.14,11.9
+NM:cade chico,NM:estacion virrey,573.3,2,239,4.675569,-74.056112,0,8.31,6.97,7.7
+NM:cade chico,NM:parque el virrey,272.0,15,2351,4.673548,-74.053873,2,21.02,16.26,32.7
+NM:cafam floresta,NM:entrerios,374.7,4,745,4.686622,-74.075468,0,10.84,8.51,16.34
+NM:cai alcazares,NM:los alcazares,276.3,7,1363,4.660803,-74.068619,1,13.43,10.5,19.39
+NM:cai alcazares,NM:parque alcazares,267.5,3,582,4.662989,-74.068365,0,10.56,8.77,16.98
+NM:cai polo club,NM:estacion la castellana,226.7,2,528,4.675311,-74.063653,0,11.43,8.3,15.85
+NM:calle 110,NM:calle 112,251.1,10,1456,4.694262,-74.043908,1,14.42,10.48,21.94
+NM:calle 112,NM:calle 119,323.6,13,2228,4.696687,-74.04315,1,12.49,8.97,19.12
+NM:calle 51 br quesada,NM:clin eusalud br chapinero occ,499.7,6,1116,4.640857,-74.069245,1,12.6,9.97,18.16
+NM:calle 51 br quesada,NM:parque gernika,414.8,8,1464,4.636859,-74.070177,1,13.24,10.59,19.02
+NM:calle 74,NM:embajada de italia,515.3,6,1451,4.658169,-74.053241,1,14.25,10.8,20.21
+NM:calle 74,NM:embajada de japon,285.6,4,959,4.655215,-74.055279,1,13.9,10.68,19.56
+NM:calle 83,NM:embajada de italia,523.5,6,1396,4.661676,-74.050154,1,14.29,10.75,20.34
+NM:calle 83,NM:urb el refugio,320.4,2,437,4.664184,-74.047322,1,15.1,13.66,20.13
+NM:camara de comercio cl 67,NM:ced simon bolivar sedeb,332.4,6,1075,4.650414,-74.058307,0,10.41,7.84,16.07
+NM:camara de comercio cl 67,NM:cl 67,56.1,6,1064,4.651722,-74.059421,0,9.33,6.96,14.44
+NM:camara de comercio cl 67,NM:clinica del nino,270.7,1,130,4.65204,-74.060444,0,7.14,5.97,8.36
+NM:camara de comercio sede norte,NM:centro comercial la plazuela,351.3,13,2105,4.676387,-74.052036,1,15.91,11.53,25.11
+NM:camara de comercio sede norte,NM:kr 14,205.2,1,225,4.678332,-74.050561,0,7.91,6.16,11.28
+NM:canal arzobispo#1,NM:estacion universidad nacional,354.7,11,2449,4.636872,-74.079197,2,18.94,13.53,30.8
+NM:carrera 17,NM:centro cosmos 64,571.7,2,402,4.653005,-74.065215,0,8.2,7.18,9.68
+NM:ced avenida chile,NM:parque publico san fernando,435.8,7,1427,4.672644,-74.079929,1,13.48,10.23,21.58
+NM:ced simon bolivar sedeb,NM:cl 67,381.5,2,317,4.650659,-74.058367,0,9.54,7.22,13.53
+NM:cementerio chapinero,NM:hsp infantil san jose,591.3,9,1673,4.66423,-74.076154,1,12.87,10.06,17.57
+NM:cenda,NM:col nuestra senora del pilar,341.9,6,1026,4.651004,-74.073191,1,14.12,10.85,20.9
+NM:cenda,NM:quinta mutis,300.5,1,209,4.652058,-74.071902,0,7.25,6.35,11.64
+NM:centro comercial andino,NM:centro comercial la cabrera,157.7,3,537,4.667351,-74.052223,0,10.55,7.64,15.02
+NM:centro comercial andino,NM:parque leon de greiff,321.3,1,157,4.667941,-74.053412,1,15.95,11.52,22.77
+NM:centro comercial aquarium,NM:fund universit san martin,333.4,2,289,4.646942,-74.064809,1,14.06,10.55,21.28
+NM:centro comercial aquarium,NM:universidad de la salle,294.5,2,289,4.645674,-74.06236,1,12.47,9.09,20.68
+NM:centro comercial artelana,NM:clinica del country,187.2,14,2205,4.669778,-74.055312,1,13.1,9.99,19.88
+NM:centro comercial artelana,NM:parque el virrey,222.3,15,2351,4.67144,-74.054517,1,13.52,10.68,20.36
+NM:centro comercial artelana,NM:parque leon de greiff,175.1,1,139,4.669836,-74.054588,0,7.81,5.66,11.0
+NM:centro comercial atlantis plaza,NM:centro comercial unilago,165.7,14,2212,4.665221,-74.057689,1,13.28,10.03,20.11
+NM:centro comercial atlantis plaza,NM:clinica del country,394.7,14,2212,4.667447,-74.056504,1,13.29,10.19,20.04
+NM:centro comercial avenida chile,NM:embajada de japon,376.1,2,436,4.655377,-74.056946,1,13.01,10.11,19.1
+NM:centro comercial avenida chile,NM:kr 9,240.8,3,428,4.656994,-74.056984,0,11.06,7.96,16.7
+NM:centro comercial avenida chile,NM:universidad ean,156.0,2,350,4.656136,-74.057584,0,9.89,7.68,15.15
+NM:centro comercial avenida chile,NM:universidad pedagogica nacional,144.0,13,2625,4.6572,-74.058416,0,10.32,7.75,15.38
+NM:centro comercial galerias,NM:centro comercial galerias cl 52,164.9,11,1814,4.64187,-74.074323,1,17.63,13.74,24.44
+NM:centro comercial galerias,NM:est nemesio camacho el campin,362.1,1,162,4.643982,-74.075355,0,11.04,8.04,15.07
+NM:centro comercial galerias,NM:galerias,135.9,12,2464,4.64312,-74.074214,0,9.87,7.93,13.31
+NM:centro comercial galerias,NM:san luis,320.8,11,1784,4.643912,-74.073943,2,22.81,17.6,31.89
+NM:centro comercial galerias cl 52,NM:ied palermo,342.1,12,2077,4.639631,-74.074351,1,13.17,10.26,18.36
+NM:centro comercial iserra 100,NM:estacion suba calle 100,228.1,19,3913,4.688945,-74.065158,1,12.5,9.83,19.36
+NM:centro comercial iserra 100,NM:parque andes norte,490.9,9,1630,4.689248,-74.066308,1,12.85,8.95,19.91
+NM:centro comercial las rampas,NM:colombia,332.4,7,1279,4.659853,-74.068993,1,13.44,10.19,19.18
+NM:centro comercial las rampas,NM:pl 7 de agosto,217.9,10,1867,4.657762,-74.070322,1,13.61,10.52,19.12
+NM:centro comercial las rampas,NM:siete de agosto,98.0,1,253,4.658268,-74.070092,0,2.47,1.94,3.42
+NM:centro comercial lourdes,NM:estacion calle 63,292.5,3,554,4.649367,-74.06381,1,13.59,10.03,20.42
+NM:centro comercial lourdes,NM:kr 8#0,256.7,2,255,4.648667,-74.061466,1,13.11,10.34,18.51
+NM:centro comercial lourdes,NM:parque lourdes,149.6,1,224,4.64965,-74.062987,0,9.24,7.35,12.22
+NM:centro comercial metropolis,NM:exito calle 80,338.0,26,5296,4.682186,-74.081431,1,12.88,9.66,19.79
+NM:centro comercial metropolis,NM:parque metropolis,303.8,26,7604,4.680266,-74.083585,1,12.78,9.44,21.24
+NM:centro comercial mi placita,NM:ied centro obrero,321.0,6,1226,4.673671,-74.083411,1,12.75,10.28,17.52
+NM:centro comercial puente largo,NM:estacion suba calle 100,484.1,2,439,4.691429,-74.06661,1,17.69,13.33,25.11
+NM:centro comercial unilago,NM:embajada de paz de colombia,230.0,1,225,4.663587,-74.05838,0,10.73,8.08,16.29
+NM:centro cosmos 64,NM:clinica del nino,237.9,6,635,4.651969,-74.062391,0,6.52,4.88,10.5
+NM:centro cosmos 64,NM:parque lourdes,137.2,11,1637,4.650728,-74.063362,1,13.29,10.29,20.2
+NM:centro cosmos 64,NM:teatro astor plaza,248.5,1,272,4.652328,-74.062742,0,10.38,7.76,14.66
+NM:centro de negocios chico plaza,NM:colsanitas cl 100,353.0,2,336,4.683388,-74.046829,1,13.0,9.26,19.93
+NM:centro empresarial calle 100,NM:colsanitas cl 100,926.2,4,758,4.684582,-74.049216,1,12.88,10.46,18.57
+NM:centro empresarial calle 100,NM:estacion calle 100,471.9,1,178,4.685709,-74.055318,0,8.28,5.38,11.1
+NM:centro johann kepler,NM:estacion calle 63,261.5,8,1495,4.649501,-74.066295,1,17.14,12.97,26.72
+NM:centro johann kepler,NM:fund universit san martin,270.5,3,558,4.648391,-74.066867,0,10.88,8.24,16.99
+NM:centro johann kepler,NM:iglesia divino salvador,474.9,18,3297,4.647366,-74.067957,1,14.1,11.75,21.01
+NM:cl 85,NM:embajada del peru,386.6,2,540,4.663807,-74.047409,1,14.93,11.9,21.5
+NM:clin de traumatologia y ortopedi,NM:universidad pedagogica nacional,185.9,28,3994,4.656953,-74.059146,0,10.65,7.85,15.99
+NM:clin de traumatologia y ortopedi,NM:universidad sergio arboleda,548.8,2,370,4.658644,-74.059735,0,9.46,7.3,12.59
+NM:clin eusalud br chapinero occ,NM:ied manuela beltran,246.7,1,151,4.643659,-74.067916,0,10.18,7.94,14.32
+NM:clin eusalud br chapinero occ,NM:iglesia divino salvador,250.6,8,1526,4.644178,-74.06865,1,11.97,9.16,17.96
+NM:clinica del nino,NM:parque lourdes,350.2,19,3013,4.651362,-74.062498,1,14.76,11.02,22.82
+NM:clinica del nino,NM:teatro astor plaza,111.6,6,1283,4.652963,-74.061878,0,11.22,8.34,16.88
+NM:clinica general de la 100,NM:parroquia santo domingo savio,458.3,2,358,4.691155,-74.062604,1,12.4,10.09,17.61
+NM:clinica la inmaculada,NM:col sag corazon de jesus bethlem,437.7,7,1684,4.649828,-74.058361,1,13.79,10.42,20.7
+NM:clinica palermo,NM:ied palermo,299.6,11,1850,4.636779,-74.074787,1,13.39,10.11,19.16
+NM:col nuestra senora del pilar,NM:parque de los novios,731.6,6,1026,4.651918,-74.077946,1,14.68,11.29,21.63
+NM:colegio americano de bogota,NM:ied palermo,417.3,3,606,4.63627,-74.074191,0,9.49,7.23,13.07
+NM:colegio cooperativo union social,NM:parque j j vargas,443.1,1,206,4.672078,-74.082876,1,11.68,9.14,16.59
+NM:colegio el carmelo,NM:universidad nacional,116.0,4,818,4.634278,-74.077283,1,12.82,9.86,17.91
+NM:colegio marillac,NM:ied alemania solidaria sede c,256.2,9,1532,4.659839,-74.074436,1,13.33,10.23,19.94
+NM:colegio san pedro nolasco,NM:teatro astor plaza,564.0,1,166,4.65499,-74.064146,1,12.0,9.38,18.02
+NM:coliseo el campin,NM:el campin,455.0,1,309,4.648635,-74.076335,0,11.01,9.41,14.77
+NM:coliseo el campin,NM:est nemesio camacho el campin,375.3,1,309,4.646702,-74.077246,0,8.82,7.57,11.88
+NM:coliseo el campin,NM:estacion coliseo,390.8,8,1790,4.649776,-74.078132,1,16.11,11.49,26.04
+NM:coliseo el campin,NM:estadio el campin,489.3,8,1790,4.645831,-74.078449,1,16.14,11.49,26.17
+NM:colombia,NM:iglesia siervas de maria,343.1,3,582,4.662658,-74.068376,0,10.1,8.07,13.88
+NM:colsanitas cl 100,NM:univ militar nueva granada,295.7,10,1852,4.682703,-74.04405,2,18.0,14.23,26.66
+NM:comfenalco,NM:tecnoparque sena,262.8,3,346,4.640737,-74.064351,0,10.45,8.69,14.98
+NM:cuerpo of de bomberos de bogota,NM:estacion calle 63,224.8,6,941,4.648779,-74.064467,0,8.64,6.41,13.96
+NM:cuerpo of de bomberos de bogota,NM:fund universit san martin,280.7,3,466,4.64767,-74.065039,1,11.87,9.26,17.17
+NM:cuerpo of de bomberos de bogota,NM:parque lourdes,238.5,28,4273,4.649062,-74.063643,1,12.76,9.26,19.8
+NM:el campin,NM:est nemesio camacho el campin,475.1,1,309,4.647311,-74.075286,1,12.84,10.9,17.35
+NM:el campin,NM:parque el campin,192.9,1,309,4.64847,-74.073983,0,8.39,6.94,12.06
+NM:el campin,NM:quinta mutis,523.8,11,1977,4.651317,-74.073253,2,19.67,15.76,26.81
+NM:el campin,NM:san luis,459.2,10,1668,4.647241,-74.073873,2,18.69,15.1,25.05
+NM:embajada de francia,NM:parque de la 93,265.4,18,2605,4.675358,-74.047189,1,12.52,9.25,20.07
+NM:embajada de inglaterra,NM:embajada de paz de colombia,379.3,6,336,4.661705,-74.057261,1,13.5,10.17,20.64
+NM:embajada de inglaterra,NM:kr 9,389.3,4,294,4.659054,-74.055876,0,9.97,7.5,15.17
+NM:embajada del peru,NM:parque el nogal,568.1,6,1589,4.66092,-74.050582,1,15.03,12.04,21.77
+NM:escuela de infanteria,NM:univ militar nueva granada,197.9,1,201,4.682988,-74.042906,1,14.36,10.88,21.73
+NM:escuela de infanteria,NM:urb conjunto de la 100,283.2,18,2724,4.682846,-74.042201,1,14.16,10.12,21.74
+NM:escuela superior de guerra,NM:urb conjunto de la 100,412.4,2,388,4.683662,-74.041618,1,11.44,8.28,18.7
+NM:estacion avenida chile,NM:estacion nqs calle 75,694.8,9,1830,4.668362,-74.072738,2,23.7,16.42,38.19
+NM:estacion avenida el dorado,NM:estacion universidad nacional,361.4,10,2342,4.633669,-74.079455,1,13.6,9.82,21.98
+NM:estacion avenida el dorado,NM:parque acevedo tejada,237.9,4,546,4.631504,-74.080412,0,4.3,3.38,6.2
+NM:estacion calle 100,NM:teatro la castellana,384.5,2,451,4.684798,-74.058998,1,12.4,8.58,19.16
+NM:estacion calle 72,NM:universidad pedagogica nacional,263.4,8,1564,4.658129,-74.059921,2,18.02,13.4,28.06
+NM:estacion calle 85,NM:estacion cl 85,113.9,1,219,4.672198,-74.059218,0,11.08,9.31,10.25
+NM:estacion calle 85,NM:estacion virrey,446.6,5,408,4.674449,-74.059095,1,12.52,8.64,21.43
+NM:estacion el polo,NM:estacion san martin,833.4,2,349,4.673249,-74.065599,0,8.76,6.41,12.94
+NM:estacion la castellana,NM:estacion nqs calle 75,844.5,9,3453,4.67307,-74.067712,1,15.51,11.1,24.4
+NM:estacion la castellana,NM:estacion polo,526.4,2,244,4.672998,-74.064573,0,10.56,8.31,14.04
+NM:estacion la castellana,NM:puente de la 92,717.4,10,1867,4.676838,-74.061796,1,16.04,11.02,26.49
+NM:estacion la castellana,NM:urb santa sofia,606.5,1,311,4.672707,-74.065297,0,9.53,7.48,13.86
+NM:estacion marly,NM:kr 15,250.0,5,856,4.640501,-74.066671,1,13.9,10.72,21.08
+NM:estacion marly,NM:tecnoparque sena,184.6,4,747,4.641063,-74.065201,0,11.02,8.43,16.13
+NM:estacion polo,NM:estacion san martin,733.1,1,217,4.673694,-74.0657,1,15.22,12.06,21.15
+NM:estacion universidad nacional,NM:inst geografico agustin codazzi,346.8,10,2342,4.636853,-74.079472,1,13.24,9.73,18.85
+NM:fundacion oftalmologica nacional,NM:tecnoparque sena,434.4,28,3800,4.639886,-74.065165,1,12.4,9.46,18.36
+NM:fundacion oftalmologica nacional,NM:universidad piloto,482.4,30,4129,4.63582,-74.065847,1,13.09,10.43,18.15
+NM:galerias,NM:san luis,186.2,10,1668,4.644445,-74.073643,1,13.91,11.18,18.92
+NM:gimnasio moderno,NM:kr 9,229.1,5,837,4.658289,-74.05564,0,8.15,5.97,12.4
+NM:hsp infantil san jose,NM:ied alemania solidaria sede c,687.6,9,1532,4.663283,-74.076734,0,11.35,9.09,15.74
+NM:hsp infantil san jose,NM:parque publico modelo,347.8,11,3488,4.667353,-74.078975,1,13.34,10.64,18.01
+NM:ied alemania solidaria,NM:parque de los novios,616.2,7,1337,4.65212,-74.078438,1,13.72,10.26,20.47
+NM:ied centro obrero,NM:parque publico modelo,523.1,9,1576,4.670558,-74.081232,1,13.76,11.1,19.23
+NM:ied manuela beltran,NM:parque el divino salvador,218.2,1,203,4.644458,-74.067934,1,13.58,10.44,20.81
+NM:k11 cl70a,NM:universidad pedagogica nacional,213.1,3,610,4.65685,-74.059215,0,11.01,8.22,16.8
+NM:k11 cl86a,NM:pquia la inmaculada concepcion,74.4,1,219,4.670374,-74.049853,0,4.06,3.4,3.77
+NM:kr 8#0,NM:universidad de la salle,387.0,1,146,4.646477,-74.060895,1,16.74,12.74,24.26
+NM:kr 9,NM:universidad ean,232.5,5,703,4.656447,-74.056543,1,13.63,10.24,20.44
+NM:los alcazares,NM:siete de agosto,235.2,7,1363,4.658852,-74.069842,1,13.46,10.49,19.39
+NM:monumento rafael uribe uribe,NM:parque alcazares,421.2,1,146,4.665255,-74.070294,1,12.22,9.64,14.86
+NM:muequeta,NM:pl 7 de agosto,455.8,13,2511,4.654973,-74.071424,2,18.76,14.74,27.15
+NM:muequeta,NM:san luis cl 61f,376.8,12,2302,4.651333,-74.072286,2,21.3,16.55,29.6
+NM:museo del chico,NM:museo el chico,219.7,3,716,4.674509,-74.04173,1,13.79,10.48,19.89
+NM:parque el campin,NM:san luis cl 61f,245.6,3,861,4.648681,-74.07309,1,14.44,12.24,19.81
+NM:parque j j vargas,NM:parque publico modelo,322.7,2,218,4.669398,-74.081107,0,10.82,7.94,14.43
+NM:parroquia san fernando rey,NM:san fernando occidental,401.8,8,1581,4.672916,-74.079976,1,13.24,10.4,18.32
+NM:pl 7 de agosto,NM:siete de agosto,123.4,1,180,4.65745,-74.070633,0,2.92,2.14,4.58
+NM:portal de pontevedra,NM:urb familiar potosi i sector,316.4,2,325,4.696286,-74.081232,1,11.65,8.68,18.16
+NM:quinta mutis,NM:siete de agosto,542.5,11,2205,4.655672,-74.071267,1,17.46,13.8,24.91
+NM:san luis,NM:san luis cl 58,128.4,9,1441,4.645539,-74.072877,0,8.63,6.72,11.9
+NM:san luis cl 58,NM:san luis cl 61f,425.9,9,1441,4.647753,-74.072486,1,11.9,9.18,16.47
+NM:seminario conciliar de bogota,NM:urb conjunto de la 100,873.7,4,298,4.677894,-74.041695,0,8.66,6.45,13.13
+NM:sena#1,NM:universidad javeriana,205.0,2,218,4.631191,-74.063796,0,10.2,8.12,14.31
+NM:unitec,NM:universidad pedagogica,420.8,2,305,4.660724,-74.061439,1,13.86,10.92,18.54
+NM:univ militar nueva granada,NM:urb conjunto de la 100,159.4,2,393,4.681957,-74.042157,0,8.69,6.5,13.8
+NM:universidad la gran colombia,NM:universidad piloto,261.5,24,3175,4.632521,-74.066406,1,13.66,10.55,20.86
+NM:universidad pedagogica,NM:universidad pedagogica nacional,246.3,4,551,4.658691,-74.059336,0,10.13,7.73,15.25
+NM:universidad pedagogica,NM:universidad sergio arboleda,160.0,2,246,4.660382,-74.059925,0,7.51,5.42,11.66
+NM:universidad pedagogica nacional,NM:universidad sergio arboleda,398.0,2,262,4.659408,-74.059396,0,10.92,8.3,16.78
