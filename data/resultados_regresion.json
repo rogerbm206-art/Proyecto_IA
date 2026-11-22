@@ -1,0 +1,96 @@
+{
+ "filas": 120855,
+ "tramos": 553,
+ "validacion": "GroupKFold(5) por tramo",
+ "media_y_std_por_pliegue": [
+  {
+   "modelo": "Línea base (media)",
+   "mae_s_mean": 35.613,
+   "mae_s_std": 2.285,
+   "rmse_s_mean": 48.009,
+   "rmse_s_std": 3.501,
+   "r2_mean": -0.002,
+   "r2_std": 0.003
+  },
+  {
+   "modelo": "Regresión lineal",
+   "mae_s_mean": 26.712,
+   "mae_s_std": 2.842,
+   "rmse_s_mean": 37.77,
+   "rmse_s_std": 4.208,
+   "r2_mean": 0.379,
+   "r2_std": 0.079
+  },
+  {
+   "modelo": "Árbol de decisión",
+   "mae_s_mean": 30.195,
+   "mae_s_std": 2.43,
+   "rmse_s_mean": 43.446,
+   "rmse_s_std": 3.12,
+   "r2_mean": 0.177,
+   "r2_std": 0.061
+  },
+  {
+   "modelo": "Red neuronal",
+   "mae_s_mean": 31.146,
+   "mae_s_std": 4.736,
+   "rmse_s_mean": 45.06,
+   "rmse_s_std": 6.312,
+   "r2_mean": 0.082,
+   "r2_std": 0.337
+  }
+ ],
+ "globales_fuera_de_muestra": {
+  "Línea base (media)": {
+   "mae_s": 35.613,
+   "rmse_s": 48.111,
+   "r2": -0.001
+  },
+  "Regresión lineal": {
+   "mae_s": 26.712,
+   "rmse_s": 37.957,
+   "r2": 0.377
+  },
+  "Árbol de decisión": {
+   "mae_s": 30.195,
+   "rmse_s": 43.535,
+   "r2": 0.18
+  },
+  "Red neuronal": {
+   "mae_s": 31.146,
+   "rmse_s": 45.412,
+   "r2": 0.108
+  }
+ },
+ "mejor": "Regresión lineal",
+ "hiperparametros_por_pliegue": {
+  "Red neuronal": [
+   "{'alpha': 0.0001, 'hidden_layer_sizes': (32,)}",
+   "{'alpha': 0.01, 'hidden_layer_sizes': (32,)}",
+   "{'alpha': 0.0001, 'hidden_layer_sizes': (32,)}",
+   "{'alpha': 0.0001, 'hidden_layer_sizes': (32,)}",
+   "{'alpha': 0.0001, 'hidden_layer_sizes': (32,)}"
+  ],
+  "Árbol de decisión": [
+   "{'max_depth': 6, 'min_samples_leaf': 5}",
+   "{'max_depth': 12, 'min_samples_leaf': 50}",
+   "{'max_depth': 6, 'min_samples_leaf': 5}",
+   "{'max_depth': 6, 'min_samples_leaf': 5}",
+   "{'max_depth': 6, 'min_samples_leaf': 50}"
+  ]
+ },
+ "importancia_permutacion_mae_s": {
+  "viajes_tramo": -0.036,
+  "grado_v": 0.002,
+  "grado_u": 0.009,
+  "n_rutas": 0.162,
+  "lon": 0.167,
+  "lat": 0.343,
+  "hora": 0.938,
+  "tipo_dia": 2.531,
+  "hora_sin": 3.481,
+  "hora_cos": 4.079,
+  "dist_m": 12.029
+ },
+ "tiempo_medio_s": 94.24
+}

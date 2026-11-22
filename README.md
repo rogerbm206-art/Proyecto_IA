@@ -81,7 +81,7 @@ Proyecto_IA/
 ├── scripts/     run_<algoritmo>.py (10), run_todos.py, benchmark_50.py, simular_viaje.py,
 │                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       176 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
+├── tests/       183 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
 └── docs/        Informe_proyecto_IA.pdf (informe del proyecto)
 ```
@@ -105,7 +105,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 176 pruebas
+python -m pytest -q                      # 183 pruebas
 ```
 
 - Par por defecto de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -159,7 +159,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - Factor espacial por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - Entorno dinámico (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 176 (`python -m pytest -q`).
+- Pruebas: 183 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 
@@ -186,4 +186,40 @@ python scripts/construir_dataset.py      # data/dataset_ml.csv (~1-2 min)
 python scripts/eda.py                    # análisis exploratorio -> output/eda_*.png
 ```
 
-Siguientes pasos: regresión (lineal, árbol de decisión y RNA), clasificación de congestión (árbol de decisión y RNA), agrupamiento con K-Medias e integración con el agente y la web.
+### Regresión del tiempo por tramo (`src/ml/regresion.py`)
+
+Qué predice: el tiempo programado de un tramo en segundos (`tiempo_s`).
+
+Modelos: regresión lineal (línea base), árbol de decisión y red neuronal (`MLPRegressor`), más una línea base que siempre predice la media. Los tres reciben exactamente los mismos datos.
+
+Variables de entrada:
+
+| Variable | Descripción |
+|---|---|
+| `hora`, `hora_sin`, `hora_cos` | hora de salida y su forma cíclica |
+| `dist_m` | distancia del tramo |
+| `n_rutas`, `viajes_tramo` | rutas y viajes que recorren el tramo |
+| `lat`, `lon` | punto medio del tramo |
+| `grado_u`, `grado_v` | número de paradas vecinas de cada extremo |
+| `tipo_dia` | hábil, sábado o domingo (one-hot) |
+
+Variables excluidas a propósito: `vel_kmh` (es el tiempo dividido entre la distancia, contiene la respuesta), `n_obs` (solo se conoce al agregar los datos) y `ruta` (138 valores; se usa `n_rutas`). Las variables numéricas se normalizan para la regresión lineal y la RNA.
+
+Evaluación: validación cruzada de 5 pliegues agrupada por tramo (un tramo nunca está a la vez en entrenamiento y en prueba, así que se mide la capacidad de predecir tramos no vistos). Los hiperparámetros del árbol (profundidad, hoja mínima) y de la RNA (capas, regularización) se eligen con una validación interna de 3 pliegues dentro de cada pliegue de entrenamiento. Métricas: MAE, RMSE y R².
+
+Resultados (media de 5 pliegues, validación agrupada por tramo; el tiempo medio es 94,2 s):
+
+| Modelo | MAE (s) | RMSE (s) | R² |
+|---|---|---|---|
+| Línea base (media) | 35,6 | 48,0 | 0,00 |
+| Regresión lineal | 26,7 | 37,8 | 0,38 |
+| Árbol de decisión | 30,2 | 43,4 | 0,18 |
+| Red neuronal | 31,1 | 45,1 | 0,08 |
+
+La regresión lineal es la mejor: con tramos no vistos, el árbol y la RNA se apoyan en variables de ubicación que no generalizan, y la RNA es inestable entre pliegues (R² de -0,44 a 0,38). La distancia es la variable más importante, seguida de la hora y el tipo de día. El modelo explica una parte moderada de la variación: en un mismo tramo, las rutas tienen tiempos programados distintos y la ruta no es variable de entrada. El análisis completo está en el informe.
+
+```bash
+python scripts/entrenar_regresion.py     # resultados en data/ y output/reg_*.png (varios minutos)
+```
+
+Siguientes pasos: clasificación de congestión (árbol de decisión y RNA, mismas variables y otro objetivo), agrupamiento con K-Medias e integración con el agente y la web.
