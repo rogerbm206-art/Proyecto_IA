@@ -24,6 +24,8 @@ def main() -> None:
     ap.add_argument("--hora", default="17:00")
     ap.add_argument("--dia", default="habil", choices=integracion.DIAS)
     ap.add_argument("--algoritmo", default="astar")
+    ap.add_argument("--modelo", default="lineal", choices=list(integracion.NOMBRES),
+                    help="modelo de ML que predice el tiempo: base, lineal, arbol o rna")
     ap.add_argument("--peso", type=float, default=1.0, help="peso del trafico en el coste (0-1)")
     a = ap.parse_args()
 
@@ -38,19 +40,20 @@ def main() -> None:
 
     criterios = {
         "solo distancia (sin tráfico)": {},
-        f"tiempo predicho por ML ({a.dia}, {h:02d} h, peso {a.peso:g})":
-            {"mult": pred.mult(h, a.dia), "peso_trafico": a.peso, "v_libre_ms": v},
+        f"tiempo predicho por {integracion.NOMBRES[a.modelo]} ({a.dia}, {h:02d} h, peso {a.peso:g})":
+            {"mult": pred.mult(h, a.dia, a.modelo), "peso_trafico": a.peso, "v_libre_ms": v},
     }
     for nombre, kw in criterios.items():
         r = agente.plan(o, d, a.algoritmo, **kw)
-        t_ml = sum(pred.tiempo_s(x, y, h, a.dia) for x, y in zip(r.path, r.path[1:]))
+        t_ml = sum(pred.tiempo_s(x, y, h, a.dia, a.modelo) for x, y in zip(r.path, r.path[1:]))
         print(f"\n== {nombre} ==")
         print(f"{r.path_edges} tramos, {r.transbordos} transbordos, {r.path_dist_m:,.0f} m, "
-              f"tiempo previsto por el modelo {t_ml / 60:.1f} min (sin esperas)")
+              f"tiempo previsto por {integracion.NOMBRES[a.modelo]} {t_ml / 60:.1f} min (sin esperas)")
         for (x, y), bus in zip(zip(r.path, r.path[1:]), r.path_routes):
             gr = pred.grupo(x, y)
+            clase = pred.clase(x, y, h, a.dia, a.modelo) if pred.clasifica(a.modelo) else "-"
             print(f"  ruta {bus:>6}  {g.name(x)} -> {g.name(y)}  "
-                  f"{pred.tiempo_s(x, y, h, a.dia):5.0f} s  congestión {pred.clase(x, y, h, a.dia):<5}"
+                  f"{pred.tiempo_s(x, y, h, a.dia, a.modelo):5.0f} s  congestión {clase:<5}"
                   f"  grupo {gr if gr else '-'}")
 
 
