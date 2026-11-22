@@ -1,0 +1,16 @@
+modelo,pliegue,hiperparametros,exactitud,f1_macro
+Línea base (clase más frecuente),1,{},0.43007815782838893,0.20049167964426684
+Árbol de decisión,1,"{'max_depth': 12, 'min_samples_leaf': 50}",0.7224976888814186,0.7027158797452553
+Red neuronal,1,"{'hidden_layer_sizes': (64, 32)}",0.732372468274645,0.7128793714046554
+Línea base (clase más frecuente),2,{},0.44114434548815323,0.2040713209930525
+Árbol de decisión,2,"{'max_depth': 8, 'min_samples_leaf': 50}",0.7199630314232902,0.6922222642215549
+Red neuronal,2,"{'hidden_layer_sizes': (64, 32)}",0.7271887077802051,0.6894079112248792
+Línea base (clase más frecuente),3,{},0.4361657421415364,0.2024676908071202
+Árbol de decisión,3,"{'max_depth': 8, 'min_samples_leaf': 50}",0.7276433013951925,0.7040592475072135
+Red neuronal,3,"{'hidden_layer_sizes': (32,)}",0.7357959320894268,0.704825777067903
+Línea base (clase más frecuente),4,{},0.4389864694512144,0.20337762203728038
+Árbol de decisión,4,"{'max_depth': 8, 'min_samples_leaf': 50}",0.7197243465837465,0.687375788898373
+Red neuronal,4,"{'hidden_layer_sizes': (32,)}",0.745734935708883,0.7063060485816101
+Línea base (clase más frecuente),5,{},0.439472246733056,0.20353396773503027
+Árbol de decisión,5,"{'max_depth': 12, 'min_samples_leaf': 20}",0.7363754779612589,0.707791888869384
+Red neuronal,5,"{'hidden_layer_sizes': (32,)}",0.7406193537543594,0.7051875550986663

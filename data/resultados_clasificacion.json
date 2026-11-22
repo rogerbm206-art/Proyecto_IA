@@ -1,0 +1,124 @@
+{
+ "filas": 118995,
+ "tramos": 516,
+ "validacion": "GroupKFold(5) por tramo",
+ "umbrales_m": {
+  "media": 1.25,
+  "alta": 1.67
+ },
+ "distribucion_clases": {
+  "baja": 0.376,
+  "media": 0.437,
+  "alta": 0.186
+ },
+ "media_y_std_por_pliegue": [
+  {
+   "modelo": "Línea base (clase más frecuente)",
+   "exactitud_mean": 0.437,
+   "exactitud_std": 0.004,
+   "f1_macro_mean": 0.203,
+   "f1_macro_std": 0.001
+  },
+  {
+   "modelo": "Árbol de decisión",
+   "exactitud_mean": 0.725,
+   "exactitud_std": 0.007,
+   "f1_macro_mean": 0.699,
+   "f1_macro_std": 0.009
+  },
+  {
+   "modelo": "Red neuronal",
+   "exactitud_mean": 0.736,
+   "exactitud_std": 0.007,
+   "f1_macro_mean": 0.704,
+   "f1_macro_std": 0.009
+  }
+ ],
+ "mejor": "Red neuronal",
+ "informe_mejor": {
+  "baja": {
+   "precision": 0.851,
+   "recall": 0.823,
+   "f1-score": 0.837,
+   "support": 44791.0
+  },
+  "media": {
+   "precision": 0.677,
+   "recall": 0.768,
+   "f1-score": 0.719,
+   "support": 52021.0
+  },
+  "alta": {
+   "precision": 0.649,
+   "recall": 0.488,
+   "f1-score": 0.557,
+   "support": 22183.0
+  },
+  "accuracy": 0.736,
+  "macro avg": {
+   "precision": 0.726,
+   "recall": 0.693,
+   "f1-score": 0.704,
+   "support": 118995.0
+  },
+  "weighted avg": {
+   "precision": 0.737,
+   "recall": 0.736,
+   "f1-score": 0.733,
+   "support": 118995.0
+  }
+ },
+ "matriz_confusion_filas_real_columnas_predicho": {
+  "clases": [
+   "baja",
+   "media",
+   "alta"
+  ],
+  "matriz": [
+   [
+    36862,
+    7806,
+    123
+   ],
+   [
+    6353,
+    39942,
+    5726
+   ],
+   [
+    88,
+    11278,
+    10817
+   ]
+  ]
+ },
+ "hiperparametros_por_pliegue": {
+  "Red neuronal": [
+   "{'hidden_layer_sizes': (64, 32)}",
+   "{'hidden_layer_sizes': (64, 32)}",
+   "{'hidden_layer_sizes': (32,)}",
+   "{'hidden_layer_sizes': (32,)}",
+   "{'hidden_layer_sizes': (32,)}"
+  ],
+  "Árbol de decisión": [
+   "{'max_depth': 12, 'min_samples_leaf': 50}",
+   "{'max_depth': 8, 'min_samples_leaf': 50}",
+   "{'max_depth': 8, 'min_samples_leaf': 50}",
+   "{'max_depth': 8, 'min_samples_leaf': 50}",
+   "{'max_depth': 12, 'min_samples_leaf': 20}"
+  ]
+ },
+ "importancia_permutacion_f1": {
+  "grado_u": 0.005,
+  "grado_v": 0.005,
+  "dist_m": 0.005,
+  "lon": 0.011,
+  "hora": 0.031,
+  "n_rutas": 0.031,
+  "lat": 0.034,
+  "viajes_tramo": 0.037,
+  "hora_sin": 0.116,
+  "tipo_dia": 0.206,
+  "hora_cos": 0.259
+ }
+}

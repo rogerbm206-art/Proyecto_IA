@@ -81,7 +81,7 @@ Proyecto_IA/
 ├── scripts/     run_<algoritmo>.py (10), run_todos.py, benchmark_50.py, simular_viaje.py,
 │                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       183 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
+├── tests/       191 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
 └── docs/        Informe_proyecto_IA.pdf (informe del proyecto)
 ```
@@ -105,7 +105,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 183 pruebas
+python -m pytest -q                      # 191 pruebas
 ```
 
 - Par por defecto de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -159,7 +159,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - Factor espacial por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - Entorno dinámico (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 183 (`python -m pytest -q`).
+- Pruebas: 191 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 
@@ -222,4 +222,22 @@ La regresión lineal es la mejor: con tramos no vistos, el árbol y la RNA se ap
 python scripts/entrenar_regresion.py     # resultados en data/ y output/reg_*.png (varios minutos)
 ```
 
-Siguientes pasos: clasificación de congestión (árbol de decisión y RNA, mismas variables y otro objetivo), agrupamiento con K-Medias e integración con el agente y la web.
+### Clasificación del nivel de congestión (`src/ml/clasificacion.py`)
+
+Qué predice: el nivel de congestión de un tramo (baja, media o alta). La etiqueta sale de la velocidad: para cada pareja de tramo y ruta se toma como velocidad libre el percentil 90 de sus velocidades del día, y m = v_libre / velocidad. Baja si m <= 1,25, media si 1,25 < m <= 1,67 y alta si m > 1,67. Se descartan las parejas con menos de 8 filas. Quedan 118 995 filas, 516 tramos y 37,6 % baja, 43,7 % media, 18,6 % alta.
+
+Modelos: árbol de decisión y red neuronal (`MLPClassifier`), más una línea base que siempre predice la clase más frecuente. Variables de entrada: las mismas de la regresión; ni la velocidad ni el tiempo del tramo entran, porque de ellos sale la etiqueta. Misma validación agrupada por tramo, eligiendo hiperparámetros por F1 macro.
+
+| Modelo | Exactitud | F1 macro |
+|---|---|---|
+| Línea base (clase más frecuente) | 0,437 | 0,203 |
+| Árbol de decisión | 0,725 | 0,699 |
+| Red neuronal | 0,736 | 0,704 |
+
+El árbol y la RNA rinden casi igual (la diferencia es menor que la desviación entre pliegues). Los errores ocurren entre clases vecinas; la clase alta es la más difícil (sensibilidad 0,49: la mitad de los casos se predicen como media). Las variables más importantes son la hora y el tipo de día, así que el modelo aprende el perfil horario de congestión y no distingue unos tramos de otros.
+
+```bash
+python scripts/entrenar_clasificacion.py   # resultados en data/ y output/clf_*.png (varios minutos)
+```
+
+Siguientes pasos: agrupamiento con K-Medias e integración con el agente y la web.
