@@ -82,7 +82,7 @@ Proyecto_IA/
 │                mapa_trafico.py, calibrar_trafico.py, construir_dataset.py, eda.py, entrenar_regresion.py,
 │                entrenar_clasificacion.py, agrupar.py, ruta_ml.py, evaluar_integracion.py, listar_paradas.py, build_red_zonal.py, parse_gtfs.py
 ├── webapp/      app.py  (interfaz web con Flask)
-├── tests/       245 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
+├── tests/       216 pruebas: algoritmos, metaheurísticas, tráfico, simulación, grafo
 ├── output/      red del grafo, una gráfica por algoritmo, comparación
 └── docs/        Informe_proyecto_IA.pdf (informe del proyecto)
 ```
@@ -106,7 +106,7 @@ python scripts/benchmark_50.py --listar                           # lista las pa
 python scripts/listar_paradas.py                                  # data/paradas.xlsx
 
 python webapp/app.py                     # interfaz web en http://127.0.0.1:5000
-python -m pytest -q                      # 245 pruebas
+python -m pytest -q                      # 216 pruebas
 ```
 
 - Par por defecto de los `run_*.py`: las constantes `ORIGEN_DEF` / `DESTINO_DEF` de `src/demo.py`
@@ -160,7 +160,7 @@ Licencia: CC BY‑SA 4.0 / <http://www.simur.gov.co/gtfs>.
 - Factor espacial por tramo: sintético (lognormal con semilla), es un supuesto, no un dato.
 - Entorno dinámico (`src/simulacion.py`): el tráfico real cambia mientras el agente avanza (fluctuación + picos repentinos). El agente solo percibe los tramos adyacentes (`--observabilidad local|global`) y puede replanificar: `nunca`, `umbral`, `cada_parada`. Sin incidentes ni cierres.
 - Uso: `python scripts/simular_viaje.py ORIGEN DESTINO --hora 17:00 --algoritmo astar --peso 0.5 --semilla 1`, `python scripts/mapa_trafico.py`, y `--hora/--peso` en `scripts/run_*.py`. La web tiene hora, peso y «Simular tráfico cambiante».
-- Pruebas: 245 (`python -m pytest -q`).
+- Pruebas: 216 (`python -m pytest -q`).
 
 ## Metaheurísticas (`src/metaheuristics.py`)
 
@@ -266,13 +266,10 @@ python scripts/agrupar.py --k 5          # otro número de grupos
 `PredictorTramos` aplica los modelos entrenados a cada tramo: tiempo previsto (regresión), nivel de congestión (clasificador) y grupo de K-Medias. El tiempo predicho se convierte en el multiplicador de congestión que ya usaba la búsqueda, m = max(1, v_libre * t_predicho / dist), así que el agente lo usa sin cambiar los algoritmos. Como m >= 1, la heurística euclidiana sigue siendo admisible y A* sigue siendo óptimo para ese costo (hay pruebas que lo comprueban).
 
 - Agente: `RoutePlannerAgent.plan(origen, destino, estrategia, mult=..., peso_trafico=..., v_libre_ms=...)`.
-- Web: panel destacado «Modelo de aprendizaje automático» para cambiar entre Sin ML (perfil del GTFS), Línea base, Regresión lineal, Árbol de decisión y Red neuronal; al elegir un modelo la ruta se recalcula con él. Cada opción muestra sus métricas de validación. También hay un selector del día de la semana. Cada tramo de la ruta muestra el tiempo previsto, la congestión prevista (los modelos que clasifican) y su grupo de K-Medias, y el mapa se puede colorear por congestión, por clase del clasificador o por grupo. La regresión lineal solo predice tiempo, así que no da clase de congestión.
-- Consola: compara la ruta por distancia con la ruta por tiempo predicho, tramo a tramo (`--modelo base|lineal|arbol|rna`).
-
-Los modelos de la web se guardan todos en `data/modelos_ml.joblib` con los hiperparámetros que más veces eligió la validación cruzada (`python scripts/guardar_modelos.py`, ~1 min).
+- Web: selector de fuente del tráfico (perfil del GTFS o predicción de regresión) y del día de la semana; cada tramo de la ruta muestra su congestión prevista y su grupo; el mapa se puede colorear por congestión, por clase del clasificador o por grupo de K-Medias.
+- Consola: compara la ruta por distancia con la ruta por tiempo predicho, tramo a tramo.
 
 ```bash
-python scripts/guardar_modelos.py
 python scripts/ruta_ml.py "Br. Chicó Norte III Sector" "Br. Sucre" --hora 17:00 --dia habil
 python scripts/evaluar_integracion.py -n 250    # evaluación del costo con ML (varios minutos)
 ```

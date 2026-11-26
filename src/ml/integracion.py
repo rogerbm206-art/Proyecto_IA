@@ -1,13 +1,10 @@
 """Integracion de los modelos de ML con el agente de busqueda.
 
-`PredictorTramos` aplica a cada tramo del grafo el modelo elegido del catalogo
-(`catalogo.py`: base, lineal, arbol, rna):
+`PredictorTramos` aplica a cada tramo del grafo los modelos entrenados:
 
   * regresion      -> tiempo programado del tramo a una hora y tipo de dia (s),
-  * clasificacion  -> nivel de congestion (baja, media, alta); la regresion lineal no
-                      clasifica, asi que con ese modelo no hay clase,
-  * agrupamiento   -> grupo de K-Medias (1 = lento ... 4 = muy rapido), que no depende
-                      del modelo.
+  * clasificacion  -> nivel de congestion (baja, media, alta),
+  * agrupamiento   -> grupo de K-Medias (1 = lento ... 4 = muy rapido).
 
 El tiempo predicho se convierte en el multiplicador de congestion que ya usa la
 busqueda (`RouteProblem.mult`), de modo que el agente lo usa sin cambiar los algoritmos:
@@ -17,30 +14,30 @@ busqueda (`RouteProblem.mult`), de modo que el agente lo usa sin cambiar los alg
 Con peso = 1 el coste de un tramo es dist * m = v_libre * t_predicho: la distancia
 equivalente en tiempo. Como m >= 1, el coste nunca baja de la distancia y la heuristica
 euclidiana sigue siendo admisible y consistente, asi que A* y costo uniforme siguen
-siendo optimos para este coste, sea cual sea el modelo.
+siendo optimos para este coste.
 """
 from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
 
+import joblib
 import pandas as pd
 
 from ..gtfs_graph import TransitGraph
 from ..traffic import PerfilHorario
-from . import catalogo, regresion
-from .catalogo import CLASIFICAN, NOMBRES
+from . import regresion
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+MODELO_REG = ROOT / "data" / "modelo_regresion.joblib"
+MODELO_CLF = ROOT / "data" / "modelo_clasificacion.joblib"
 GRUPOS_CSV = ROOT / "data" / "agrupamiento_tramos.csv"
 DIAS = ("habil", "sabado", "domingo")
 NOMBRES_GRUPO = {1: "lento", 2: "medio", 3: "rápido", 4: "muy rápido"}
-MEJOR_REGRESION = "lineal"      # menor MAE en la validacion cruzada
-MEJOR_CLASIFICACION = "rna"     # mayor F1 macro en la validacion cruzada
 
 
 def modelos_disponibles() -> bool:
-    return catalogo.disponible()
+    return MODELO_REG.exists() and MODELO_CLF.exists()
 
 
 def mult_desde_tiempos(g: TransitGraph, tiempos: dict, v_libre_kmh: float) -> dict:
@@ -59,8 +56,8 @@ class PredictorTramos:
     def __init__(self, g: TransitGraph, perfil: PerfilHorario | None = None):
         self.g = g
         self.perfil = perfil or PerfilHorario.cargar()
-        cat = catalogo.cargar()
-        self._reg, self._clf = cat["regresion"], cat["clasificacion"]
+        self._reg = joblib.load(MODELO_REG)["modelo"]
+        self._clf = joblib.load(MODELO_CLF)["modelo"]
         self._tramos = sorted({(a, b) for a in g.adj for b in g.adj[a] if a < b})
         self._base = pd.DataFrame([{
             "u": u, "v": v, "dist_m": g.edge(u, v)["dist_m"], "n_rutas": g.edge(u, v)["n_rutas"],
@@ -68,8 +65,8 @@ class PredictorTramos:
             "lat": (g.coords[u][0] + g.coords[v][0]) / 2, "lon": (g.coords[u][1] + g.coords[v][1]) / 2,
             "grado_u": len(g.adj[u]), "grado_v": len(g.adj[v])} for u, v in self._tramos])
         self._grupos = self._cargar_grupos()
-        self._tiempos = lru_cache(maxsize=256)(self._calc_tiempos)
-        self._clases = lru_cache(maxsize=256)(self._calc_clases)
+        self._tiempos = lru_cache(maxsize=96)(self._calc_tiempos)
+        self._clases = lru_cache(maxsize=96)(self._calc_clases)
 
     @staticmethod
     def _cargar_grupos() -> dict:
@@ -85,43 +82,34 @@ class PredictorTramos:
         d["hora"], d["tipo_dia"] = int(hora) % 24, dia
         return regresion.atributos(d)
 
-    def _calc_tiempos(self, hora: int, dia: str, modelo: str) -> dict:
-        if modelo not in self._reg:
-            raise ValueError(f"modelo debe ser uno de {tuple(self._reg)}")
-        pred = self._reg[modelo].predict(self._X(hora, dia))
+    def _calc_tiempos(self, hora: int, dia: str) -> dict:
+        pred = self._reg.predict(self._X(hora, dia))
         return {t: max(1.0, float(p)) for t, p in zip(self._tramos, pred)}
 
-    def _calc_clases(self, hora: int, dia: str, modelo: str) -> dict:
-        if modelo not in self._clf:
-            raise ValueError(f"el modelo {modelo!r} no clasifica; usa uno de {CLASIFICAN}")
-        return dict(zip(self._tramos, self._clf[modelo].predict(self._X(hora, dia))))
+    def _calc_clases(self, hora: int, dia: str) -> dict:
+        return dict(zip(self._tramos, self._clf.predict(self._X(hora, dia))))
 
     # -- consultas -----------------------------------------------------------
     @staticmethod
     def _clave(a: str, b: str) -> tuple[str, str]:
         return (a, b) if a < b else (b, a)
 
-    @staticmethod
-    def clasifica(modelo: str) -> bool:
-        """True si el modelo predice el nivel de congestion."""
-        return modelo in CLASIFICAN
-
-    def tiempos(self, hora: int, dia: str = "habil", modelo: str = MEJOR_REGRESION) -> dict:
+    def tiempos(self, hora: int, dia: str = "habil") -> dict:
         """{(u, v): segundos previstos}, con u < v."""
-        return self._tiempos(int(hora), dia, modelo)
+        return self._tiempos(int(hora), dia)
 
-    def tiempo_s(self, a: str, b: str, hora: int, dia: str = "habil", modelo: str = MEJOR_REGRESION) -> float:
-        return self.tiempos(hora, dia, modelo)[self._clave(a, b)]
+    def tiempo_s(self, a: str, b: str, hora: int, dia: str = "habil") -> float:
+        return self.tiempos(hora, dia)[self._clave(a, b)]
 
-    def mult(self, hora: int, dia: str = "habil", modelo: str = MEJOR_REGRESION) -> dict:
+    def mult(self, hora: int, dia: str = "habil") -> dict:
         """Snapshot {(a, b): m} listo para `RouteProblem(mult=...)`."""
-        return mult_desde_tiempos(self.g, self.tiempos(hora, dia, modelo), self.perfil.v_libre_kmh)
+        return mult_desde_tiempos(self.g, self.tiempos(hora, dia), self.perfil.v_libre_kmh)
 
-    def clase(self, a: str, b: str, hora: int, dia: str = "habil", modelo: str = MEJOR_CLASIFICACION) -> str:
-        return self._clases(int(hora), dia, modelo)[self._clave(a, b)]
+    def clase(self, a: str, b: str, hora: int, dia: str = "habil") -> str:
+        return self._clases(int(hora), dia)[self._clave(a, b)]
 
-    def clases(self, hora: int, dia: str = "habil", modelo: str = MEJOR_CLASIFICACION) -> dict:
-        return self._clases(int(hora), dia, modelo)
+    def clases(self, hora: int, dia: str = "habil") -> dict:
+        return self._clases(int(hora), dia)
 
     def grupo(self, a: str, b: str) -> int | None:
         """Grupo de K-Medias del tramo (1-4), o None si no tiene perfil horario."""
